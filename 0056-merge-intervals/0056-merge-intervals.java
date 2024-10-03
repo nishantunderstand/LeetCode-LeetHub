@@ -8,6 +8,7 @@ Overlap - e1>s2  ==> s1,e2
 
 Assumptions : Intervals are sorted.
 If they are not sorted, Then you need to sort them.
+Do i need to sort ??
 
 */
 class Solution {
@@ -16,7 +17,7 @@ class Solution {
         if(intervals==null ||n ==0){
             return new int[0][0];
         }
-        // Do i need to sort ??
+
         Arrays.sort(intervals,(a,b)-> Integer.compare(a[0],b[0]));
 
         int row = intervals.length;
@@ -39,8 +40,9 @@ class Solution {
                 e1 = e2;
             }
         }
+        // How to add Array in A LinkedList 
         merged.add(new int[]{s1,e1});
-        return merged.toArray(new int[merged.size()][]);
-        
+        // Convert LinkedList to Array and return , You need to learn [[Anki]]
+        return merged.toArray(new int[merged.size()][]);        
     }
 }
