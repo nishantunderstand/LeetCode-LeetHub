@@ -1,3 +1,10 @@
+/** 
+Given an integer n, return the number of prime numbers that are strictly less than n.
+You need to count upto n-1, that why we are using upto n
+TC - nloglogn
+SC - n
+*/
+
 class Solution {
     public int countPrimes(int n) {
         if(n<=2){
