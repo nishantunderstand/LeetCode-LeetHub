@@ -24,6 +24,7 @@
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0020-valid-parentheses) |
 | [0780-max-chunks-to-make-sorted](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0780-max-chunks-to-make-sorted) |
 ## Greedy
 |  |
@@ -74,4 +75,8 @@
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0104-maximum-depth-of-binary-tree) |
+## String
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
