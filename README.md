@@ -12,6 +12,7 @@
 | [0260-single-number-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0260-single-number-iii) |
 | [0560-subarray-sum-equals-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0560-subarray-sum-equals-k) |
 | [0780-max-chunks-to-make-sorted](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0780-max-chunks-to-make-sorted) |
+| [0898-transpose-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0898-transpose-matrix) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -88,4 +89,12 @@
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0141-linked-list-cycle) |
+## Matrix
+|  |
+| ------- |
+| [0898-transpose-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0898-transpose-matrix) |
+## Simulation
+|  |
+| ------- |
+| [0898-transpose-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0898-transpose-matrix) |
 <!---LeetCode Topics End-->
