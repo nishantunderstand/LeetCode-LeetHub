@@ -18,8 +18,20 @@ S.C - O(n)
 
 public class Solution {
     public boolean hasCycle(ListNode head) {
-        return hashMapApproach(head);        
+        //return hashMapApproach(head);        
+        return hashSetApproach(head);        
     }
+    public boolean hashSetApproach(ListNode head){
+        if(head==null) return false;
+        HashSet<ListNode> hs = new HashSet<>();
+        while(head!=null){
+            if(hs.contains(head)) return true;
+            hs.add(head);
+            head = head.next;
+        }
+        return false;
+    }
+
     public boolean hashMapApproach(ListNode head){
         if(head==null) return false;
         HashMap<ListNode,Integer> hm = new HashMap<>();
