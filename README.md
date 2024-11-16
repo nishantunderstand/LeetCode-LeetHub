@@ -5,6 +5,7 @@
 ## Array
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0042-trapping-rain-water) |
 | [0056-merge-intervals](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0056-merge-intervals) |
 | [0118-pascals-triangle](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0118-pascals-triangle) |
 | [0137-single-number-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0137-single-number-ii) |
@@ -16,6 +17,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0042-trapping-rain-water) |
 | [0118-pascals-triangle](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0118-pascals-triangle) |
 ## Sorting
 |  |
@@ -26,6 +28,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0042-trapping-rain-water) |
 | [0780-max-chunks-to-make-sorted](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0780-max-chunks-to-make-sorted) |
 ## Greedy
 |  |
@@ -34,6 +37,7 @@
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0042-trapping-rain-water) |
 | [0780-max-chunks-to-make-sorted](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0780-max-chunks-to-make-sorted) |
 ## Bit Manipulation
 |  |
@@ -88,6 +92,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0042-trapping-rain-water) |
 | [0141-linked-list-cycle](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0141-linked-list-cycle) |
 ## Matrix
 |  |
