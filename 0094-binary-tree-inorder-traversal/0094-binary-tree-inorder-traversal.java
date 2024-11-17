@@ -25,8 +25,27 @@ class Solution {
         if(root==null) return new ArrayList<Integer>();
         //recursiveSolution(root);
         //return iterativeSolution(root);
-        return iterativeSolutionWithBreak(root);
+        // return iterativeSolutionWithBreak(root);
+        return iterativeSolutionBetter(root);
     }
+    
+    // T.C - O(n) | S.C - O(n+HeightOfTree)
+    public List<Integer> iterativeSolutionBetter(TreeNode root){
+        ArrayDeque<TreeNode> st = new ArrayDeque<>();
+        List<Integer> res = new ArrayList<>();
+        TreeNode node = root;       
+        while(!st.isEmpty()||node!=null){
+           while(node!=null){
+            st.push(node);
+            node = node.left;
+           }
+           node = st.pop();
+           res.add(node.val);
+           node=node.right;
+        }
+        return res;
+    }
+
 
     // T.C - O(n) | S.C - O(n+HeightOfTree)
     public List<Integer> iterativeSolutionWithBreak(TreeNode root){
