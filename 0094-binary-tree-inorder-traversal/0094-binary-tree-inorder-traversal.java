@@ -22,6 +22,7 @@ Verify it, Correct it. Explain it as well.
 
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
+        if(root==null) return new ArrayList<Integer>();
         //recursiveSolution(root);
         //return iterativeSolution(root);
         return iterativeSolutionWithBreak(root);
