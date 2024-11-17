@@ -13,10 +13,40 @@
  *     }
  * }
  */
+
+/**
+Sunday, November 17, 2024 7:18:34 PM
+T.C - O(n^2/nlogn/n/√n/logn/1) | S.C - O(n/1/HeightOfTree)
+Verify it, Correct it. Explain it as well.
+*/
+
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
-        return recursiveSolution(root);
+        //recursiveSolution(root);
+        return iterativeSolution(root);
     }
+    // T.C - O(n) | S.C - O(n+HeightOfTree)
+    public List<Integer> iterativeSolution(TreeNode root){
+        ArrayDeque<TreeNode> st = new ArrayDeque<>();
+        List<Integer> res = new ArrayList<>();
+        TreeNode node = root;
+        while(true){
+            if(node!=null){
+                st.push(node);
+                node = node.left;
+            }else{
+                if(st.isEmpty()){
+                    break;
+                }
+                node = st.pop();
+                res.add(node.val);
+                node = node.right;
+            }
+        }
+        return res;
+    }
+
+    // T.C - O(n) | S.C - O(/HeightOfTree)
     public List<Integer> recursiveSolution(TreeNode root){
         List<Integer> res = new ArrayList<>();
         inOrderHelper(root,res);
