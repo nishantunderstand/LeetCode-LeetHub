@@ -30,17 +30,20 @@ class Solution {
         ArrayDeque<TreeNode> st = new ArrayDeque<>();
         List<Integer> res = new ArrayList<>();
         TreeNode node = root;
-        while(true){
+        boolean isDone = false; // It is alternative to avoid break Statment.
+        while(!isDone){
             if(node!=null){
                 st.push(node);
                 node = node.left;
             }else{
                 if(st.isEmpty()){
-                    break;
-                }
-                node = st.pop();
-                res.add(node.val);
-                node = node.right;
+                    //break;
+                    isDone=true; // All nodes processed; exit loop.
+                }else{
+                    node = st.pop();
+                    res.add(node.val);
+                    node = node.right;
+                }                
             }
         }
         return res;
