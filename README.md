@@ -47,6 +47,7 @@
 ## Math
 |  |
 | ------- |
+| [0069-sqrtx](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0069-sqrtx) |
 | [0204-count-primes](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0204-count-primes) |
 ## Enumeration
 |  |
@@ -102,4 +103,8 @@
 |  |
 | ------- |
 | [0898-transpose-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0898-transpose-matrix) |
+## Binary Search
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
