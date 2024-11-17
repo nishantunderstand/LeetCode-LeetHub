@@ -23,8 +23,31 @@ Verify it, Correct it. Explain it as well.
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         //recursiveSolution(root);
-        return iterativeSolution(root);
+        //return iterativeSolution(root);
+        return iterativeSolutionWithBreak(root);
     }
+
+    // T.C - O(n) | S.C - O(n+HeightOfTree)
+    public List<Integer> iterativeSolutionWithBreak(TreeNode root){
+        ArrayDeque<TreeNode> st = new ArrayDeque<>();
+        List<Integer> res = new ArrayList<>();
+        TreeNode node = root;       
+        while(true){
+            if(node!=null){
+                st.push(node);
+                node = node.left;
+            }else{
+                if(st.isEmpty()){
+                    break;                   
+                }
+                node = st.pop();
+                res.add(node.val);
+                node = node.right;                               
+            }
+        }
+        return res;
+    }
+
     // T.C - O(n) | S.C - O(n+HeightOfTree)
     public List<Integer> iterativeSolution(TreeNode root){
         ArrayDeque<TreeNode> st = new ArrayDeque<>();
