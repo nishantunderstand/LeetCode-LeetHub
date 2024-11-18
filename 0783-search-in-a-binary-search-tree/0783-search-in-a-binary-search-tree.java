@@ -15,8 +15,8 @@
  */
 class Solution {
     public TreeNode searchBST(TreeNode root, int val) {
-        //return recursiveSol(root,val);
-        return iterativeSol(root,val);
+        return recursiveSol(root,val);
+        //return iterativeSol(root,val);
     }
     public TreeNode iterativeSol(TreeNode root,int val){        
         while(root!=null){
