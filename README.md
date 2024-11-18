@@ -106,6 +106,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0141-linked-list-cycle) |
 | [0908-middle-of-the-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0908-middle-of-the-linked-list) |
 ## Two Pointers
@@ -154,4 +155,8 @@
 |  |
 | ------- |
 | [0783-search-in-a-binary-search-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0783-search-in-a-binary-search-tree) |
+## Recursion
+|  |
+| ------- |
+| [0021-merge-two-sorted-lists](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0021-merge-two-sorted-lists) |
 <!---LeetCode Topics End-->
