@@ -4,7 +4,6 @@ T.C - O(n^2)
 S.C - O(1)
 */
 
-
 class Solution {
     public boolean isValid(String s) {
         if(s.length()<=0) return false;

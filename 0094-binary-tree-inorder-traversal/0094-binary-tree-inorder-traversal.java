@@ -14,11 +14,7 @@
  * }
  */
 
-/**
-Sunday, November 17, 2024 7:18:34 PM
-T.C - O(n^2/nlogn/n/√n/logn/1) | S.C - O(n/1/HeightOfTree)
-Verify it, Correct it. Explain it as well.
-*/
+/**Sunday, November 17, 2024 7:18:34 PM*/
 
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
