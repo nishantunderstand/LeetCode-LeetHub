@@ -77,6 +77,7 @@
 | [0102-binary-tree-level-order-traversal](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0199-binary-tree-right-side-view) |
+| [0783-search-in-a-binary-search-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0783-search-in-a-binary-search-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -96,6 +97,7 @@
 | [0102-binary-tree-level-order-traversal](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0199-binary-tree-right-side-view) |
+| [0783-search-in-a-binary-search-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0783-search-in-a-binary-search-tree) |
 ## String
 |  |
 | ------- |
@@ -146,4 +148,8 @@
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0948-sort-an-array) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0783-search-in-a-binary-search-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0783-search-in-a-binary-search-tree) |
 <!---LeetCode Topics End-->
