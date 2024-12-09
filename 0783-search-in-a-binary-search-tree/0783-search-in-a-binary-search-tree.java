@@ -15,32 +15,16 @@
  */
 class Solution {
     public TreeNode searchBST(TreeNode root, int val) {
-        return recursiveSol(root,val);
-        //return iterativeSol(root,val);
-    }
-    public TreeNode iterativeSol(TreeNode root,int val){        
-        while(root!=null){
-            if(val==root.val){
-                return root;
-            }else if(val<root.val){
-                root=root.left;
-            }else{
-                root=root.right;
-            }
-        }
-        return null;
-    }
+        if(root==null) return null;
 
-    public TreeNode recursiveSol(TreeNode root,int val){
-        if(root==null){
-            return null;
-        }
-        if(root.val==val){
+        if(root.val==val) {
             return root;
-        }else if(val<root.val){
-            return recursiveSol(root.left,val);
+        }
+
+        if(root.val<val){
+           return searchBST(root.right,val);
         }else{
-            return recursiveSol(root.right,val);
-        }    
+            return searchBST(root.left,val);
+        }
     }
 }
