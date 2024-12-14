@@ -28,12 +28,16 @@ class Solution {
             }
             current=current.next;
         }
+        /**
         if(list1!=null){
             current.next=list1;
         }
         if(list2!=null){
             current.next=list2;
         }
+        */
+        current.next=(list1!=null)?list1:list2;
+
         return dummyNode.next;
     }
 }
