@@ -13,6 +13,8 @@ class Solution {
         return bruteForceApproach(list1,list2);
     }
 
+    // Saturday, December 14, 2024 6:50:41 PM
+    // T.C - O(n+m) | S.C - O(1)
     public ListNode bruteForceApproach(ListNode list1, ListNode list2) {
         if(list1==null) return list2;
         if(list2==null) return list1;
