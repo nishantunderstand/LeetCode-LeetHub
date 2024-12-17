@@ -4,21 +4,22 @@ class Solution {
         return kadaneAlgorithm(nums);
     }
 
+    // Tuesday, December 17, 2024 10:46:30 PM
+    // Time Complexity:O(n) | Space Complexity:O(1)
     public int kadaneAlgorithm(int[] nums) {
-        int maxi = Integer.MIN_VALUE;
-        int sum = 0;
+        int maxSum = Integer.MIN_VALUE;
+        int csum = 0;
         for (int i = 0; i < nums.length; i++) {
-            sum += nums[i];
-            if (sum > maxi) {
-                maxi = sum;
-            }
-            if (sum < 0) {
-                sum = 0;
+            csum += nums[i];
+            maxSum = Math.max(csum,maxSum);
+            if(csum<0){
+                csum=0;
             }
         }
-        return maxi;
+        return maxSum;
     }
-
+    // Tuesday, December 17, 2024 10:46:34 PM
+    // Time Complexity:O(n^2) | Space Complexity:O(1)
     public int bruteForce(int[] nums) {
         int maxi = Integer.MIN_VALUE;
         for (int i = 0; i < nums.length; i++) {
