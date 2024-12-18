@@ -16,6 +16,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0560-subarray-sum-equals-k) |
 | [0780-max-chunks-to-make-sorted](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0780-max-chunks-to-make-sorted) |
 | [0898-transpose-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0898-transpose-matrix) |
+| [0917-boats-to-save-people](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0917-boats-to-save-people) |
 | [0948-sort-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0948-sort-an-array) |
 ## Dynamic Programming
 |  |
@@ -29,6 +30,7 @@
 | [0015-3sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0056-merge-intervals) |
 | [0780-max-chunks-to-make-sorted](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0780-max-chunks-to-make-sorted) |
+| [0917-boats-to-save-people](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0917-boats-to-save-people) |
 | [0948-sort-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0948-sort-an-array) |
 ## Stack
 |  |
@@ -42,6 +44,7 @@
 |  |
 | ------- |
 | [0780-max-chunks-to-make-sorted](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0780-max-chunks-to-make-sorted) |
+| [0917-boats-to-save-people](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0917-boats-to-save-people) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -124,6 +127,7 @@
 | [0042-trapping-rain-water](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0042-trapping-rain-water) |
 | [0141-linked-list-cycle](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0141-linked-list-cycle) |
 | [0908-middle-of-the-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0908-middle-of-the-linked-list) |
+| [0917-boats-to-save-people](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0917-boats-to-save-people) |
 ## Matrix
 |  |
 | ------- |
