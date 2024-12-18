@@ -59,6 +59,7 @@
 ## Math
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0050-powx-n) |
 | [0069-sqrtx](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0069-sqrtx) |
 | [0168-excel-sheet-column-title](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0171-excel-sheet-column-number) |
@@ -176,4 +177,5 @@
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0021-merge-two-sorted-lists) |
+| [0050-powx-n](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0050-powx-n) |
 <!---LeetCode Topics End-->
