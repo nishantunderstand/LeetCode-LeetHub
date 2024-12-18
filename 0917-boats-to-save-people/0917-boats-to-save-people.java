@@ -5,8 +5,8 @@
 class Solution {
     public int numRescueBoats(int[] people, int limit) {
         // return twoPointerEqualVersion(people, limit);
-        return twoPointer(people,limit);
-        // return twoPointerMod(people, limit);
+        // return twoPointer(people,limit);
+        return twoPointerMod(people, limit);
         // return twoPointerPepCoding(people, limit);
 
     }
