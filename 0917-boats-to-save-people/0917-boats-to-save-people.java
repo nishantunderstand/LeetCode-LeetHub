@@ -1,8 +1,11 @@
-// LeetCode 881 , Children and Rides Question 
+/**
+    LeetCode 881 , Children and Rides Question 
+    [3,2,2,1], limit = 3
+*/
 class Solution {
     public int numRescueBoats(int[] people, int limit) {
-        return twoPointerEqualVersion(people, limit);
-        // return twoPointer(people,limit);
+        // return twoPointerEqualVersion(people, limit);
+        return twoPointer(people,limit);
         // return twoPointerMod(people, limit);
         // return twoPointerPepCoding(people, limit);
 
@@ -27,7 +30,6 @@ class Solution {
         return boat;
     }
 
-    // Failed
     public int twoPointerEqualVersion(int[] people, int limit) {
         Arrays.sort(people);
         int left = 0;
@@ -53,7 +55,7 @@ class Solution {
 
     }
 
-    // What wrong here ? // FAILED
+
     public int twoPointer(int[] people, int limit) {
         Arrays.sort(people);
         int left = 0;
