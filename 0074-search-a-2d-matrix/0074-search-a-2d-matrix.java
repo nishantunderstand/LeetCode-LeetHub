@@ -1,7 +1,7 @@
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
-        return bruteForce(matrix, target);
-        //return optimized(matrix, target);
+        //return bruteForce(matrix, target);
+        return optimized(matrix, target);
     }
 
     public boolean optimized(int[][] matrix, int target) {
