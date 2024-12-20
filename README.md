@@ -10,6 +10,7 @@
 | [0053-maximum-subarray](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0056-merge-intervals) |
 | [0074-search-a-2d-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0074-search-a-2d-matrix) |
+| [0078-subsets](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0078-subsets) |
 | [0118-pascals-triangle](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0118-pascals-triangle) |
 | [0137-single-number-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0137-single-number-ii) |
 | [0204-count-primes](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0204-count-primes) |
@@ -54,6 +55,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0078-subsets) |
 | [0137-single-number-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0137-single-number-ii) |
 | [0260-single-number-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0260-single-number-iii) |
 ## Math
@@ -178,4 +180,8 @@
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0021-merge-two-sorted-lists) |
 | [0050-powx-n](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0050-powx-n) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
