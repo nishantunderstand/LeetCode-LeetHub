@@ -1,16 +1,58 @@
 class Solution {
     public int[] sortArray(int[] nums) {
         // return defaultMethod(nums);
-        return heapSort(nums);
+        // return heapSort(nums);
+        return heapSortJitender(nums);
     }
 
+    public int[] heapSortJitender(int[] nums) {
+        int n = nums.length;
+        // 1. Build Max Heap
+        for(int i=n/2-1;i>=0;i--){
+            heapifyDownIterativeJitender(nums,i,n-1);
+        }
+        int li = n-1;
+        while(li>0){
+            swap(nums,0,li);
+            li--;
+            heapifyDownIterativeJitender(nums,0,li);
+        }
+        return nums;
+    }
+
+    public void heapifyDownIterativeJitender(int[] arr, int idx, int li) {
+        while(idx<=li){
+            int largest = idx;
+            int lc = 2*idx+1;
+            int rc = 2*idx+2;
+            if(lc<=li && arr[lc]>arr[largest]){
+                largest=lc;
+            }
+            if(rc<=li && arr[rc]>arr[largest]){
+                largest=rc;
+            }
+            if(largest!=idx){
+                swap(arr,largest,idx);
+                idx=largest;
+            }else{
+                break;
+            }
+        }
+    }
+
+
+    // Time Complexity:O(nlogn) | Space Complexity:O(1)
     public int[] heapSort(int[] nums) {
         int n = nums.length;
         // 1 Build MaxHeap
+        
+        // Time Complexity:O(logn) | Space Complexity:O(1)
         for (int i = n / 2 - 1; i >= 0; i--) {
             heapifyDownIterative(nums, i, n);
         }
-        // 2 Extract element from heap
+        
+        // 2 Extract element from heap        
+        // Time Complexity:O(n) | Space Complexity:O(1)
         for (int i = n - 1; i >= 0; i--) {
             swap(nums, 0, i);
             heapifyDownIterative(nums, 0, i);
