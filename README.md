@@ -14,6 +14,7 @@
 | [0118-pascals-triangle](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0118-pascals-triangle) |
 | [0137-single-number-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0137-single-number-ii) |
 | [0204-count-primes](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0204-count-primes) |
+| [0215-kth-largest-element-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0215-kth-largest-element-in-an-array) |
 | [0260-single-number-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0260-single-number-iii) |
 | [0560-subarray-sum-equals-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0560-subarray-sum-equals-k) |
 | [0780-max-chunks-to-make-sorted](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0780-max-chunks-to-make-sorted) |
@@ -31,6 +32,7 @@
 | ------- |
 | [0015-3sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0056-merge-intervals) |
+| [0215-kth-largest-element-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0215-kth-largest-element-in-an-array) |
 | [0780-max-chunks-to-make-sorted](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0780-max-chunks-to-make-sorted) |
 | [0917-boats-to-save-people](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0917-boats-to-save-people) |
 | [0948-sort-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0948-sort-an-array) |
@@ -154,10 +156,12 @@
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0053-maximum-subarray) |
+| [0215-kth-largest-element-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0215-kth-largest-element-in-an-array) |
 | [0948-sort-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0948-sort-an-array) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0215-kth-largest-element-in-an-array) |
 | [0948-sort-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0948-sort-an-array) |
 ## Merge Sort
 |  |
@@ -188,4 +192,8 @@
 |  |
 | ------- |
 | [0078-subsets](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0078-subsets) |
+## Quickselect
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0215-kth-largest-element-in-an-array) |
 <!---LeetCode Topics End-->
