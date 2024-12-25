@@ -102,6 +102,7 @@
 | [0100-same-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0199-binary-tree-right-side-view) |
+| [0386-lexicographical-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0386-lexicographical-numbers) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -207,4 +208,8 @@
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0295-find-median-from-data-stream) |
+## Trie
+|  |
+| ------- |
+| [0386-lexicographical-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0386-lexicographical-numbers) |
 <!---LeetCode Topics End-->
