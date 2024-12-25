@@ -1,6 +1,21 @@
 class Solution {
     public List<Integer> lexicalOrder(int n) {
-        return dfsApproach(n);
+        // return dfsApproach(n);
+        return stringApproach(n);
+    }
+    public List<Integer> stringApproach(int n) {
+        List<String> curr = new ArrayList<>();
+        for(int i=1;i<=n;i++){
+            curr.add(String.valueOf(i));
+        }
+
+        Collections.sort(curr);
+        List<Integer> result = new ArrayList<>();
+        
+        for(int i=0;i<curr.size();i++){
+            result.add(Integer.parseInt(curr.get(i)));
+        }
+        return result;
     }
 
     public List<Integer> dfsApproach(int n) {
