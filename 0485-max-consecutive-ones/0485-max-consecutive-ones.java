@@ -3,6 +3,8 @@ class Solution {
         return bruteForce(nums);
     }
 
+    // Friday, December 27, 2024 3:06:47 PM
+    // Time Complexity:O(n) | Space Complexity:O(1)
     public int bruteForce(int[] nums) {
         int maxOne=0;
         int currOne=0;
