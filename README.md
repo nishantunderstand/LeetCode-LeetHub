@@ -61,6 +61,7 @@
 | ------- |
 | [0078-subsets](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0078-subsets) |
 | [0137-single-number-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0137-single-number-ii) |
+| [0191-number-of-1-bits](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0191-number-of-1-bits) |
 | [0260-single-number-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0260-single-number-iii) |
 ## Math
 |  |
@@ -164,6 +165,7 @@
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0053-maximum-subarray) |
+| [0191-number-of-1-bits](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0215-kth-largest-element-in-an-array) |
 | [0948-sort-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0948-sort-an-array) |
 ## Heap (Priority Queue)
