@@ -7,8 +7,8 @@
 class Solution {
     public int hammingWeight(int n) {
         //return stringApproach(n);
-        return keriningApproach(n);
-        // return iterateFromEnd(n);
+        //return keriningApproach(n);
+        return iterateFromEnd(n);
     }
 
     // Sunday, December 29, 2024 12:37:58 PM
