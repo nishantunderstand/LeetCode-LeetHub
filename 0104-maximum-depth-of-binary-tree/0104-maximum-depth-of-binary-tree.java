@@ -15,8 +15,29 @@
  */
 class Solution {
     public int maxDepth(TreeNode root) {
-        return dfsRecursive(root);
+        //return dfsRecursive(root);
+        return bfsIterative(root);
     }
+
+    public int bfsIterative(TreeNode root) {
+        if(root==null) return 0;
+        Queue<TreeNode> que = new LinkedList<>();
+        que.offer(root);
+        int level=0;
+        while(!que.isEmpty()){
+            int size = que.size();
+            
+            for(int i=0;i<size;i++){
+                TreeNode node = que.poll();
+                if(node.left!=null) que.offer(node.left);
+                if(node.right!=null) que.offer(node.right);
+            }
+
+            level++;
+        }
+        return level;
+    }
+
 
     public int dfsRecursive(TreeNode root) {
         if(root==null) return 0;
@@ -24,4 +45,5 @@ class Solution {
         int right=dfsRecursive(root.right);
         return Math.max(left,right)+1;
     }
+
 }
