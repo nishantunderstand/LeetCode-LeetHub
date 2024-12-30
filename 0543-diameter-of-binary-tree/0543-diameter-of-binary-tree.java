@@ -16,18 +16,18 @@
 class Solution {
     int maxi=0;    
     public int diameterOfBinaryTree(TreeNode root) {
-        //dfsRecursive(root);
-        dfsApproach2(root);
+        //dfsHeightByNode(root);
+        dfsHeightByEdge(root);
         return maxi;
 
     }
 
     // Monday, December 30, 2024 11:23:09 PM
     // Time Complexity:O(n) | Space Complexity:O(HeightOfTree)
-    public int dfsApproach2(TreeNode root) {
+    public int dfsHeightByEdge(TreeNode root) {
         if(root==null) return -1;
-        int left = dfsApproach2(root.left);
-        int right = dfsApproach2(root.right);
+        int left = dfsHeightByEdge(root.left);
+        int right = dfsHeightByEdge(root.right);
         maxi = Math.max(maxi,left+right+2);
         return 1 + Math.max(left,right);
     }
@@ -35,10 +35,10 @@ class Solution {
 
     // Monday, December 30, 2024 10:11:23 PM
     // Time Complexity:O(n) | Space Complexity:O(HeightOfTree)
-    public int dfsRecursive(TreeNode root) {
+    public int dfsHeightByNode(TreeNode root) {
         if(root==null) return 0;        
-        int left = dfsRecursive(root.left);
-        int right = dfsRecursive(root.right);
+        int left = dfsHeightByNode(root.left);
+        int right = dfsHeightByNode(root.right);
         maxi = Math.max(maxi,left+right);
         return 1+ Math.max(left,right);
     }
