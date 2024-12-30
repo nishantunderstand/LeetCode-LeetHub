@@ -13,10 +13,14 @@
  *     }
  * }
  */
+
+// Monday, December 30, 2024 11:35:51 PM
+// Time Complexity:O(n) | Space Complexity:OHeightOfTree)
 class Solution {
-    public boolean isSameTree(TreeNode p, TreeNode q) {
+    public boolean isSameTree(TreeNode p, TreeNode q) {        
+        // if(p==null || q==null) return false; // <-- THIS WILL GENERATE ERROR ?? WHY ??? 
         if(p==null && q==null) return true;
-        if(p==null || q==null) return false;        
+        if(p==null || q==null) return false; 
         if(p.val!=q.val) return false;
         return isSameTree(p.left,q.left) && isSameTree(p.right,q.right);
     }
