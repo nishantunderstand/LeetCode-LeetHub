@@ -10,7 +10,7 @@
  */
 
 // Wednesday, January 1, 2025 11:50:08 PM
-// Time Complexity:O(size(l1,l2)) | Space Complexity:O(size(l1,l2))
+// Time Complexity:O(max(size(l1),size(l2))) | Space Complexity:O(max(size(l1),size(l2)))
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if(l1==null) return l2;
