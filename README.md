@@ -34,6 +34,7 @@
 | ------- |
 | [0015-3sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0056-merge-intervals) |
+| [0148-sort-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0295-find-median-from-data-stream) |
 | [0780-max-chunks-to-make-sorted](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0780-max-chunks-to-make-sorted) |
@@ -144,6 +145,7 @@
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0141-linked-list-cycle) |
+| [0148-sort-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0148-sort-list) |
 | [0908-middle-of-the-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0908-middle-of-the-linked-list) |
 ## Two Pointers
 |  |
@@ -151,6 +153,7 @@
 | [0015-3sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0042-trapping-rain-water) |
 | [0141-linked-list-cycle](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0141-linked-list-cycle) |
+| [0148-sort-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0148-sort-list) |
 | [0295-find-median-from-data-stream](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0295-find-median-from-data-stream) |
 | [0908-middle-of-the-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0908-middle-of-the-linked-list) |
 | [0917-boats-to-save-people](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0917-boats-to-save-people) |
@@ -173,6 +176,7 @@
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0053-maximum-subarray) |
+| [0148-sort-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0148-sort-list) |
 | [0191-number-of-1-bits](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0215-kth-largest-element-in-an-array) |
 | [0948-sort-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0948-sort-an-array) |
@@ -185,6 +189,7 @@
 ## Merge Sort
 |  |
 | ------- |
+| [0148-sort-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0148-sort-list) |
 | [0948-sort-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0948-sort-an-array) |
 ## Bucket Sort
 |  |
