@@ -68,6 +68,7 @@
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0050-powx-n) |
 | [0069-sqrtx](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0069-sqrtx) |
 | [0168-excel-sheet-column-title](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0168-excel-sheet-column-title) |
@@ -143,6 +144,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0141-linked-list-cycle) |
 | [0148-sort-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0148-sort-list) |
@@ -210,6 +212,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0021-merge-two-sorted-lists) |
 | [0050-powx-n](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0050-powx-n) |
 ## Backtracking
