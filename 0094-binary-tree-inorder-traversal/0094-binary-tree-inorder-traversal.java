@@ -22,7 +22,8 @@ class Solution {
         
         TreeNode curr = root;
         //LDR
-        while(curr!=null || !st.isEmpty()){
+        while(!st.isEmpty()|| curr!=null){
+        //while(curr!=null || !st.isEmpty()){
             while(curr!=null){
                 st.push(curr);
                 curr=curr.left;
