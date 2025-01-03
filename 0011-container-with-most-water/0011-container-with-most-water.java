@@ -4,9 +4,11 @@ class Solution {
         return twoPointer(height);
     }
 
-    public int twoPointer(int[] height) {
-        
+    // Friday, January 3, 2025 11:10:16 AM
+    // Time Complexity:O(n) | Space Complexity:O(1)
+    public int twoPointer(int[] height) {        
         int mArea=0;
+        if(height==null || height.length<2) return mArea;
         int left=0;
         int right=height.length-1;
         while(left<right){
