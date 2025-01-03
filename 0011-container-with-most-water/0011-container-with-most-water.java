@@ -39,12 +39,3 @@ class Solution {
         return maxArea;
     }
 }
-
-/**
-LeetCode 11
-global maxArea
-NextGreaterElement_Left And Right
-Difference Height * Width (Index Difference B/W)
-currArea
-Find the Maximium of it.
-*/
