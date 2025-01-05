@@ -78,6 +78,7 @@
 | [0168-excel-sheet-column-title](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0171-excel-sheet-column-number) |
 | [0204-count-primes](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0204-count-primes) |
+| [0258-add-digits](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0258-add-digits) |
 ## Enumeration
 |  |
 | ------- |
@@ -86,6 +87,7 @@
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0204-count-primes) |
+| [0258-add-digits](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0258-add-digits) |
 ## Hash Table
 |  |
 | ------- |
@@ -182,6 +184,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0258-add-digits](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0258-add-digits) |
 | [0898-transpose-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0898-transpose-matrix) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2265-partition-array-according-to-given-pivot) |
 ## Binary Search
