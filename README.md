@@ -19,6 +19,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0215-kth-largest-element-in-an-array) |
 | [0260-single-number-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0260-single-number-iii) |
 | [0485-max-consecutive-ones](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0485-max-consecutive-ones) |
+| [0540-single-element-in-a-sorted-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0560-subarray-sum-equals-k) |
 | [0780-max-chunks-to-make-sorted](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0780-max-chunks-to-make-sorted) |
 | [0898-transpose-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0898-transpose-matrix) |
@@ -189,6 +190,7 @@
 | [0069-sqrtx](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0069-sqrtx) |
 | [0074-search-a-2d-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0074-search-a-2d-matrix) |
 | [0162-find-peak-element](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0162-find-peak-element) |
+| [0540-single-element-in-a-sorted-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0540-single-element-in-a-sorted-array) |
 ## Divide and Conquer
 |  |
 | ------- |
