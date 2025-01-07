@@ -31,6 +31,7 @@
 | ------- |
 | [0042-trapping-rain-water](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0053-maximum-subarray) |
+| [0070-climbing-stairs](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0118-pascals-triangle) |
 ## Sorting
 |  |
@@ -75,6 +76,7 @@
 | [0002-add-two-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0050-powx-n) |
 | [0069-sqrtx](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0069-sqrtx) |
+| [0070-climbing-stairs](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0070-climbing-stairs) |
 | [0168-excel-sheet-column-title](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0171-excel-sheet-column-number) |
 | [0204-count-primes](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0204-count-primes) |
@@ -257,4 +259,8 @@
 |  |
 | ------- |
 | [0386-lexicographical-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0386-lexicographical-numbers) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
