@@ -5,12 +5,32 @@ class Solution {
         Arrays.fill(dp,-1);
 
         //return backtracking(nums,nums.length-1);
-        return dpTopDown(nums,dp,len-1); //Pending
-        //return dpBottomUp(,dp); //Pending
+        //return dpTopDown(nums,dp,len-1); 
+        return dpBottomUp(nums); //Pending
         //return dpSpace(); //Pending
         //return prefixApproach(); //Pending
     }
     
+    public int dpBottomUp(int[] nums) {
+        int len = nums.length;
+        
+        if(len==0) return 0;
+        if(len==1) return nums[0];
+
+        int[] dp = new int[len]; // Whyn't len+1
+        Arrays.fill(dp,-1);
+        dp[0]=nums[0];
+        //dp[0]=Math.max(0,nums[0]); // Only Postive Value Given
+        dp[1]=Math.max(nums[0],nums[1]);
+        //dp[1]=Math.max(dp[0],nums[1]); // Test Them
+        for(int i=2;i<len;i++){
+            int take = nums[i]+dp[i-2];
+            int dont = 0 + dp[i-1];
+            dp[i]=Math.max(take,dont);
+        }
+        return dp[len-1];
+    }
+
     public int dpTopDown(int[] nums,int[] dp,int idx) {
         if(idx<0) return 0;
         if(dp[idx]!=-1) return dp[idx];
