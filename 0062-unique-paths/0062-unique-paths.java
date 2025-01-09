@@ -1,20 +1,19 @@
  class Solution {
     public int uniquePaths(int m, int n) {
-        //return recSol(0,0,m,n);
-        //return backtracking(0,0,m,n);
         int[][] dp = new int[m][n];
         for(int[] rowArr:dp){
             Arrays.fill(rowArr,-1);
         }
-        //return dpTopDown(m,n,dp);
-        //return dpTopDownMOD(m,n,dp);
+        //return recSol(0,0,m,n);
+        //return backtracking(0,0,m,n);
+        return dpTopDownMatrix(m,n,dp);
+        //return dpTopDownMatrixMOD(m,n,dp);
         //return dpTopDownFlatten(m,n,dp);
-        //return dpBottomUp(m,n);
+        //return dpBottomUpMatrix(m,n);
         //return dpSpace(m,n); Pending
         //return prefixSum(m,n); Pending
         //return combinatorics(m,n); Pending
-        return dpBottomUpStriver(m-1,n-1,dp);
-
+        //return dpBottomUpStriver(m-1,n-1,dp);
     }
 
     public int dpBottomUpStriver(int i,int j,int[][]dp){
@@ -27,7 +26,7 @@
 
     // Thursday, January 9, 2025 6:58:03 PM
     // Time Complexity:O(m*n) | Space Complexity:O(m*n)
-    public int dpBottomUp(int m,int n){
+    public int dpBottomUpMatrix(int m,int n){
         int[][] dp = new int[m][n];
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
@@ -59,7 +58,7 @@
 }
 
     // Time Complexity:O(m*n) | Space Complexity:O(m*n))
-    public int dpTopDownMOD(int m,int n,int[][] dp){
+    public int dpTopDownMatrixMOD(int m,int n,int[][] dp){
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
                 if(i==0||j==0){
@@ -75,7 +74,7 @@
 
     // Thursday, January 9, 2025 6:43:27 PM
     // Time Complexity:O(m*n) | Space Complexity:O(m*n))
-    public int dpTopDown(int m,int n,int[][] dp){
+    public int dpTopDownMatrix(int m,int n,int[][] dp){
         for(int i=0;i<m;i++) dp[i][0]=1;
         for(int j=0;j<n;j++) dp[0][j]=1;
         for(int i=1;i<m;i++){
