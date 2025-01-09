@@ -31,6 +31,7 @@
 | ------- |
 | [0042-trapping-rain-water](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0118-pascals-triangle) |
 | [0279-perfect-squares](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0279-perfect-squares) |
@@ -76,6 +77,7 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0062-unique-paths) |
 | [0069-sqrtx](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0070-climbing-stairs) |
 | [0168-excel-sheet-column-title](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0168-excel-sheet-column-title) |
@@ -266,4 +268,8 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0070-climbing-stairs) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
