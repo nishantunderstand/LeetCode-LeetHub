@@ -8,8 +8,8 @@
         //return backtracking(0,0,m,n);
         //return dpTopDownMatrix(m,n,dp);
         //return dpTopDownMatrixMOD(m,n,dp);
-        return dpTopDownFlatten(m,n,dp);
-        //return dpBottomUpMatrix(m,n);
+        //return dpTopDownFlatten(m,n,dp);
+        return dpBottomUpMatrix(m,n);
         //return dpSpace(m,n); Pending
         //return prefixSum(m,n); Pending
         //return combinatorics(m,n); Pending
