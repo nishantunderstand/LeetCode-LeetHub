@@ -9,11 +9,11 @@
         //return dpTopDownMatrix(m,n,dp);
         //return dpTopDownMatrixMOD(m,n,dp);
         //return dpTopDownFlatten(m,n,dp);
-        return dpBottomUpMatrix(m,n);
+        //return dpBottomUpMatrix(m,n);
         //return dpSpace(m,n); Pending
         //return prefixSum(m,n); Pending
         //return combinatorics(m,n); Pending
-        //return dpBottomUpStriver(m-1,n-1,dp);
+        return dpBottomUpStriver(m-1,n-1,dp);
     }
 
     public int dpBottomUpStriver(int i,int j,int[][]dp){
