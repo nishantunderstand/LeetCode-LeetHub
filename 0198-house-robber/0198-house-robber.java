@@ -17,7 +17,7 @@ class Solution {
         if(len==0) return 0;
         if(len==1) return nums[0];
 
-        int[] dp = new int[len]; // Whyn't len+1
+        int[] dp = new int[len+1]; // Whyn't len+1
         Arrays.fill(dp,-1);
         dp[0]=nums[0];
         //dp[0]=Math.max(0,nums[0]); // Only Postive Value Given
