@@ -24,6 +24,7 @@
 | [0198-house-robber](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0198-house-robber) |
 | [0204-count-primes](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0217-contains-duplicate) |
 | [0260-single-number-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0260-single-number-iii) |
 | [0485-max-consecutive-ones](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0485-max-consecutive-ones) |
 | [0540-single-element-in-a-sorted-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0540-single-element-in-a-sorted-array) |
@@ -55,6 +56,7 @@
 | [0075-sort-colors](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0075-sort-colors) |
 | [0148-sort-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0217-contains-duplicate) |
 | [0295-find-median-from-data-stream](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0295-find-median-from-data-stream) |
 | [0780-max-chunks-to-make-sorted](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0780-max-chunks-to-make-sorted) |
 | [0917-boats-to-save-people](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0917-boats-to-save-people) |
@@ -112,6 +114,7 @@
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0141-linked-list-cycle) |
+| [0217-contains-duplicate](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0217-contains-duplicate) |
 | [0560-subarray-sum-equals-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0560-subarray-sum-equals-k) |
 ## Prefix Sum
 |  |
