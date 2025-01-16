@@ -19,6 +19,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0137-single-number-ii) |
+| [0152-maximum-product-subarray](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0152-maximum-product-subarray) |
 | [0162-find-peak-element](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0162-find-peak-element) |
 | [0198-house-robber](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0198-house-robber) |
 | [0204-count-primes](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0204-count-primes) |
@@ -42,6 +43,7 @@
 | [0070-climbing-stairs](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0152-maximum-product-subarray](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0198-house-robber) |
 | [0279-perfect-squares](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0279-perfect-squares) |
 | [1250-longest-common-subsequence](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1250-longest-common-subsequence) |
