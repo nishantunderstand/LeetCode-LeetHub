@@ -14,6 +14,7 @@
 | [0074-search-a-2d-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0078-subsets) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0118-pascals-triangle) |
 | [0137-single-number-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0137-single-number-ii) |
 | [0162-find-peak-element](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0162-find-peak-element) |
@@ -117,6 +118,7 @@
 | [0100-same-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0230-kth-smallest-element-in-a-bst) |
@@ -155,6 +157,7 @@
 | [0100-same-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0230-kth-smallest-element-in-a-bst) |
@@ -215,6 +218,7 @@
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0053-maximum-subarray) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0148-sort-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0148-sort-list) |
 | [0191-number-of-1-bits](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0215-kth-largest-element-in-an-array) |
@@ -245,6 +249,7 @@
 ## Binary Search Tree
 |  |
 | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0783-search-in-a-binary-search-tree) |
