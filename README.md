@@ -26,6 +26,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0217-contains-duplicate) |
 | [0260-single-number-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0260-single-number-iii) |
+| [0287-find-the-duplicate-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0287-find-the-duplicate-number) |
 | [0485-max-consecutive-ones](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0485-max-consecutive-ones) |
 | [0540-single-element-in-a-sorted-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0560-subarray-sum-equals-k) |
@@ -89,6 +90,7 @@
 | [0137-single-number-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0137-single-number-ii) |
 | [0191-number-of-1-bits](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0191-number-of-1-bits) |
 | [0260-single-number-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0260-single-number-iii) |
+| [0287-find-the-duplicate-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0287-find-the-duplicate-number) |
 ## Math
 |  |
 | ------- |
@@ -206,6 +208,7 @@
 | [0075-sort-colors](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0141-linked-list-cycle) |
 | [0148-sort-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0148-sort-list) |
+| [0287-find-the-duplicate-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0295-find-median-from-data-stream) |
 | [0908-middle-of-the-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0908-middle-of-the-linked-list) |
 | [0917-boats-to-save-people](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0917-boats-to-save-people) |
@@ -228,6 +231,7 @@
 | [0069-sqrtx](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0069-sqrtx) |
 | [0074-search-a-2d-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0074-search-a-2d-matrix) |
 | [0162-find-peak-element](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0162-find-peak-element) |
+| [0287-find-the-duplicate-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0287-find-the-duplicate-number) |
 | [0540-single-element-in-a-sorted-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0540-single-element-in-a-sorted-array) |
 ## Divide and Conquer
 |  |
