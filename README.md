@@ -36,6 +36,7 @@
 | [0948-sort-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0948-sort-an-array) |
 | [1319-unique-number-of-occurrences](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1319-unique-number-of-occurrences) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2265-partition-array-according-to-given-pivot) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -127,6 +128,7 @@
 | [0217-contains-duplicate](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0217-contains-duplicate) |
 | [0560-subarray-sum-equals-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0560-subarray-sum-equals-k) |
 | [1319-unique-number-of-occurrences](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1319-unique-number-of-occurrences) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -277,6 +279,7 @@
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0948-sort-an-array) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Binary Search Tree
 |  |
 | ------- |
