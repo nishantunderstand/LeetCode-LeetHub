@@ -170,6 +170,7 @@
 | [0386-lexicographical-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0386-lexicographical-numbers) |
 | [0543-diameter-of-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0543-diameter-of-binary-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0988-flip-equivalent-binary-trees) |
+| [2121-find-if-path-exists-in-graph](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2121-find-if-path-exists-in-graph) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -180,6 +181,7 @@
 | [0199-binary-tree-right-side-view](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0226-invert-binary-tree) |
 | [0279-perfect-squares](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0279-perfect-squares) |
+| [2121-find-if-path-exists-in-graph](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2121-find-if-path-exists-in-graph) |
 ## Binary Tree
 |  |
 | ------- |
@@ -335,4 +337,12 @@
 |  |
 | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0232-implement-queue-using-stacks) |
+## Union Find
+|  |
+| ------- |
+| [2121-find-if-path-exists-in-graph](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2121-find-if-path-exists-in-graph) |
+## Graph
+|  |
+| ------- |
+| [2121-find-if-path-exists-in-graph](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2121-find-if-path-exists-in-graph) |
 <!---LeetCode Topics End-->
