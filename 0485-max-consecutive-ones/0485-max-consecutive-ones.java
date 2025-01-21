@@ -22,7 +22,4 @@ class Solution {
         maxOne=Math.max(currOne,maxOne);
         return maxOne;
     }
-
-    // <img src="Flatten2D1.png">
-    // <img src="Flatten2D2.png">
 }
