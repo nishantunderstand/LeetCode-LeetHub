@@ -161,6 +161,7 @@
 | [0230-kth-smallest-element-in-a-bst](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0543-diameter-of-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0783-search-in-a-binary-search-tree) |
@@ -178,6 +179,7 @@
 | [0230-kth-smallest-element-in-a-bst](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0386-lexicographical-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0386-lexicographical-numbers) |
 | [0543-diameter-of-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0543-diameter-of-binary-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0988-flip-equivalent-binary-trees) |
@@ -192,6 +194,7 @@
 | [0199-binary-tree-right-side-view](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0226-invert-binary-tree) |
 | [0279-perfect-squares](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0279-perfect-squares) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [2121-find-if-path-exists-in-graph](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2121-find-if-path-exists-in-graph) |
 ## Binary Tree
 |  |
@@ -209,6 +212,7 @@
 | [0230-kth-smallest-element-in-a-bst](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0543-diameter-of-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0783-search-in-a-binary-search-tree) |
@@ -219,6 +223,7 @@
 | [0020-valid-parentheses](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0020-valid-parentheses) |
 | [0168-excel-sheet-column-title](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0171-excel-sheet-column-number) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0344-reverse-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0344-reverse-string) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1250-longest-common-subsequence](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1250-longest-common-subsequence) |
@@ -333,6 +338,7 @@
 | [0173-binary-search-tree-iterator](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0173-binary-search-tree-iterator) |
 | [0232-implement-queue-using-stacks](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0232-implement-queue-using-stacks) |
 | [0295-find-median-from-data-stream](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0295-find-median-from-data-stream) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Data Stream
 |  |
 | ------- |
