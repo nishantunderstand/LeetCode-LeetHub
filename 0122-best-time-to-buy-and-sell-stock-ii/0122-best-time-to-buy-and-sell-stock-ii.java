@@ -23,6 +23,8 @@ class Solution {
 
 
     // Multiple Buy and Sell Possible
+    // Sunday, January 26, 2025 9:44:24 PM
+    // Time Complexity:O(n) | Space Complexity:O(1)
     public int greedyApproach(int[] prices) {
         int n = prices.length;
         if(prices==null || n<2) return 0;
