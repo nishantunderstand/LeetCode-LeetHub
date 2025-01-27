@@ -12,9 +12,9 @@ class Solution {
                     st.pop();
                 }
                 // If the stack is empty or the top is negative, push the current asteroid
-                if(st.isEmpty() || st.peek()<0){
-                    st.push(elem);
-                }
+                if(st.isEmpty() || st.peek()<0) st.push(elem);
+                
+                // Equality Condition
                 if(st.peek() + elem ==0) st.pop();
             }
         }
