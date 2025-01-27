@@ -15,7 +15,7 @@ class Solution {
                 if(st.isEmpty() || st.peek()<0){
                     st.push(elem);
                 }
-                else if(st.peek() + elem ==0) st.pop();
+                if(st.peek() + elem ==0) st.pop();
             }
         }
         
