@@ -43,6 +43,7 @@
 | [1319-unique-number-of-occurrences](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1319-unique-number-of-occurrences) |
 | [1848-sum-of-unique-elements](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1848-sum-of-unique-elements) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2265-partition-array-according-to-given-pivot) |
+| [2873-prime-pairs-with-target-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2873-prime-pairs-with-target-sum) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Dynamic Programming
 |  |
@@ -127,6 +128,7 @@
 | [0856-consecutive-numbers-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0856-consecutive-numbers-sum) |
 | [1013-fibonacci-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1013-fibonacci-number) |
 | [2507-number-of-common-factors](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2507-number-of-common-factors) |
+| [2873-prime-pairs-with-target-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2873-prime-pairs-with-target-sum) |
 | [3568-find-the-key-of-the-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3568-find-the-key-of-the-numbers) |
 ## Enumeration
 |  |
@@ -134,12 +136,14 @@
 | [0204-count-primes](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0204-count-primes) |
 | [0856-consecutive-numbers-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0856-consecutive-numbers-sum) |
 | [2507-number-of-common-factors](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2507-number-of-common-factors) |
+| [2873-prime-pairs-with-target-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2873-prime-pairs-with-target-sum) |
 ## Number Theory
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0204-count-primes) |
 | [0258-add-digits](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0258-add-digits) |
 | [2507-number-of-common-factors](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2507-number-of-common-factors) |
+| [2873-prime-pairs-with-target-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2873-prime-pairs-with-target-sum) |
 ## Hash Table
 |  |
 | ------- |
