@@ -11,8 +11,20 @@
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         //return bruteForceBT(root,p,q);
-        return lcaBST(root,p,q);
+        //return lcaBST(root,p,q);
+        return lcaCleaner(root,p,q);
     }
+
+    public TreeNode lcaCleaner(TreeNode root, TreeNode p, TreeNode q) {
+        if(root.val > Math.max(p.val,q.val)) return lcaCleaner(root.left,p,q);
+        if(root.val < Math.min(p.val,q.val)) return lcaCleaner(root.right,p,q);
+        return root;
+    }
+
+
+
+    // Wednesday, January 29, 2025 6:33:35 PM
+    // Time Complexity:O(n) | Space Complexity:O(HeightOfTree)
     public TreeNode lcaBST(TreeNode root, TreeNode p, TreeNode q) {
         if(root==null) return root;
         // Smaller
