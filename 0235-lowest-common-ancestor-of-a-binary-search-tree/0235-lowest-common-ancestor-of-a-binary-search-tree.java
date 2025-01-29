@@ -15,16 +15,16 @@ class Solution {
         return lcaCleaner(root,p,q);
     }
 
+    // Wednesday, January 29, 2025 6:35:36 PM
+    // Time Complexity:O(logn) | Space Complexity:O(HeighthOfTree)
     public TreeNode lcaCleaner(TreeNode root, TreeNode p, TreeNode q) {
         if(root.val > Math.max(p.val,q.val)) return lcaCleaner(root.left,p,q);
         if(root.val < Math.min(p.val,q.val)) return lcaCleaner(root.right,p,q);
         return root;
     }
 
-
-
     // Wednesday, January 29, 2025 6:33:35 PM
-    // Time Complexity:O(n) | Space Complexity:O(HeightOfTree)
+    // Time Complexity:O(logn) | Space Complexity:O(HeightOfTree)
     public TreeNode lcaBST(TreeNode root, TreeNode p, TreeNode q) {
         if(root==null) return root;
         // Smaller
@@ -39,7 +39,7 @@ class Solution {
     }
     
     // Saturday, January 4, 2025 6:01:39 PM
-    // Time Complexity:O(n) | Space Complexity:O(HeightOfTree)
+    // Time Complexity:O(logn) | Space Complexity:O(HeightOfTree)
     public TreeNode bruteForceBT(TreeNode root, TreeNode p, TreeNode q) {
         if(root==null) return root;
         if(root.val==p.val || root.val==q.val) return root;
