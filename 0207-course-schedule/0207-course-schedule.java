@@ -11,14 +11,14 @@ class Solution {
     private boolean dfsApproach(int n,int[][] mat){
 
         List<List<Integer>> adj = buildGraph(n,mat);
-        boolean[] vis = new boolean[n]; // <-- \U0001f448
+        boolean[] vis = new boolean[n]; // <--
         boolean[] path = new boolean[n];
 
         // Iterate Over Adjaceny List , Only if it not visited
         // Check for Cycle , If Cycle Found , Return False
         for(int i=0;i<n;i++){
             if(!vis[i] && dfsHasCycle(adj,i,vis,path)){
-                return false; // <-- \U0001f448
+                return false; // <--
             }
         }
         return true;
@@ -45,8 +45,8 @@ class Solution {
 
         // Directed 
         for(int i=0;i<mat.length;i++){
-            int x = mat[i][0]; // Course to Take <--\U0001f448
-            int y = mat[i][1]; // Prerequisite Course <--\U0001f448
+            int x = mat[i][0]; // Course to Take <--
+            int y = mat[i][1]; // Prerequisite Course <--
             adj.get(y).add(x);
         }
         return adj;
