@@ -13,10 +13,8 @@ public class Solution {
             for (int i = 0; i < levelSize; i++) {
                 TreeNode node = que.poll();
                 curr.add(node.val);
-                if (node.left != null)
-                    que.offer(node.left);
-                if (node.right != null)
-                    que.offer(node.right);
+                if(node.left!=null) que.offer(node.left);
+                if(node.right!=null) que.offer(node.right);
             }
             res.add(curr);
         }
