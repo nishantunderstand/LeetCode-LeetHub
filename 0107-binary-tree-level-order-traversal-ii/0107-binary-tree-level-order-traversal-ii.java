@@ -1,6 +1,23 @@
-import java.util.*;
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ * int val;
+ * TreeNode left;
+ * TreeNode right;
+ * TreeNode() {}
+ * TreeNode(int val) { this.val = val; }
+ * TreeNode(int val, TreeNode left, TreeNode right) {
+ * this.val = val;
+ * this.left = left;
+ * this.right = right;
+ * }
+ * }
+ */
 
-public class Solution {
+
+// Saturday, February 1, 2025 1:10:30 PM
+// Time Complexity:O(n) | Space Complexity:O(HeightOfTree)
+class Solution {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         Queue<TreeNode> que = new LinkedList<>();
         List<List<Integer>> res = new ArrayList<>();
@@ -13,12 +30,15 @@ public class Solution {
             for (int i = 0; i < levelSize; i++) {
                 TreeNode node = que.poll();
                 curr.add(node.val);
-                if(node.left!=null) que.offer(node.left);
-                if(node.right!=null) que.offer(node.right);
+                if (node.left != null)
+                    que.offer(node.left);
+                if (node.right != null)
+                    que.offer(node.right);
             }
             res.add(curr);
         }
         Collections.reverse(res);
         return res;
+
     }
 }
