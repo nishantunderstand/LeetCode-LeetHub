@@ -18,22 +18,29 @@ class Solution {
         return queueApproach(root);
     }
 
-    // Monday, November 18, 2024 1:59:46 PM
-    // T.C - O(n) | S.C - O(n)
-    public List<Integer> queueApproach(TreeNode root){
-        List<Integer> res = new ArrayList<>(); // SC O(n)
+    // Sunday, December 15, 2024 7:56:13 PM
+    // Time Complexity:O(HeightOfTree) | Space Complexity:O(n)
+    public List<Integer> queueApproach(TreeNode root) {
+        
+        List<Integer> res = new ArrayList<>();
         if(root==null) return res;
-        Queue<TreeNode> que = new LinkedList<>(); // SC O(n)
-        que.add(root);        
-        while(!que.isEmpty()){ // TC O(n)                     
-            int queSize = que.size();
-            for(int i=0;i<queSize;i++){ // TC O(n) 
+        
+        Queue<TreeNode> que = new LinkedList<>();
+        que.add(root);
+        
+        while(!que.isEmpty()){
+            int levelSize = que.size();                                
+            for(int i=1;i<=levelSize;i++){
                 TreeNode node = que.poll();
-                if(i==queSize-1){
+                if(i==levelSize){
                     res.add(node.val);
                 }
-                if(node.left!=null) que.add(node.left);
-                if(node.right!=null) que.add(node.right);                
+                if(node.left!=null){
+                    que.add(node.left);
+                }
+                if(node.right!=null){
+                    que.add(node.right);
+                }
             }
         }
         return res;
