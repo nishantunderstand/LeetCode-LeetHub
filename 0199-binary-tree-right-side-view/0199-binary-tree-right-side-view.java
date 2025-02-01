@@ -17,17 +17,13 @@ class Solution {
     public List<Integer> rightSideView(TreeNode root) {
         return queueApproach(root);
     }
-
     // Sunday, December 15, 2024 7:56:13 PM
     // Time Complexity:O(HeightOfTree) | Space Complexity:O(n)
-    public List<Integer> queueApproach(TreeNode root) {
-        
+    public List<Integer> queueApproach(TreeNode root) {        
         List<Integer> res = new ArrayList<>();
-        if(root==null) return res;
-        
+        if(root==null) return res;    
         Queue<TreeNode> que = new LinkedList<>();
-        que.add(root);
-        
+        que.offer(root);        
         while(!que.isEmpty()){
             int levelSize = que.size();                                
             for(int i=1;i<=levelSize;i++){
@@ -35,12 +31,8 @@ class Solution {
                 if(i==levelSize){
                     res.add(node.val);
                 }
-                if(node.left!=null){
-                    que.add(node.left);
-                }
-                if(node.right!=null){
-                    que.add(node.right);
-                }
+                if(node.left!=null)que.offer(node.left);                
+                if(node.right!=null) que.offer(node.right);                
             }
         }
         return res;
