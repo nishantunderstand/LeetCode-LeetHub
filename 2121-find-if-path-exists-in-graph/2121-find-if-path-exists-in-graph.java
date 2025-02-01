@@ -19,7 +19,7 @@ class Solution {
         if(visited[src]) return false;
         visited[src]=true;
         for(int nei : graphs.get(src)){
-            if(hasPath(graphs,visited,nei,dest)) return true;
+            if(!visited[nei] && hasPath(graphs,visited,nei,dest)) return true;
         }
         return false;
     }
