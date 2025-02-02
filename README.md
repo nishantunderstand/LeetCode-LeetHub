@@ -184,6 +184,7 @@
 | [0450-delete-node-in-a-bst](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0543-diameter-of-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0783-search-in-a-binary-search-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0988-flip-equivalent-binary-trees](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0988-flip-equivalent-binary-trees) |
 ## Depth-First Search
 |  |
@@ -239,6 +240,7 @@
 | [0450-delete-node-in-a-bst](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0543-diameter-of-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0783-search-in-a-binary-search-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0988-flip-equivalent-binary-trees](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0988-flip-equivalent-binary-trees) |
 ## String
 |  |
@@ -317,6 +319,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0295-find-median-from-data-stream) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0948-sort-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0948-sort-an-array) |
 ## Merge Sort
 |  |
@@ -346,6 +349,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0783-search-in-a-binary-search-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Recursion
 |  |
 | ------- |
@@ -370,10 +374,12 @@
 | [0232-implement-queue-using-stacks](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0232-implement-queue-using-stacks) |
 | [0295-find-median-from-data-stream](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Data Stream
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0295-find-median-from-data-stream) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Trie
 |  |
 | ------- |
