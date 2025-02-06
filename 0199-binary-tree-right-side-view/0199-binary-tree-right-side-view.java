@@ -15,8 +15,10 @@
  */
 class Solution {
     public List<Integer> rightSideView(TreeNode root) {
+        //return rightSideViewRecursive(root);
         return queueApproach(root);
     }
+
     // Sunday, December 15, 2024 7:56:13 PM
     // Time Complexity:O(HeightOfTree) | Space Complexity:O(n)
     public List<Integer> queueApproach(TreeNode root) {        
@@ -34,5 +36,27 @@ class Solution {
             }
         }
         return res;
+    }
+
+    // Thursday, February 6, 2025 9:12:03 PM
+    // Time Complexity:O(n) | Space Complexity:O(n)
+    public List<Integer> rightSideViewRecursive(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+        if(root==null){
+            return result;
+        }
+        rideSideViewUtil(root,result,0);
+        return result;
+    }
+    // D | LR
+    public void rideSideViewUtil(TreeNode curr,List<Integer> result,int currDepth){
+        if(curr==null){
+            return;
+        }
+        if(currDepth==result.size()){
+            result.add(curr.val);
+        }
+        rideSideViewUtil(curr.right,result,currDepth+1);
+        rideSideViewUtil(curr.left,result,currDepth+1);
     }
 }
