@@ -2,8 +2,77 @@ class Solution {
     public int[] sortArray(int[] nums) {
         // return defaultMethod(nums);
         // return heapSort(nums);
-        return heapSortJitender(nums);
+        //return heapSortJitender(nums);
+        return quickSortHoare(nums,0,nums.length-1);
+        //return quickSortLomuto(nums,0,nums.length-1); //TLE
     }
+
+    // TLE in All Cases
+    public int[] quickSortLomuto(int[] nums,int start,int end) {
+        if(start<end){            
+        // int pi = LomutoPartitionScheme(nums,start,end); // TLE
+        int pi = randomizedLomutoPartition(nums, start, end);  // Use random pivot //TLE
+        quickSortLomuto(nums,start,pi-1); //<--
+        quickSortLomuto(nums,pi+1,end);
+        }
+        return nums;
+    }   
+    public int randomizedLomutoPartition(int[] arr,int start,int end){
+        Random rand = new Random();
+        /**
+        int randompi = start +  rand.nextInt(end-start+1);
+        swap(arr,randompi,end);
+        */
+        int mid = start + (end - start) / 2;
+        int median = medianOfThree(arr, start, mid, end);
+        swap(arr, median, end);
+
+        return LomutoPartitionScheme(arr,start,end);
+    }
+
+    private int medianOfThree(int[] arr, int a, int b, int c) {
+    if ((arr[a] > arr[b]) ^ (arr[a] > arr[c])) return a;
+    else if ((arr[b] < arr[a]) ^ (arr[b] < arr[c])) return b;
+    else return c;
+    }
+    public int LomutoPartitionScheme(int[] arr,int start,int end){
+        int pivot = arr[end];
+        int left = start-1;
+        int right = start;
+        while(right<end){
+            if(arr[right]<=pivot){
+                left++;
+                swap(arr,left,right);
+            }
+            right++;
+        }
+        swap(arr,left+1,end);
+        return left+1;
+    }
+
+    // Friday, February 7, 2025 1:26:38 PM
+    // Time Complexity:O(nlogn) | Space Complexity:O(1)
+    public int[] quickSortHoare(int[] nums,int start,int end) {
+        if(start<end){            
+        int pi = HoarePartitionScheme(nums,start,end);
+        quickSortHoare(nums,start,pi);//<--
+        quickSortHoare(nums,pi+1,end);
+        }
+        return nums;
+    }    
+    public int HoarePartitionScheme(int[] arr,int start,int end){
+        int pivot = arr[start]; // Always First Index , Not First Value;
+        int left=start-1;
+        int right=end+1;
+        while(true){
+            do{ left++;}while(left<=right && arr[left]<pivot);
+            do{right--;}while(left<=right && arr[right]>pivot);
+            if(left>=right) return right;
+            swap(arr,left,right);
+        }
+    }
+    // Why right Not left ? We may incorrectly place it outside the array
+
 
     public int[] heapSortJitender(int[] nums) {
         int n = nums.length;
