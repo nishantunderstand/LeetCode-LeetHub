@@ -6,7 +6,7 @@ class Solution {
     private int atMostK(int[] nums, int k) {
         HashMap<Integer, Integer> count = new HashMap<>();
         int startIdx = 0;
-        int result = 0;
+        int cnt = 0;
         int len = nums.length;
         for (int i = 0; i < len; i++) {
             // Same as Calculating WindowSum
@@ -24,8 +24,8 @@ class Solution {
                 }
                 startIdx++;
             }
-            result += i - startIdx + 1;
+            cnt += i - startIdx + 1;
         }
-        return result;
+        return cnt;
     }
 }
