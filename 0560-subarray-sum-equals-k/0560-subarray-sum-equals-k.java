@@ -1,7 +1,7 @@
 class Solution {
     public int subarraySum(int[] nums, int k) {
-        return bruteForceApproach(nums,k);
-        //return hashMapApproach(nums,k);
+        //return bruteForceApproach(nums,k);
+        return hashMapApproach(nums,k);
         //return slidingWindowCaterpillarMethod(nums,k);
     }
 
