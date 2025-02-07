@@ -1,14 +1,34 @@
 class Solution {
     public int subarraySum(int[] nums, int k) {
-        //return bruteForceApproach(nums,k);
-        //return hashMapApproach(nums,k);
-        return slidingWindowCaterpillarMethod(nums,k);
+        // return bruteForceApproach(nums,k);
+        return hashMapApproach(nums,k);
+        // return slidingWindowCaterpillarMethod(nums, k);
     }
 
-    /**
-     * - Sum Checking should be done inside the Class.
-     * - Regarding SubArray, It need to be continous subArray
-     */
+    // Sunday, June 9, 2024 2:17:34 PM
+    // Time Complexity: O(n) | Space Complexity: O(1)
+    // Cannot handle k==0
+    public int slidingWindowCaterpillarMethod(int[] nums, int k) {
+        int count = 0;
+        int windowSum = 0;
+        int start = 0;
+        int len = nums.length;
+
+        for (int i = 0; i < len; i++) {
+            windowSum += nums[i];
+
+            while (windowSum > k) {
+                windowSum -= nums[start];
+                start++;
+            }
+
+            if (windowSum == k) {
+                count++;
+            }
+        }
+        return count;
+    }
+
     // Wednesday, December 11, 2024 9:46:20 PM
     // T.C - O(n^2) | S.C - O(1)
     public int bruteForceApproach(int[] nums, int k) {
@@ -25,19 +45,7 @@ class Solution {
         return cnt;
     }
 
-    /**
-     * Thursday, October 24, 2024 10:22:12 PM
-     * 
-     * Thinking of HashSet NO
-     * Think of HashMap - We need to return the Frequency of Occurence.
-     * 
-     * [-1,-1,1] , K=0
-     * 
-     * n<=0 || k<=0 return 0; // This is WRONG, Applying Constraint on k is WRONG
-     * 
-     * T.C - O(n)| * S.C - O(n)
-     */
-
+    // T.C - O(n)| S.C - O(n)
     public int hashMapApproach(int[] nums, int k) {
         int n = nums.length;
         if (n <= 0)
@@ -55,27 +63,5 @@ class Solution {
             hm.put(csum, hm.getOrDefault(csum, 0) + 1);
         }
         return cnt;
-    }
-
-    /**
-     * Sunday, June 9, 2024 2:17:34 PM
-     * Time Complexity: O(n)
-     * Space Complexity: O(1)
-     * Please Update Here, TimeComplexity and SpaceComplexity of the Code. Explain
-     * in Detail.
-     */
-
-    public int slidingWindowCaterpillarMethod(int[] nums, int k) {
-        int count = 0;
-        for (int i = 0; i < nums.length; i++) {
-            int sum = 0;
-            for (int j = i; j < nums.length; j++) {
-                sum += nums[j];
-                if (sum == k) {
-                    count++;
-                }
-            }
-        }
-        return count;
     }
 }
