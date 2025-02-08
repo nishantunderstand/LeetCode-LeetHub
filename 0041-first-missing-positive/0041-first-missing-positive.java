@@ -13,6 +13,8 @@ class Solution {
     public int firstMissingPositive(int[] nums) {
         return hashSetApproach(nums);
     }
+    // Saturday, February 8, 2025 2:58:44 PM
+    // Time Complexity:O(n) | Space Complexity:O(n)
     public int hashSetApproach(int[] nums) {
         int len = nums.length;
         HashSet<Integer> hs = new HashSet<>();
