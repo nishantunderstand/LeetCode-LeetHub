@@ -10,12 +10,25 @@
  */
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        return bruteForceApproach(list1,list2);
+        //return iterativeMerge(list1,list2);
+        return recursiveMerge(list1,list2);
+    }
+
+    public ListNode recursiveMerge(ListNode list1, ListNode list2) {
+        if(list1==null) return list2;
+        if(list2==null) return list1;
+            if(list1.val<list2.val){
+                list1.next=recursiveMerge(list1.next,list2);//<--
+                return list1; //<--
+            }else{
+                list2.next=recursiveMerge(list1,list2.next);//<--
+                return list2;//<--
+            }
     }
 
     // Saturday, December 14, 2024 6:50:41 PM
     // T.C - O(n+m) | S.C - O(1)
-    public ListNode bruteForceApproach(ListNode list1, ListNode list2) {
+    public ListNode iterativeMerge(ListNode list1, ListNode list2) {
         if(list1==null) return list2;
         if(list2==null) return list1;
         ListNode dummyNode = new ListNode(-1);
