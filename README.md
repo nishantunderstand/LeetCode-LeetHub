@@ -166,6 +166,7 @@
 | [0141-linked-list-cycle](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0160-intersection-of-two-linked-lists) |
 | [0217-contains-duplicate](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0217-contains-duplicate) |
+| [0387-first-unique-character-in-a-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0387-first-unique-character-in-a-string) |
 | [0560-subarray-sum-equals-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0560-subarray-sum-equals-k) |
 | [1034-subarrays-with-k-different-integers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1034-subarrays-with-k-different-integers) |
 | [1319-unique-number-of-occurrences](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1319-unique-number-of-occurrences) |
@@ -266,6 +267,7 @@
 | [0171-excel-sheet-column-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0171-excel-sheet-column-number) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0344-reverse-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0344-reverse-string) |
+| [0387-first-unique-character-in-a-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0387-first-unique-character-in-a-string) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1250-longest-common-subsequence](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1250-longest-common-subsequence) |
 ## Linked List
@@ -355,6 +357,7 @@
 ## Counting Sort
 |  |
 | ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0387-first-unique-character-in-a-string) |
 | [0948-sort-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0948-sort-an-array) |
 | [1034-subarrays-with-k-different-integers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1034-subarrays-with-k-different-integers) |
 | [1848-sum-of-unique-elements](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1848-sum-of-unique-elements) |
@@ -418,6 +421,7 @@
 |  |
 | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0232-implement-queue-using-stacks) |
+| [0387-first-unique-character-in-a-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0387-first-unique-character-in-a-string) |
 ## Union Find
 |  |
 | ------- |
