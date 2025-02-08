@@ -1,14 +1,3 @@
-/**
-Checking Each Item, Linear Search
-Hashing 
-    HashMap - LinkedHashMap 
-        If Negative - Don't Store them
-        Iterate Over Key , Check For Missing One 
-    HashSet  - LinkedHashSet
-        If Negative - Don't Store them
-        Iterate Over Key , Check For Missing One 
-*/
-
 class Solution {
     public int firstMissingPositive(int[] nums) {
         return hashSetApproach(nums);
