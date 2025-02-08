@@ -14,6 +14,8 @@ class Solution {
         return recursiveMerge(list1,list2);
     }
 
+    // Saturday, February 8, 2025 8:05:38 PM
+    // Time Complexity:O(n) | Space Complexity:O(n)
     public ListNode recursiveMerge(ListNode list1, ListNode list2) {
         if(list1==null) return list2;
         if(list2==null) return list1;
