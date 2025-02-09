@@ -19,6 +19,7 @@ class Solution {
     }
 
     //INCORRECT ONE
+    //Doesn't handle Negative Element
     public int heapApproach(int[] nums) {
         int len = nums.length;
         if(nums==null || len<3) return 0;
