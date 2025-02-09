@@ -21,8 +21,30 @@
 class Solution {
     public int minDepth(TreeNode root) {
         //return dfs(root);
-        return dfsReadable(root);
+        //return dfsReadable(root);
+        return bfs(root);
     }
+    
+    //TLE
+    public int bfs(TreeNode root) {
+        if(root==null) return 0;
+        Queue<TreeNode> que = new LinkedList<>();
+        que.offer(root);
+        int depth=0;
+        while(!que.isEmpty()){
+            int queLen = que.size();
+            depth++;
+
+            for(int i=0;i<queLen;i++){
+                TreeNode node = que.poll();
+                if(node.left==null && node.right==null) return depth;
+                if(node.left!=null) que.offer(node.left);
+                if(node.right!=null) que.offer(node.right);
+            }
+        }
+        return depth;
+    }
+
 
     public int dfsReadable(TreeNode root) {
         if(root==null) return 0;
