@@ -1,6 +1,6 @@
 class Solution {
     public boolean containsDuplicate(int[] nums) {
-        //return bruteForceApproach(nums);        
+        //return bruteForceApproach(nums); // TLE       
         return sortingApproach(nums);
         //return hashSetApproach(nums);
         
@@ -19,6 +19,8 @@ class Solution {
         return false;
     }
 
+    // Sunday, February 9, 2025 2:06:49 PM
+    // Time Complexity:O(nlogn) | Space Complexity:O(1)
     public boolean sortingApproach(int[] nums) {
         Arrays.sort(nums);
         for (int i = 0; i < nums.length - 1; i++) {
