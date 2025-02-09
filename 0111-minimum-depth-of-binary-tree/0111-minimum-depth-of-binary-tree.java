@@ -13,11 +13,13 @@
  *     }
  * }
  */
-// LeetCode 111
-// How different From 104. Maximum Depth of Binary Tree
-// Difference from 104 (Maximum Depth of Binary Tree): 
-// - 104 finds the longest path, using Math.max(left, right) + 1.
-// - 111 finds the shortest path to a leaf, so we need to handle cases where one child is missing. //<--
+/**LeetCode 111
+How different From 104. Maximum Depth of Binary Tree
+Difference from 104 (Maximum Depth of Binary Tree): 
+104 finds the longest path, using Math.max(left, right) + 1.
+111 finds the shortest path to a leaf, so we need to handle cases where one child is missing. // <--
+*/
+
 class Solution {
     public int minDepth(TreeNode root) {
         //return dfs(root);
@@ -25,7 +27,7 @@ class Solution {
         return bfs(root);
     }
     
-    //TLE
+    // Time Complexity:O(n) | Space Complexity:O(HeightOfTree)
     public int bfs(TreeNode root) {
         if(root==null) return 0;
         Queue<TreeNode> que = new LinkedList<>();
