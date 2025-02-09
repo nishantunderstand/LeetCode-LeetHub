@@ -2,8 +2,8 @@ class Solution {
     public String removeDuplicates(String s) {
         if(s.length()<=0) return "";
         //return stackApproach(s);
-        return stackApproachForwardOrder(s);
-        //return stackApproachReverseOrder(s);
+        //return stackApproachForwardOrder(s);
+        return stackApproachReverseOrder(s);
     }
 
 
