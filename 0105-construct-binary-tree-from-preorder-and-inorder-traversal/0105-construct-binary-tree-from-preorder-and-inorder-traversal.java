@@ -23,7 +23,8 @@ class Solution {
         
         TreeNode root = new TreeNode(pre[preBeg]);
         
-        int rootidx = findIdx(in,inBeg,inEnd,root.val);
+        //int rootidx = findIdx(in,inBeg,inEnd,root.val);
+        int rootidx = findIdx1(in,root.val);
         int leftSize = rootidx-inBeg; //<--
         root.left = constructTree(pre,preBeg+1,preBeg+leftSize,in,inBeg,rootidx-1);
         root.right = constructTree(pre,preBeg+leftSize+1,preEnd,in,rootidx+1,inEnd);
@@ -31,6 +32,13 @@ class Solution {
     }
     public int findIdx(int[] arr,int start,int end,int target){
         for(int i=start;i<=end;i++){
+            if(arr[i]==target) return i;
+        }
+        return -1;
+    }
+
+    public int findIdx1(int[] arr,int target){
+        for(int i=0;i<arr.length;i++){
             if(arr[i]==target) return i;
         }
         return -1;
