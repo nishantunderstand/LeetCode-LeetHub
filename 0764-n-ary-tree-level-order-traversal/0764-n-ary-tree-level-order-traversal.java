@@ -64,7 +64,8 @@ class Solution {
             for (int i = 0; i < levelLen; i++) {
                 Node nodeElem = que.poll();
                 curr.add(nodeElem.val);
-                for (Node child : nodeElem.children) {
+
+                for (Node child : nodeElem.children) { //<--
                     if (child != null) {
                         que.offer(child);
                     }
