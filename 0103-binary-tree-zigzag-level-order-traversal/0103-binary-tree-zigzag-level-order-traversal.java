@@ -15,12 +15,13 @@
  */
 class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
-        //return zigzagLevelOrderTrueFalse(root);
-        return zigzagLevelOrderToggle(root);
+        return zigzagLevelOrderTrueFalse(root);
+        //return zigzagLevelOrderToggle(root);
     }
     public List<List<Integer>> zigzagLevelOrderTrueFalse(TreeNode root) {
         Queue<TreeNode> que = new LinkedList<>();
-        List<List<Integer>> res = new ArrayList<>();        
+        List<List<Integer>> res = new ArrayList<>();
+        //LinkedList<LinkedList<Integer>> res = new ArrayList<>();        
         if(root==null) return res;        
         que.offer(root);
         boolean LR = true; //<--
@@ -30,7 +31,7 @@ class Solution {
             for(int i=0;i<levelLen;i++){
                 TreeNode node = que.poll();
                 if(LR){
-                    curr.addLast(node.val);                    
+                    curr.addLast(node.val);                                     
                 }else{
                     curr.addFirst(node.val);
                 }                
@@ -38,8 +39,12 @@ class Solution {
                 if(node.right!=null) que.offer(node.right);
             }
             res.add(curr);
-            LR=!LR; // Toggling IT
-            //LR=false; // Setting it False Permantelly
+            if(LR){
+                LR = false;
+            }
+            else{
+                LR = true;
+            }
         }
         return res;
     }
