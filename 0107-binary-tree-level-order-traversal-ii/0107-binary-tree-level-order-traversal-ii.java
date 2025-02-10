@@ -13,12 +13,15 @@
  * }
  * }
  */
-
-
-// Saturday, February 1, 2025 1:10:30 PM
-// Time Complexity:O(n) | Space Complexity:O(HeightOfTree)
 class Solution {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
+        return levelOrderBottomApproach(root);
+        //return levelOrderBottomApproachModified(root);
+    }
+
+    // Monday, February 10, 2025 1:37:30 PM
+    // Time Complexity:O(n) | Space Complexity:O(HeightOfTree)
+    public List<List<Integer>> levelOrderBottomApproachModified(TreeNode root) {
         Queue<TreeNode> que = new LinkedList<>();
         List<List<Integer>> res = new ArrayList<>();
         if (root == null)
@@ -35,10 +38,35 @@ class Solution {
                 if (node.right != null)
                     que.offer(node.right);
             }
-            res.add(curr);
+            res.addFirst(curr);
+        }
+        //Collections.reverse(res);
+        return res;
+    }
+
+    // Saturday, February 1, 2025 1:10:30 PM
+    // Time Complexity:O(n) | Space Complexity:O(HeightOfTree)
+    public List<List<Integer>> levelOrderBottomApproach(TreeNode root) {
+        Queue<TreeNode> que = new LinkedList<>();
+        List<List<Integer>> res = new ArrayList<>();
+        if (root == null)
+            return res;
+        que.offer(root);
+        while (!que.isEmpty()) {
+            int levelSize = que.size();
+            List<Integer> curr = new ArrayList<>();
+            for (int i = 0; i < levelSize; i++) {
+                TreeNode node = que.poll();
+                curr.add(node.val);
+                if (node.left != null)
+                    que.offer(node.left);
+                if (node.right != null)
+                    que.offer(node.right);
+            }
+            res.addLast(curr);
+            //res.add(curr);
         }
         Collections.reverse(res);
         return res;
-
     }
 }
