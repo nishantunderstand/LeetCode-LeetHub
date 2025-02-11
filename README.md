@@ -48,6 +48,7 @@
 | [0713-subarray-product-less-than-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0713-subarray-product-less-than-k) |
 | [0735-asteroid-collision](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0739-daily-temperatures) |
+| [0747-min-cost-climbing-stairs](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0747-min-cost-climbing-stairs) |
 | [0780-max-chunks-to-make-sorted](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0780-max-chunks-to-make-sorted) |
 | [0898-transpose-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0898-transpose-matrix) |
 | [0907-koko-eating-bananas](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0907-koko-eating-bananas) |
@@ -75,6 +76,7 @@
 | [0152-maximum-product-subarray](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0198-house-robber) |
 | [0279-perfect-squares](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0279-perfect-squares) |
+| [0747-min-cost-climbing-stairs](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0747-min-cost-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1013-fibonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1250-longest-common-subsequence) |
 ## Sorting
