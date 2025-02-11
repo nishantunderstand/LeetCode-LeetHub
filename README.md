@@ -9,6 +9,7 @@
 | [0015-3sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0035-search-insert-position](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0035-search-insert-position) |
 | [0041-first-missing-positive](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0046-permutations) |
@@ -342,6 +343,7 @@
 |  |
 | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0035-search-insert-position](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0069-sqrtx) |
 | [0074-search-a-2d-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0074-search-a-2d-matrix) |
 | [0162-find-peak-element](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0162-find-peak-element) |
