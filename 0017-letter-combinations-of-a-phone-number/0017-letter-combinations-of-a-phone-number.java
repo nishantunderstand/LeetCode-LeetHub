@@ -21,6 +21,11 @@ class Solution {
     */
 
     public List<String> letterCombinations(String digits) {
+        return hashingBackting(digits);
+    }
+
+
+    public List<String> hashingBackting(String digits) {
         List<String> res = new ArrayList<>();
         if(digits==null || digits.isEmpty()) return res;
 
