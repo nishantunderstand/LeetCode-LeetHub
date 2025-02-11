@@ -23,11 +23,20 @@ class Solution {
         }
         return potAns;
     }
-    public int canEat(int mid,int [] piles){
+    public int canEat2(int mid,int [] piles){
         int hours = 0; // <- Hours Cannot be Double
         int len = piles.length;
         for(int i=0;i<len;i++){
             hours += (int) Math.ceil((double) piles[i]/mid);
+        }
+        return hours;
+    }
+
+    public int canEat(int mid,int [] piles){
+        int hours = 0; // <- Hours Cannot be Double
+        int len = piles.length;
+        for(int pile : piles ){
+            hours += (int) Math.ceil((double) pile/mid);
         }
         return hours;
     }
