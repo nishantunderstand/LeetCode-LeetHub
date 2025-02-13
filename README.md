@@ -40,6 +40,7 @@
 | [0204-count-primes](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0217-contains-duplicate) |
+| [0229-majority-element-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0229-majority-element-ii) |
 | [0260-single-number-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0260-single-number-iii) |
 | [0287-find-the-duplicate-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0287-find-the-duplicate-number) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -94,6 +95,7 @@
 | [0169-majority-element](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0217-contains-duplicate) |
+| [0229-majority-element-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0229-majority-element-ii) |
 | [0295-find-median-from-data-stream](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0295-find-median-from-data-stream) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0628-maximum-product-of-three-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0628-maximum-product-of-three-numbers) |
@@ -187,6 +189,7 @@
 | [0160-intersection-of-two-linked-lists](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0217-contains-duplicate) |
+| [0229-majority-element-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0229-majority-element-ii) |
 | [0387-first-unique-character-in-a-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0387-first-unique-character-in-a-string) |
 | [0560-subarray-sum-equals-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0560-subarray-sum-equals-k) |
 | [1034-subarrays-with-k-different-integers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1034-subarrays-with-k-different-integers) |
@@ -405,6 +408,7 @@
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0229-majority-element-ii) |
 | [0387-first-unique-character-in-a-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0387-first-unique-character-in-a-string) |
 | [0948-sort-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0948-sort-an-array) |
 | [1034-subarrays-with-k-different-integers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1034-subarrays-with-k-different-integers) |
