@@ -10,6 +10,8 @@ class Solution {
     }
 
     
+    // Thursday, February 13, 2025 8:18:52 PM
+    // Time Complexity:O(n*logk) | Space Complexity:O(k)
     public int minHeapApproach(int[] nums, int k) {
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
         int n = nums.length;
