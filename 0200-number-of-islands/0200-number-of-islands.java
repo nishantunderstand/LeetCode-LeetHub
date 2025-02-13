@@ -6,7 +6,8 @@ class Solution {
        return withOutvis(grid);
     }
 
-    
+    // Thursday, February 13, 2025 2:57:22 PM
+    // Time Complexity:O(V+E) | Space Complexity:O(V)    
     public int withOutvis(char[][] grid) {
         int rows = grid.length;
         int cols = grid[0].length;
@@ -23,7 +24,7 @@ class Solution {
     }
 
     // Thursday, February 13, 2025 2:57:22 PM
-    // Time Complexity:O(V+E) | Space Complexity:O(V+E)
+    // Time Complexity:O(V+E) | Space Complexity:O(V)
     public int withvis(char[][] grid) {
         int rows = grid.length;
         int cols = grid[0].length;
