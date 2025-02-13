@@ -16,19 +16,20 @@
 class Solution {
     public TreeNode sortedArrayToBST(int[] nums) {
         int n = nums.length;
-        if(n<=0){
-            return null;
-        }
+        if(n<=0)return null;
+
         return createBST(nums,0,n-1);
     }
-    public TreeNode createBST(int[] nums,int beg,int end){
-        if(beg>end){
+    // Thursday, February 13, 2025 7:50:23 PM
+    // Time Complexity:O(n) | Space Complexity:O(HeightOfTree)
+    public TreeNode createBST(int[] nums,int left,int right){
+        if(left>right){
             return null;
         }
-        int mid = beg + (end-beg)/2;
+        int mid = left + (right-left)/2;
         TreeNode root = new TreeNode(nums[mid]);
-        root.left = createBST(nums,beg,mid-1);
-        root.right = createBST(nums,mid+1,end);
+        root.left = createBST(nums,left,mid-1);
+        root.right = createBST(nums,mid+1,right);
         return root;
     }
 }
