@@ -37,6 +37,7 @@
 | [0162-find-peak-element](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0217-contains-duplicate) |
@@ -241,6 +242,7 @@
 | [0112-path-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0112-path-sum) |
 | [0145-binary-tree-postorder-traversal](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0230-kth-smallest-element-in-a-bst) |
@@ -262,6 +264,7 @@
 | [0111-minimum-depth-of-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0226-invert-binary-tree) |
 | [0279-perfect-squares](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0279-perfect-squares) |
@@ -348,6 +351,7 @@
 | [0063-unique-paths-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0074-search-a-2d-matrix) |
+| [0200-number-of-islands](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0200-number-of-islands) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0898-transpose-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0898-transpose-matrix) |
 ## Simulation
@@ -482,6 +486,7 @@
 ## Union Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0200-number-of-islands) |
 | [2121-find-if-path-exists-in-graph](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2121-find-if-path-exists-in-graph) |
 ## Graph
 |  |
