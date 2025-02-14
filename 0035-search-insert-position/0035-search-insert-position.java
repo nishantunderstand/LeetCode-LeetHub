@@ -1,3 +1,5 @@
+// LeetCode 35
+
 class Solution {
     public int searchInsert(int[] nums, int target) {
         // return linearSearch(nums,target);
@@ -10,7 +12,7 @@ class Solution {
         int n = nums.length;
         // if(nums==null||n<=0){return 0;} Sometimes it may give TLE, Don't use Blindlly
         int lo = 0;
-        int hi = n - 1;
+        int hi = n-1;
         int ans = 0;
         while (lo <= hi) {
             int mid = lo + (hi - lo) / 2;
