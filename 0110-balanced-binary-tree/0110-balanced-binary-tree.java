@@ -27,10 +27,10 @@ class Solution {
         int lh = height(root.left);
         int rh = height(root.right);
         
-        //if(lh-rh<-1 || lh-rh>1) return false;
-        //if(Math.abs(lh-rh)<1) return true; // WRONG
+        if(lh-rh<-1 || lh-rh>1) return false;
+        //if(Math.abs(lh-rh)<1) return true; // WRONG CODE
 
-        if(Math.abs(lh-rh)>1) return false; 
+        //if(Math.abs(lh-rh)>1) return false; 
         return isBalancedHeight(root.left) && isBalancedHeight(root.right);
     }
   
