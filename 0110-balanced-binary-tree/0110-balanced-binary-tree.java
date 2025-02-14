@@ -26,9 +26,14 @@ class Solution {
         if(root==null) return true;
         int lh = height(root.left);
         int rh = height(root.right);
-        if(lh-rh<-1 || lh-rh>1) return false;
+        
+        //if(lh-rh<-1 || lh-rh>1) return false;
+        //if(Math.abs(lh-rh)<1) return true; // WRONG
+
+        if(Math.abs(lh-rh)>1) return false; 
         return isBalancedHeight(root.left) && isBalancedHeight(root.right);
     }
+  
 
     // Time Complexity:O(n) | Space Complexity:O(HeightOfTree)
     public int height(TreeNode root){
@@ -36,6 +41,8 @@ class Solution {
         return 1 + Math.max(height(root.left),height(root.right));
     }
 
+
+    // |lh-rh| < 1 
 
 
     public boolean isBalancedHeightWRONG(TreeNode root) {
