@@ -19,6 +19,9 @@ class Solution {
         return isBalancedHeight(root);
     }
 
+    // Friday, February 14, 2025 3:25:23 PM
+    // Time Complexity:O(n^2) | Space Complexity:O(HeightOfTree)
+    // Time Complexity: O(n^2) in the worst case (skewed tree), O(n log n) in a balanced tree
     public boolean isBalancedHeight(TreeNode root) {
         if(root==null) return true;
         int lh = height(root.left);
@@ -27,6 +30,14 @@ class Solution {
         return isBalancedHeight(root.left) && isBalancedHeight(root.right);
     }
 
+    // Time Complexity:O(n) | Space Complexity:O(HeightOfTree)
+    public int height(TreeNode root){
+        if(root==null) return 0;
+        return 1 + Math.max(height(root.left),height(root.right));
+    }
+
+
+
     public boolean isBalancedHeightWRONG(TreeNode root) {
         if(root==null) return true;
         int lh = height(root.left);
@@ -34,12 +45,6 @@ class Solution {
         if(lh-rh<-1 || lh-rh>1) return false;
         return true;
     }
-
-    public int height(TreeNode root){
-        if(root==null) return 0;
-        return 1 + Math.max(height(root.left),height(root.right));
-    }
-
 
     public boolean isBalancedApproachWRONG(TreeNode root) {
         if(root==null) return true;
