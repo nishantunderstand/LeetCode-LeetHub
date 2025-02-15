@@ -13,6 +13,7 @@
  *     }
  * }
  */
+
 /**LeetCode 111
 How different From 104. Maximum Depth of Binary Tree
 Difference from 104 (Maximum Depth of Binary Tree): 
@@ -20,13 +21,23 @@ Difference from 104 (Maximum Depth of Binary Tree):
 111 finds the shortest path to a leaf, so we need to handle cases where one child is missing. // <--
 */
 
+// Same as LEETCODE 104
+
 class Solution {
     public int minDepth(TreeNode root) {
         //return dfs(root);
-        //return dfsReadable(root);
-        return bfs(root);
+        return dfsReadable(root);
+        //return bfs(root);
+        //return minDepthByArchit(root);
     }
     
+    // THIS CODE IS WRONG FOR SINGLE CHILD
+    public int minDepthByArchit(TreeNode root) {
+        if(root==null) return 0;
+        return 1 + Math.min(minDepthByArchit(root.left),minDepthByArchit(root.right));
+    }
+
+
     // Time Complexity:O(n) | Space Complexity:O(HeightOfTree)
     public int bfs(TreeNode root) {
         if(root==null) return 0;
@@ -36,7 +47,6 @@ class Solution {
         while(!que.isEmpty()){
             int queLen = que.size();
             depth++;
-
             for(int i=0;i<queLen;i++){
                 TreeNode node = que.poll();
                 if(node.left==null && node.right==null) return depth;
@@ -54,7 +64,7 @@ class Solution {
         int right =dfs(root.right);
         if(root.left==null) return right+1;
         if(root.right==null) return left+1;
-        return Math.min(left,right)+1; //?? DON"T GET IT
+        return 1+ Math.min(left,right); 
     }
 
 
