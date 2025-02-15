@@ -26,9 +26,18 @@ Difference from 104 (Maximum Depth of Binary Tree):
 class Solution {
     public int minDepth(TreeNode root) {
         //return dfs(root);
-        return dfsReadable(root);
+        //return dfsReadable(root);
         //return bfs(root);
         //return minDepthByArchit(root);
+        return minDepthGFG(root);
+    }
+
+    public int minDepthGFG(TreeNode root) {
+        if(root==null) return 0;
+        if(root.left == null && root.right == null) return 1; // Leaf Node;
+        if(root.left == null) return 1 + minDepthGFG(root.right); 
+        if(root.right==null) return 1 + minDepthGFG(root.left); 
+        return 1+ Math.min(minDepthGFG(root.left),minDepthGFG(root.right));        
     }
 
     // THIS CODE IS WRONG FOR SINGLE CHILD
