@@ -30,11 +30,36 @@ class Solution {
         //return bfs(root);
         //return minDepthByArchit(root);
     }
-    
+
     // THIS CODE IS WRONG FOR SINGLE CHILD
     public int minDepthByArchit(TreeNode root) {
         if(root==null) return 0;
         return 1 + Math.min(minDepthByArchit(root.left),minDepthByArchit(root.right));
+    }
+
+    public int dfsReadable(TreeNode root) {
+        if(root==null) return 0;
+        int left = dfs(root.left);
+        int right =dfs(root.right);
+        if(root.left==null) return right+1;
+        if(root.right==null) return left+1;
+        return 1+ Math.min(left,right); 
+    }
+
+
+    // More Inutitive & Better
+    // Sunday, February 9, 2025 7:13:34 PM
+    // Time Complexity:O(n) | Space Complexity:O(HeightOfTree)
+    public int dfs(TreeNode root) {
+        if(root==null) return 0;
+
+        int left = 1 + dfs(root.left);
+        int right = 1 + dfs(root.right);
+
+        if(root.left==null) return right;
+        if(root.right==null) return left;
+
+        return Math.min(left,right);
     }
 
 
@@ -55,31 +80,5 @@ class Solution {
             }
         }
         return depth;
-    }
-
-
-    public int dfsReadable(TreeNode root) {
-        if(root==null) return 0;
-        int left = dfs(root.left);
-        int right =dfs(root.right);
-        if(root.left==null) return right+1;
-        if(root.right==null) return left+1;
-        return 1+ Math.min(left,right); 
-    }
-
-
-    // More Inutitive 
-    // Sunday, February 9, 2025 7:13:34 PM
-    // Time Complexity:O(n) | Space Complexity:O(HeightOfTree)
-    public int dfs(TreeNode root) {
-        if(root==null) return 0;
-
-        int left = 1 + dfs(root.left);
-        int right = 1+ dfs(root.right);
-
-        if(root.left==null) return right;
-        if(root.right==null) return left;
-
-        return Math.min(left,right);
     }
 }
