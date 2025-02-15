@@ -20,8 +20,8 @@ class Solution {
         }
 
         for (int i = 0; i < nums.length; i++) {
-            if (vis[i])
-                continue;
+            if(vis[i]) continue;
+            
             inner.add(nums[i]);
             vis[i] = true;
             helper(res, inner, nums, vis);
