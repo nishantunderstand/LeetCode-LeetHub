@@ -22,6 +22,24 @@ class Solution {
         }
         return cnt;
     }
+    // WITHOUT VIS ARRAY
+    public void dfs(char[][] grid,int dr,int dc){
+        int rows = grid.length;
+        int cols = grid[0].length;
+        if(dr<0 || dr>=rows || dc<0 || dc>=cols) return;
+        if(grid[dr][dc]=='0') return;
+
+        grid[dr][dc]='0'; // Marking it 
+
+        dfs(grid,dr+1,dc);
+        dfs(grid,dr,dc+1);
+        dfs(grid,dr-1,dc);
+        dfs(grid,dr,dc-1);
+    }
+
+
+
+
 
     // Thursday, February 13, 2025 2:57:22 PM
     // Time Complexity:O(V+E) | Space Complexity:O(V)
@@ -40,23 +58,6 @@ class Solution {
         }
         return cnt;
     }
-
-
-    // WITHOUT VIS ARRAY
-    public void dfs(char[][] grid,int dr,int dc){
-        int rows = grid.length;
-        int cols = grid[0].length;
-        if(dr<0 || dr>=rows || dc<0 || dc>=cols) return;
-        if(grid[dr][dc]=='0') return;
-
-        grid[dr][dc]='0';
-
-        dfs(grid,dr+1,dc);
-        dfs(grid,dr,dc+1);
-        dfs(grid,dr-1,dc);
-        dfs(grid,dr,dc-1);
-    }
-    
     // WITH VIS ARRAY
     public void dfs(char[][] grid,boolean[][] vis,int dr,int dc){
         int rows = grid.length;
@@ -64,7 +65,7 @@ class Solution {
         if(dr<0 || dr>=rows || dc<0 || dc>=cols) return;
         if(grid[dr][dc]=='0' || vis[dr][dc]) return;
 
-        vis[dr][dc]=true;
+        vis[dr][dc]=true; // Marking as Visited
 
         dfs(grid,vis,dr+1,dc);
         dfs(grid,vis,dr,dc+1);
