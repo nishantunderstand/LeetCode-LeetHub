@@ -4,7 +4,6 @@ class Solution {
         return greedyApproach(prices);
     }
 
-    /**
     // Left To Right
     public int backtrackingApproach(int[] prices) {
         return backtrackingHelper(prices,0);
@@ -12,14 +11,14 @@ class Solution {
     
     public int backtrackingHelper(int[] prices,int idx) {
         if(idx>prices.length) return 0;        
-        int notpick = backtrackingApproach(prices,idx+1);        
+        //int notpick = backtrackingApproach(prices,idx+1);        
         // Sell
         // Buy 
-        int pick = prices[idx] +backtrackingApproach(prices,idx+1); 
+        // int pick = prices[idx] +backtrackingApproach(prices,idx+1); 
         // I need to add Difference, Not prices, This is a different Question
         return 0;
     }
-    */
+    
 
 
     // Multiple Buy and Sell Possible
