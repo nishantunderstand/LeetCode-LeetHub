@@ -17,7 +17,8 @@ class Solution {
                 if(grid[i][j]=='1'){                    
                     cnt++;
                     //dfs(grid,i,j);
-                    dfsDIR(grid,i,j);
+                    //dfsDIR(grid,i,j);
+                    dfs2DDIR(grid,i,j);
                 }
             }
         }
@@ -51,6 +52,27 @@ class Solution {
 
         for(int i=0;i<4;i++){
             dfsDIR(grid,dr+DR[i],dc+DY[i]);
+        }    
+    }
+
+    public void dfs2DDIR(char[][] grid,int dr,int dc){
+        int rows = grid.length;
+        int cols = grid[0].length;
+        if(dr<0 || dr>=rows || dc<0 || dc>=cols) return;
+        if(grid[dr][dc]=='0') return;
+
+        grid[dr][dc]='0'; // Marking it 
+        int[][] DIR = {
+            {-1, 0}, // UP
+            {1, 0}, // DOWN
+            {0, -1}, // LEFT
+            {0, 1} // RIGHT
+        };
+
+        for(int[] d : DIR){
+            int newRow = dr + d[0];
+            int newCol = dc + d[1];
+            dfs(grid,newRow,newCol);
         }    
     }
 
