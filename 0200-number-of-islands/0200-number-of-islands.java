@@ -16,7 +16,8 @@ class Solution {
             for(int j=0;j<cols;j++){
                 if(grid[i][j]=='1'){                    
                     cnt++;
-                    dfs(grid,i,j);
+                    //dfs(grid,i,j);
+                    dfsDIR(grid,i,j);
                 }
             }
         }
@@ -35,6 +36,22 @@ class Solution {
         dfs(grid,dr,dc+1);
         dfs(grid,dr-1,dc);
         dfs(grid,dr,dc-1);
+    }
+
+     // WITHOUT VIS ARRAY + Direction Array
+    public void dfsDIR(char[][] grid,int dr,int dc){
+        int rows = grid.length;
+        int cols = grid[0].length;
+        if(dr<0 || dr>=rows || dc<0 || dc>=cols) return;
+        if(grid[dr][dc]=='0') return;
+
+        grid[dr][dc]='0'; // Marking it 
+        int[] DR = {-1,1,0,0};
+        int[] DY = {0,0,-1,1};
+
+        for(int i=0;i<4;i++){
+            dfsDIR(grid,dr+DR[i],dc+DY[i]);
+        }    
     }
 
 
