@@ -49,7 +49,7 @@ class Solution {
             if(nums[mid] > nums[mid-1]){
                 lo = mid+1;
             }else{
-                hi=mid; //<--
+                hi=mid-1; //<--
             }
         }
         return lo; //<--
