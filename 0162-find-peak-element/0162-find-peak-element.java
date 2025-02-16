@@ -25,14 +25,13 @@ class Solution {
         //return binarySearch(nums);
         return bruteForceSearch(nums);
     }
-
-
+    // Sunday, February 16, 2025 4:39:55 PM
+    // Time Complexity:O(n) | Space Complexity:O(1)
     public int bruteForceSearch(int[] nums) {
         int n = nums.length;
         int len = n;
-        if (nums == null || n == 0) {
-            return 0;
-        }
+        if (nums == null || n == 0) return 0;
+
         if(len==1) return 0;
         if(nums[0]>nums[1]) return 0;
         if(nums[n-1]>nums[n-2]) return n-1;
@@ -45,6 +44,8 @@ class Solution {
         return -1;        
     }
 
+    // Sunday, February 16, 2025 4:42:32 PM
+    // Time Complexity:O(logn) | Space Complexity:O(1)
     public int binarySearch(int[] nums) {
         int n = nums.length;
         if (nums == null || n == 0) {
