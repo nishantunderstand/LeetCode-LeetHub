@@ -13,9 +13,8 @@
  *     }
  * }
  */
-// Leetcode : 101
-// Identical and Symmertical are two Different Thing 
-// 
+// Leetcode : 101, 100
+// Identical and Symmertical are two Different Thing. Be Clear With this
 
 class Solution {
     public boolean isSymmetric(TreeNode root) {
