@@ -14,7 +14,7 @@
  * }
  */
 
-
+// Leetcode : 951
 // Tuesday, December 31, 2024 10:53:49 AM
 // Time Complexity:O(n) | Space Complexity:O(HeightOfTree)
 class Solution {
@@ -22,13 +22,14 @@ class Solution {
         if(root1==null && root2==null) return true;
         if(root1==null || root2==null) return false;
         if(root1.val !=root2.val) return false;
-        boolean a = flipEquiv(root1.left,root2.left) && flipEquiv(root1.right,root2.right);
-        boolean b = flipEquiv(root1.left,root2.right) && flipEquiv(root1.right,root2.left);
-        return a||b;
+        boolean withoutFlip = flipEquiv(root1.left,root2.left) && flipEquiv(root1.right,root2.right);
+        boolean withFlip = flipEquiv(root1.left,root2.right) && flipEquiv(root1.right,root2.left);
+        return withoutFlip || withFlip; // Should this be && ?
     }
 
 }
 
 /**
 Thinking of Swapping Only One Root is not good. Drop the Idea.
+That's different Question
 */
