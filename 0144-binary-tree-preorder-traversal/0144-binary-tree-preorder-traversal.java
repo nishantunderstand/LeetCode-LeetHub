@@ -14,7 +14,11 @@
  * }
  */
 class Solution {
-    public List<Integer> preorderTraversal(TreeNode root) {
+    public List<Integer> preorderTraversal(TreeNode root) {        
+        return recursiveApproach(root);       
+    }
+
+    public List<Integer> recursiveApproach(TreeNode root) {
         List<Integer> al = new ArrayList<>();
         if(root==null){
             return al;
