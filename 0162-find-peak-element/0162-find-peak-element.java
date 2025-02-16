@@ -19,6 +19,7 @@
  * I don't need to think in the direction of lo and hi, Instead i need to think
  * in something else direction.
  */
+
 // Leetcode : 162
 class Solution {
     public int findPeakElement(int[] nums) {
@@ -26,12 +27,14 @@ class Solution {
         //return bruteForceSearch(nums);
         return bruteForceSearchPeak(nums);
     }
-    // [2,1] Failed for this
+    // [2,1] 
     // [1,2,3]
+    // Sunday, February 16, 2025 5:50:04 PM
+    // Time Complexity:O(logn) | Space Complexity:O(1) 
     public int bruteForceSearchPeak(int[] nums) {
         int n = nums.length;
         if (nums == null || n == 0) {
-            return 0;
+            return -1;
         }
 
         if(n==1) return 0;
@@ -49,7 +52,8 @@ class Solution {
             if(nums[mid] > nums[mid-1]){
                 lo = mid+1;
             }else{
-                hi=mid-1; //<--
+                hi=mid-1; //<-- Correct ONE
+                //hi=mid; //<-- Which one is correct ?
             }
         }
         return lo; //<--
@@ -60,7 +64,7 @@ class Solution {
     public int binarySearch(int[] nums) {
         int n = nums.length;
         if (nums == null || n == 0) {
-            return 0;
+            return -1;
         }
         int lo = 0;
         int hi = n - 1;
@@ -81,7 +85,7 @@ class Solution {
     public int bruteForceSearch(int[] nums) {
         int n = nums.length;
         int len = n;
-        if (nums == null || n == 0) return 0;
+        if (nums == null || n == 0) return -1;
 
         if(len==1) return 0;
         if(nums[0]>nums[1]) return 0;
