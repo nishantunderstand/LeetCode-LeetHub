@@ -529,4 +529,8 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0713-subarray-product-less-than-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0713-subarray-product-less-than-k) |
 | [1034-subarrays-with-k-different-integers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1034-subarrays-with-k-different-integers) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
