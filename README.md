@@ -241,6 +241,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0764-n-ary-tree-level-order-traversal) |
+| [0774-maximum-depth-of-n-ary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0774-maximum-depth-of-n-ary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0783-search-in-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0988-flip-equivalent-binary-trees](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0988-flip-equivalent-binary-trees) |
@@ -268,6 +269,7 @@
 | [0515-find-largest-value-in-each-tree-row](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0774-maximum-depth-of-n-ary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0774-maximum-depth-of-n-ary-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0988-flip-equivalent-binary-trees) |
 | [2121-find-if-path-exists-in-graph](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2121-find-if-path-exists-in-graph) |
 ## Breadth-First Search
@@ -290,6 +292,7 @@
 | [0515-find-largest-value-in-each-tree-row](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0764-n-ary-tree-level-order-traversal) |
+| [0774-maximum-depth-of-n-ary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0774-maximum-depth-of-n-ary-tree) |
 | [2121-find-if-path-exists-in-graph](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2121-find-if-path-exists-in-graph) |
 ## Binary Tree
 |  |
