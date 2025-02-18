@@ -7,7 +7,8 @@ class Solution {
         return sortingApproach(nums);
     }
 
-
+    // Tuesday, February 18, 2025 9:21:50 PM
+    // Time Complexity:O(n^2 +  nlogn) | Space Complexity:O(n)
     public List<List<Integer>> sortingApproach(int[] nums) {
         int len = nums.length;
         List<List<Integer>> res = new ArrayList<>();
@@ -44,6 +45,8 @@ class Solution {
         return res;
     }
 
+    // Tuesday, February 18, 2025 9:21:26 PM
+    // Time Complexity:O(n^2) | Space Complexity:O(n)
     public List<List<Integer>> hashSetApproach(int[] nums) {
         int n = nums.length;
         List<List<Integer>> res = new ArrayList<>();
