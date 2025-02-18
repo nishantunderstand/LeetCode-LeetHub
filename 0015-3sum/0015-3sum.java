@@ -1,11 +1,50 @@
+// Leetcode : 15
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         // return bruteForceApproach(nums);
         // return bruteForceApproachMod(nums);
-        return optimalApproach(nums);
+        //return hashSetApproach(nums);
+        return sortingApproach(nums);
     }
 
-    public List<List<Integer>> optimalApproach(int[] nums) {
+
+    public List<List<Integer>> sortingApproach(int[] nums) {
+        int len = nums.length;
+        List<List<Integer>> res = new ArrayList<>();
+        if(len<3)return res;
+        Arrays.sort(nums);
+        
+        for(int i=0;i<len-2;i++){
+            if(i>0 && nums[i]==nums[i-1]) continue; // Handle Duplicates
+            
+            int lo = i+1;
+            int hi = len-1;
+
+            while(lo<hi){
+                int csum = nums[i] + nums[lo] + nums[hi];
+                List<Integer> inner = new ArrayList<>();
+                if(csum==0){
+                    inner.add(nums[i]);
+                    inner.add(nums[lo]);
+                    inner.add(nums[hi]);
+                    res.add(inner);
+                    
+                    // Checking For Equal Version
+                    while(lo<hi && nums[lo]==nums[lo+1]) lo++;
+                    while(lo<hi && nums[hi]==nums[hi-1]) hi--;
+                    
+                    lo++;
+                    hi--;
+                }
+                else if(csum<0) lo++;
+                else hi--;
+            }
+
+        }
+        return res;
+    }
+
+    public List<List<Integer>> hashSetApproach(int[] nums) {
         int n = nums.length;
         List<List<Integer>> res = new ArrayList<>();
         if(n<3){
@@ -28,6 +67,7 @@ class Solution {
         return res;
     }
 
+    // T.C - O(n^3) | S.C - O(n)
     public List<List<Integer>> bruteForceApproachMod(int[] nums) {
         int n = nums.length;
         List<List<Integer>> res = new ArrayList<>();
