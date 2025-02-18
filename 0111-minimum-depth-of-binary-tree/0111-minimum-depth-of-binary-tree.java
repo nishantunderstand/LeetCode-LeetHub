@@ -79,14 +79,14 @@ class Solution {
         que.offer(root);
         int depth=0;
         while(!que.isEmpty()){
-            int queLen = que.size();
-            depth++;
+            int queLen = que.size();            
             for(int i=0;i<queLen;i++){
                 TreeNode node = que.poll();
                 if(node.left==null && node.right==null) return depth;
                 if(node.left!=null) que.offer(node.left);
                 if(node.right!=null) que.offer(node.right);
             }
+            depth++;
         }
         return depth;
     }
