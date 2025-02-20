@@ -62,6 +62,7 @@
 | [0917-boats-to-save-people](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0917-boats-to-save-people) |
 | [0948-sort-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0948-sort-an-array) |
 | [1034-subarrays-with-k-different-integers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1034-subarrays-with-k-different-integers) |
+| [1036-rotting-oranges](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1036-rotting-oranges) |
 | [1319-unique-number-of-occurrences](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1319-unique-number-of-occurrences) |
 | [1848-sum-of-unique-elements](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1848-sum-of-unique-elements) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
@@ -293,6 +294,7 @@
 | [0637-average-of-levels-in-binary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0774-maximum-depth-of-n-ary-tree) |
+| [1036-rotting-oranges](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1036-rotting-oranges) |
 | [2121-find-if-path-exists-in-graph](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2121-find-if-path-exists-in-graph) |
 ## Binary Tree
 |  |
@@ -384,6 +386,7 @@
 | [0200-number-of-islands](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0200-number-of-islands) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0898-transpose-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0898-transpose-matrix) |
+| [1036-rotting-oranges](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1036-rotting-oranges) |
 ## Simulation
 |  |
 | ------- |
