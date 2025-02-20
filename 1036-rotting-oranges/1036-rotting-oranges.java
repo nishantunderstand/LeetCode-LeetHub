@@ -5,6 +5,7 @@ Direction 4 Direction
 */
 
 class Solution {
+
     public class Pair{
         int i;
         int j;
@@ -17,6 +18,8 @@ class Solution {
         }
     }
 
+    // Thursday, February 20, 2025 3:31:19 PM
+    // Time Complexity:O(m*n) | Space Complexity:O(m*n)
     public int orangesRotting(int[][] grid) {    
         int rows = grid.length;        
         int cols = grid[0].length;
@@ -52,7 +55,7 @@ class Solution {
                 int ny = DY[d]+current.j;
 
                 if(isValid(nx,ny,grid)){
-                    grid[nx][ny]=2;
+                    grid[nx][ny]=2; //<--
                     que.offer(new Pair(nx,ny,current.t+1));
                 }                
             }
