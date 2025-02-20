@@ -3,13 +3,20 @@ DFS
 BFS 
 Topological Sort
 */
+// Leetcode : 207
 
+// Thursday, February 20, 2025 10:54:20 PM
+// Time Complexity:O(V+E) | Space Complexity:O(V+E)
 class Solution {
-    public boolean canFinish(int numCourses, int[][] prerequisites) {
+
+    public boolean canFinish(int numCourses, int[][] prerequisites) {    
+        if(numCourses==0) return true; //<--
+        if(prerequisites==null) return true; 
+        if(prerequisites.length==0) return true; //<--
         return dfsApproach(numCourses,prerequisites);    
     }
-    private boolean dfsApproach(int n,int[][] mat){
 
+    private boolean dfsApproach(int n,int[][] mat){
         List<List<Integer>> adj = buildGraph(n,mat);
         boolean[] vis = new boolean[n]; // <--
         boolean[] path = new boolean[n];
