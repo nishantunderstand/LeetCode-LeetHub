@@ -52,6 +52,7 @@
 | [0229-majority-element-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0238-product-of-array-except-self) |
 | [0260-single-number-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0260-single-number-iii) |
+| [0268-missing-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0287-find-the-duplicate-number) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -113,6 +114,7 @@
 | [0217-contains-duplicate](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0268-missing-number) |
 | [0295-find-median-from-data-stream](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0295-find-median-from-data-stream) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0628-maximum-product-of-three-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0628-maximum-product-of-three-numbers) |
@@ -162,6 +164,7 @@
 | [0137-single-number-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0137-single-number-ii) |
 | [0191-number-of-1-bits](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0191-number-of-1-bits) |
 | [0260-single-number-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0260-single-number-iii) |
+| [0268-missing-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0287-find-the-duplicate-number) |
 ## Math
 |  |
@@ -179,6 +182,7 @@
 | [0189-rotate-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0204-count-primes) |
 | [0258-add-digits](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0258-add-digits) |
+| [0268-missing-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0268-missing-number) |
 | [0279-perfect-squares](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0279-perfect-squares) |
 | [0628-maximum-product-of-three-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0628-maximum-product-of-three-numbers) |
 | [0856-consecutive-numbers-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0856-consecutive-numbers-sum) |
@@ -215,6 +219,7 @@
 | [0217-contains-duplicate](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0268-missing-number) |
 | [0387-first-unique-character-in-a-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0387-first-unique-character-in-a-string) |
 | [0560-subarray-sum-equals-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0560-subarray-sum-equals-k) |
 | [1034-subarrays-with-k-different-integers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1034-subarrays-with-k-different-integers) |
@@ -429,6 +434,7 @@
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0162-find-peak-element) |
 | [0209-minimum-size-subarray-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0209-minimum-size-subarray-sum) |
+| [0268-missing-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0287-find-the-duplicate-number) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0540-single-element-in-a-sorted-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0540-single-element-in-a-sorted-array) |
