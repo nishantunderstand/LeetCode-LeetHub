@@ -42,6 +42,7 @@
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0169-majority-element) |
+| [0189-rotate-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0204-count-primes) |
@@ -172,6 +173,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0168-excel-sheet-column-title](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0171-excel-sheet-column-number) |
+| [0189-rotate-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0204-count-primes) |
 | [0258-add-digits](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0258-add-digits) |
 | [0279-perfect-squares](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0279-perfect-squares) |
@@ -381,6 +383,7 @@
 | [0141-linked-list-cycle](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0141-linked-list-cycle) |
 | [0148-sort-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0160-intersection-of-two-linked-lists) |
+| [0189-rotate-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0287-find-the-duplicate-number) |
