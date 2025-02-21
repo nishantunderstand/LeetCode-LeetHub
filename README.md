@@ -37,6 +37,7 @@
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0136-single-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0137-single-number-ii) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0152-maximum-product-subarray) |
 | [0162-find-peak-element](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0169-majority-element) |
@@ -123,6 +124,7 @@
 | [0094-binary-tree-inorder-traversal](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0145-binary-tree-postorder-traversal) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0173-binary-search-tree-iterator](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0173-binary-search-tree-iterator) |
 | [0232-implement-queue-using-stacks](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0234-palindrome-linked-list) |
@@ -166,6 +168,7 @@
 | [0069-sqrtx](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0096-unique-binary-search-trees) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0168-excel-sheet-column-title](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0171-excel-sheet-column-number) |
 | [0204-count-primes](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0204-count-primes) |
