@@ -6,6 +6,8 @@ class Solution {
     }
 
 
+    // Saturday, February 22, 2025 11:18:17 PM
+    // Time Complexity:O(V+E) | Space Complexity:O(V+E)
     public int[] lexiographicallyOrder(int numCourses, int[][] prerequisites) {
         List<List<Integer>> adj = new ArrayList<>();        
         for(int i=0;i<numCourses;i++){
@@ -20,7 +22,7 @@ class Solution {
             adj.get(v).add(u);  //<-- 
         }
         // Any Order
-        PriorityQueue<Integer> que = new PriorityQueue<>();
+        PriorityQueue<Integer> que = new PriorityQueue<>(); //<--
         List<Integer> res = new ArrayList<>();
         // Inserting with Course is 0
         for(int i=0;i<numCourses;i++){
@@ -57,7 +59,7 @@ class Solution {
             adj.get(v).add(u);  //<-- 
         }
         // Any Order
-        Queue<Integer> que = new LinkedList<>();
+        Queue<Integer> que = new LinkedList<>(); //<--
         List<Integer> res = new ArrayList<>();
         // Inserting with Course is 0
         for(int i=0;i<numCourses;i++){
