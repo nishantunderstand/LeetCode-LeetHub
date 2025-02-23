@@ -1,6 +1,13 @@
 // Leetcode : 1020
 class Solution {
-    public int numEnclaves(int[][] grid) {
+    public int numEnclaves(int[][] grid) {     
+        return numEnclavesWITHOUTVIS(grid);
+        //return numEnclavesWithVis(grid);
+    }
+
+
+
+    public int numEnclavesWITHOUTVIS(int[][] grid) {
         // This is Modified Version Of Surrounded Region
         // Mark Cell that are connected to first row/Col or last row/col to Zero
 
@@ -24,6 +31,7 @@ class Solution {
         }
         return cnt;        
     }
+
     public void dfs(int[][] grid,int i,int j){
         int rows = grid.length;
         int cols = grid[0].length;
