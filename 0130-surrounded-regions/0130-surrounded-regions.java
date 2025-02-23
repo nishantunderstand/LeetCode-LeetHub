@@ -3,6 +3,12 @@
 
 class Solution {
     public void solve(char[][] board) {
+        striverSurroundedApproach(board);            
+    }
+
+    // Sunday, February 23, 2025 5:07:11 PM
+    // Time Complexity:O(V+En^2^nm*n) | Space Complexity:O(m*n)
+    public void striverSurroundedApproach(char[][] board) {
         int rows = board.length;
         int cols = board[0].length;
         boolean[][] vis = new boolean[rows][cols];
@@ -28,9 +34,7 @@ class Solution {
                     board[i][j]='X';
                 }
             }
-        }
-
-        
+        }        
     }
 
     public void dfs(char[][] board,boolean[][] vis ,int i,int j){
