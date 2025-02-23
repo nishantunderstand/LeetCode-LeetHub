@@ -15,6 +15,7 @@ class Solution {
         if(rows==0) return;
 
         /**
+        // Approach 1 
         // First Column and Last => Column ROW INDEX
         for(int i=0;i<rows;i++){            
             if(!vis[i][0] && board[i][0]=='O') dfs(board,vis,i,0); // First Col
@@ -26,6 +27,7 @@ class Solution {
             if(!vis[rows-1][j] && board[rows-1][j]=='O') dfs(board,vis,rows-1,j);   // Last Row                      
         }
         */
+        // Approach 2 | BEST OUT OF ALL
         for(int i=0;i<rows;i++){
             for(int j=0;j<cols;j++){
                 if( (i==0 || i==rows-1 || j==0 || j==cols-1) && board[i][j]=='O'){
@@ -33,9 +35,6 @@ class Solution {
                 }
             }
         }
-
-
-
 
         for(int i=0;i<rows;i++){
             for(int j=0;j<cols;j++){
