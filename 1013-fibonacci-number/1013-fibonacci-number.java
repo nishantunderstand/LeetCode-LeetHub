@@ -1,5 +1,9 @@
 class Solution {
     public int fib(int n) {
+        return recursiveSol(n);
+    }
+
+    public int recursiveSol(int n) {
         if(n==0){
             return 0;
         }
@@ -12,3 +16,6 @@ class Solution {
         return fibRecurr(n-1)+fibRecurr(n-2);
     }
 }
+
+
+    
