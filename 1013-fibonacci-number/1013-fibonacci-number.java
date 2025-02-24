@@ -6,6 +6,8 @@ class Solution {
         return dpHashMemo(n,memo);
     }
 
+    // Monday, February 24, 2025 7:11:45 PM
+    // Time Complexity:O(n) | Space Complexity:O(n)
     public int dpHashMemo(int n,HashMap<Integer,Integer> memo){
         if(n==0) return 0;
         if(n==1) return 1;
@@ -15,7 +17,8 @@ class Solution {
         return ways;
     }
 
-
+    // Monday, February 24, 2025 7:11:40 PM
+    // Time Complexity:O(2^n) | Space Complexity:O(n)
     public int recursiveSol(int n) {
         if(n==0){
             return 0;
