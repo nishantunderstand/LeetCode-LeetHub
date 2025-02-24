@@ -1,12 +1,28 @@
+// Leetcode : 70
 class Solution {
     public int climbStairs(int n) {
         int[] dp = new int[n+1];
         Arrays.fill(dp,-1);
+        HashMap<Integer,Integer> memo = new HashMap<>();
+
         //return recursive(n);
         //return dpBottomUp(n);
         //return dpMemo(n,dp);
-        return dpMemoMOD(n,dp);
+        //return dpMemoMOD(n,dp);
+        return dpHashMap(n,memo);
     }
+
+    // Monday, February 24, 2025 7:04:01 PM
+    // Time Complexity:O(n) | Space Complexity:O(n)
+    public int dpHashMap(int n,HashMap<Integer,Integer> memo){
+        if(n==0) return 1;
+        if(n<0) return 0;
+        if(memo.containsKey(n)) return memo.get(n);
+        int ways = dpHashMap(n-1,memo) + dpHashMap(n-2,memo);
+        memo.put(n,ways);
+        return ways;
+    }
+
 
     // Time Complexity:O(n) | Space Complexity:O(n)
      public int dpMemoMOD(int n,int[] dp) {
