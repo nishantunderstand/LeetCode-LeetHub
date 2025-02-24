@@ -19,10 +19,13 @@ class Solution {
         memo = new HashMap<>();
         return dpHashMemo(obstacleGrid,obstacleGrid.length-1,obstacleGrid[0].length-1);
     }
+
+    // Monday, February 24, 2025 8:30:32 PM
+    // Time Complexity:O(m*n) | Space Complexity:O(m*n)
     // Convert to 0-Based Indexing
     public int dpHashMemo(int[][] grid,int r,int c){
         if(r<0 || c<0 || grid[r][c]==OBSTACLE) return 0;
-        //if(r==0 && c==0 && grid[r][c]!=OBSTACLE) return 1;
+        //if(r==0 && c==0 && grid[r][c]!=OBSTACLE) return 1; // BEST TO Write Edge Case at Top
         if(r==0 && c==0) return 1;
         String state = r + "-"+ c;
         if(memo.containsKey(state)) return memo.get(state);
