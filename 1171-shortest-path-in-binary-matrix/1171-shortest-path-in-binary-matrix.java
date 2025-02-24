@@ -5,6 +5,57 @@ BFS
 */
 
 class Solution {
+    int len = Integer.MAX_VALUE;
+    public int shortestPathBinaryMatrix(int[][] grid) {
+        int rows = grid.length;
+        int cols = grid[0].length;
+        if(grid[0][0]==1 || grid[rows-1][cols-1]==1) return -1;
+        
+        boolean[][] vis = new boolean[rows][cols];
+        //backtrackingApproach(grid,0,0,vis,1); //<--
+        //return len==Integer.MAX_VALUE?-1:len;
+
+        return bfsApproach(grid);
+    }
+
+    // Monday, February 24, 2025 6:42:54 PM
+    // Time Complexity:O(8^n) | Space Complexity:O(n)
+    public void backtrackingApproach(int[][] grid,int i,int j,boolean[][] vis,int currLen){
+        int rows = grid.length;
+        int cols = grid[0].length;
+        if(i<0 || i>=rows || j<0 || j>=cols ||grid[i][j]==1||vis[i][j] ) return;
+        
+        if(currLen>=len) return; //<-- Pruning Earlier
+
+        if(i==rows-1 && j==cols-1){
+            len = Math.min(len,currLen);
+            return;
+        }
+        // if(currLen>=len) return; //<-- Prunning Later
+        
+
+        // if(grid[i][j]==1) return;  //<-- Prunning Later
+        // if(vis[i][j]) return;  //<-- Prunning Later
+
+
+        vis[i][j]=true;
+        backtrackingApproach(grid, i - 1, j - 1, vis, currLen + 1); // Top-left
+        backtrackingApproach(grid, i - 1, j, vis, currLen + 1);     // Top
+        backtrackingApproach(grid, i - 1, j + 1, vis, currLen + 1); // Top-right
+        backtrackingApproach(grid, i, j - 1, vis, currLen + 1);     // Left
+        backtrackingApproach(grid, i, j + 1, vis, currLen + 1);     // Right
+        backtrackingApproach(grid, i + 1, j - 1, vis, currLen + 1); // Bottom-left
+        backtrackingApproach(grid, i + 1, j, vis, currLen + 1);     // Bottom
+        backtrackingApproach(grid, i + 1, j + 1, vis, currLen + 1); // Bottom-right
+
+        vis[i][j]=false;
+    }
+
+
+
+
+
+
     private class Pair{
         int i;
         int j;
@@ -16,36 +67,9 @@ class Solution {
             this.len=len;
         }
     }
-    int len = Integer.MAX_VALUE;
-    public int shortestPathBinaryMatrix(int[][] grid) {
-        int rows = grid.length;
-        int cols = grid[0].length;
-        if(grid[0][0]==1 || grid[rows-1][cols-1]==1) return -1;
-        
-       
 
-        //backtrackingApproach(grid,0,0);
-        boolean[][] vis = new boolean[rows][cols];
-        //return len==Integer.MAX_VALUE?-1:len;
-        return bfsApproach(grid);
-    }
-    public void backtrackingApproach(int[][] grid,int i,int j,boolean[][] vis){
-        int rows = grid.length;
-        int cols = grid[0].length;
-        if(i<0 || i>=rows || j<0 || j>=cols) return;
-        if(grid[i][j]==1) return;
-        if(vis[i][j]) return;
-
-        vis[i][j]=true;
-        backtrackingApproach(grid,i,j,vis);
-        backtrackingApproach(grid,i,j,vis);
-        backtrackingApproach(grid,i,j,vis);
-        backtrackingApproach(grid,i,j,vis);
-        backtrackingApproach(grid,i,j,vis);
-        vis[i][j]=false;
-
-    }
-
+    // Monday, February 24, 2025 6:43:34 PM
+    // Time Complexity:O(m*n) | Space Complexity:O(m*n)
     public int bfsApproach(int[][] grid) {
         int sr = 0,sc = 0;
         int rows = grid.length, cols = grid[0].length;
