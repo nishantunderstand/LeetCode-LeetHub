@@ -79,6 +79,7 @@
 | [1034-subarrays-with-k-different-integers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1073-number-of-enclaves) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1319-unique-number-of-occurrences](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1319-unique-number-of-occurrences) |
 | [1848-sum-of-unique-elements](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1848-sum-of-unique-elements) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
@@ -346,6 +347,7 @@
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0774-maximum-depth-of-n-ary-tree) |
 | [1036-rotting-oranges](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1073-number-of-enclaves) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1171-shortest-path-in-binary-matrix) |
 | [2121-find-if-path-exists-in-graph](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2121-find-if-path-exists-in-graph) |
 ## Binary Tree
 |  |
@@ -449,6 +451,7 @@
 | [0898-transpose-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0898-transpose-matrix) |
 | [1036-rotting-oranges](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1073-number-of-enclaves) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Simulation
 |  |
 | ------- |
