@@ -22,7 +22,7 @@ class Solution {
     public int dpHashMemo(int[] nums, int n){
         if(n<0) return 0;
         if(n==0) return nums[0];
-        String state = n + "-";
+        String state = n + "-"; // You need to create a Unique Key
         if(memo.containsKey(state)) return memo.get(state);
         
         int dont = dpHashMemo(nums,n-1);
