@@ -1,9 +1,11 @@
- class Solution {
+// Leetcode : 62
+class Solution {
     public int uniquePaths(int m, int n) {
         int[][] dp = new int[m][n];
         for(int[] rowArr:dp){
             Arrays.fill(rowArr,-1);
         }
+        HashMap<String,Integer> memo = new HashMap<>(); //<--
         //return recSol(0,0,m,n);
         //return backtracking(0,0,m,n);
         //return dpTopDownMatrix(m,n,dp);
@@ -14,7 +16,20 @@
         //return prefixSum(m,n); Pending
         //return combinatorics(m,n); Pending
         //return dpBottomUpStriver(m-1,n-1,dp);
-        return dpMemo(m-1,n-1,dp);
+        //return dpMemo(m-1,n-1,dp);
+        return dpHashMemo(m,n,memo);
+    }
+
+    public int dpHashMemo(int m,int n,HashMap<String,Integer> memo){
+        if(m<0 || n<0 ) return 0;
+        if(m==0 && n==0) return 0;
+        if(m==1 && n==1) return 1;
+        String state = m +"-"+n; // Why - To make a Unique Key Signature
+        if(memo.containsKey(state)) return memo.get(state); //<--
+        int left = dpHashMemo(m-1,n,memo);
+        int up = dpHashMemo(m,n-1,memo);
+        memo.put(state,left+up);
+        return left+up; //<--
     }
     
     // 0-Based Indexing
