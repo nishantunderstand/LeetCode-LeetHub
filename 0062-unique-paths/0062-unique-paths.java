@@ -23,7 +23,7 @@ class Solution {
 
     public int dpHashMemo(int m,int n,HashMap<String,Integer> memo){
         if(m<0 || n<0 ) return 0;
-        //if(m==0 && n==0) return 1;
+        //if(m==0 && n==0) return 1; // <-- 0 Based Indexing
         if(m==1 && n==1) return 1; // <-- 1 Based Indexing 
         String state = m +"-"+n; // Why - To make a Unique Key Signature
         if(memo.containsKey(state)) return memo.get(state); //<--
