@@ -1,4 +1,8 @@
+// Leetcode : 198
 class Solution {
+    private HashMap<Integer,Integer> memo;
+    int[] nums;
+
     public int rob(int[] nums) {
         int len = nums.length;
         int[] dp = new int[len+1];
@@ -6,18 +10,43 @@ class Solution {
 
         //return backtracking(nums,nums.length-1);
         //return dpTopDown(nums,dp,len-1); 
-        return dpBottomUp(nums); //Pending
+        //return dpBottomUp(nums); 
         //return dpSpace(); //Pending
         //return prefixApproach(); //Pending
-    }
-    
-    public int dpBottomUp(int[] nums) {
-        int len = nums.length;
         
+        memo = new HashMap<>();
+        return dpHashMemo(nums, nums.length-1);
+    }
+
+    public int dpHashMemo(int[] nums, int n){
+        if(n<0) return 0;
+        if(n==0) return nums[0];
+        // String state = n + "-"; NO NEED
+        if(memo.containsKey(n)) return memo.get(n);
+        int dont = dpHashMemo(nums,n-1);
+        int take = nums[n] + dpHashMemo(nums,n-2);
+        int result = Math.max(dont,take);
+        memo.put(n,result);
+        return result;
+    }
+
+    //PENDING 
+    public int dpSpace(int[] nums) {
+        int len = nums.length;        
+        if(len==0) return 0;
+        if(len==1) return nums[0];
+        return 0;        
+    }
+
+    // Thursday, January 9, 2025 10:31:58 PM
+    // Time Complexity:O(n) | Space Complexity:O(n)
+    public int dpBottomUp(int[] nums) {
+        int len = nums.length;        
         if(len==0) return 0;
         if(len==1) return nums[0];
 
-        int[] dp = new int[len+1]; // Whyn't len+1
+        //int[] dp = new int[len+1]; // Working Fine 
+        int[] dp = new int[len]; // Working Fine
         Arrays.fill(dp,-1);
         dp[0]=nums[0];
         //dp[0]=Math.max(0,nums[0]); // Only Postive Value Given
