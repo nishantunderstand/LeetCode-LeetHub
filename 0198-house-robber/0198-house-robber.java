@@ -1,6 +1,7 @@
 // Leetcode : 198
 class Solution {
-    private HashMap<Integer,Integer> memo;
+    //private HashMap<Integer,Integer> memo; //<--
+    private HashMap<String,Integer> memo; //<--
     int[] nums;
 
     public int rob(int[] nums) {
@@ -21,7 +22,23 @@ class Solution {
     public int dpHashMemo(int[] nums, int n){
         if(n<0) return 0;
         if(n==0) return nums[0];
-        // String state = n + "-"; NO NEED
+        String state = n + "-";
+        if(memo.containsKey(state)) return memo.get(state);
+        
+        int dont = dpHashMemo(nums,n-1);
+        int take = nums[n] + dpHashMemo(nums,n-2);
+        int result = Math.max(dont,take);
+        
+        memo.put(state,result);
+        return result;
+    }
+    
+    /**
+    // Without String 
+    public int dpHashMemo(int[] nums, int n){
+        if(n<0) return 0;
+        if(n==0) return nums[0];
+        // String state = n + "-"; //NO NEED
         if(memo.containsKey(n)) return memo.get(n);
         int dont = dpHashMemo(nums,n-1);
         int take = nums[n] + dpHashMemo(nums,n-2);
@@ -29,6 +46,7 @@ class Solution {
         memo.put(n,result);
         return result;
     }
+    */
 
     //PENDING 
     public int dpSpace(int[] nums) {
