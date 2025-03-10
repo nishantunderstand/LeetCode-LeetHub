@@ -11,7 +11,7 @@ class Solution {
     // Tuesday, December 17, 2024 10:46:30 PM
     // Time Complexity:O(n) | Space Complexity:O(1)
     public int kadaneAlgorithm(int[] nums) {
-        int maxSum = Integer.MIN_VALUE;
+        int maxSum = Integer.MIN_VALUE; //<--
         int csum = 0;
         for (int i = 0; i < nums.length; i++) {
             csum += nums[i];
@@ -22,6 +22,7 @@ class Solution {
         }
         return maxSum;
     }
+    
     // Tuesday, December 17, 2024 10:46:34 PM
     // Time Complexity:O(n^2) | Space Complexity:O(1)
     // TLE
@@ -33,9 +34,7 @@ class Solution {
                 sum += nums[j];
                 maxi = Math.max(sum, maxi);
             }
-
         }
         return maxi;
     }
-
 }
