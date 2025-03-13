@@ -3,6 +3,8 @@ class Solution {
     public int kthGrammar(int n, int k) {
         return findKthSymbolMIK(n,k);
     }
+    // Thursday, March 13, 2025 9:47:02 PM
+    // Time Complexity:O(n) | Space Complexity:O(1)
     public int findKthSymbolMIK(int n,int k){
         if(n==1) return 0; //<-- 
 
