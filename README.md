@@ -179,6 +179,7 @@
 | [0260-single-number-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0287-find-the-duplicate-number) |
+| [0795-k-th-symbol-in-grammar](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0795-k-th-symbol-in-grammar) |
 ## Math
 |  |
 | ------- |
@@ -198,6 +199,7 @@
 | [0268-missing-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0268-missing-number) |
 | [0279-perfect-squares](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0279-perfect-squares) |
 | [0628-maximum-product-of-three-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0628-maximum-product-of-three-numbers) |
+| [0795-k-th-symbol-in-grammar](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0795-k-th-symbol-in-grammar) |
 | [0856-consecutive-numbers-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0856-consecutive-numbers-sum) |
 | [1013-fibonacci-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1013-fibonacci-number) |
 | [2507-number-of-common-factors](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2507-number-of-common-factors) |
@@ -543,6 +545,7 @@
 | [0050-powx-n](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0234-palindrome-linked-list) |
+| [0795-k-th-symbol-in-grammar](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0795-k-th-symbol-in-grammar) |
 | [1013-fibonacci-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1013-fibonacci-number) |
 ## Backtracking
 |  |
