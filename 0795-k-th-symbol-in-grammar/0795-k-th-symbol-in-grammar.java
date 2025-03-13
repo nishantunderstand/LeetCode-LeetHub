@@ -12,7 +12,7 @@ class Solution {
         int len1 = (int) Math.pow(2,n-1);
         
         // Approach 2
-        int len = 1<<(n-1); //<-- We Need ONLY n-2
+        int len = 1<<(n-1); //<--
 
         int mid = len/2;
 
