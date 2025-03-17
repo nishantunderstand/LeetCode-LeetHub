@@ -1,5 +1,26 @@
+// Leetcode : 724
 class Solution {
     public int pivotIndex(int[] nums) {
+        return modifiedRunningSum(nums);
+        //return runningSum(nums);
+    }
+
+    private int runningSum(int[] nums) {
+        int tSum = 0;
+        for(int num:nums){
+            tSum += num;
+        }
+        int lSum = 0,rSum=tSum;
+        // Iterate with Index
+        for(int i=0;i<nums.length;i++){
+            rSum -= nums[i];
+            if(lSum==rSum) return i;
+            lSum += nums[i];
+        }
+        return -1;
+    }
+
+    public int modifiedRunningSum(int[] nums) {
         int n = nums.length;
         if(nums==null||n==0){
             return -1;
