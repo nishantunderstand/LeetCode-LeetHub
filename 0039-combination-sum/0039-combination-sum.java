@@ -12,16 +12,20 @@ class Solution {
     // Tuesday, February 11, 2025 9:46:24 PM
     // Time Complexity:O(2^n) | Space Complexity:O(n)    
     public void backtrackingApproach(int[] candidates,int target,int index, List<List<Integer>> res, List<Integer> curr){
+        // Base Case
         if(target==0){
             res.add(new ArrayList<Integer>(curr));
             return;
         }
+        // Guard Case
         if(target<0 || index==candidates.length) return; //<--
         
+        // Pick 
         curr.add(candidates[index]);
-        backtrackingApproach(candidates,target-candidates[index],index,res,curr);
+        backtrackingApproach(candidates,target-candidates[index],index,res,curr); //<--
         curr.remove(curr.size()-1);
         
+        // NotPick
         backtrackingApproach(candidates,target,index+1,res,curr);        
     }  
 
@@ -35,7 +39,7 @@ class Solution {
         
         for(int i=index;i<candidates.length;i++){
             curr.add(candidates[i]);
-            backtrackingApproachFor(candidates,target-candidates[i],i,res,curr); //<--
+            backtrackingApproachFor(candidates,target-candidates[i], i,res,curr); //<--
             curr.remove(curr.size()-1);
         }        
     }  
