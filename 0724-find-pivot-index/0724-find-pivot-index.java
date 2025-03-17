@@ -5,6 +5,8 @@ class Solution {
         //return runningSum(nums);
     }
 
+    // Monday, March 17, 2025 9:11:46 PM
+    // Time Complexity:O(n) | Space Complexity:O(1)
     private int runningSum(int[] nums) {
         int tSum = 0;
         for(int num:nums){
@@ -20,6 +22,8 @@ class Solution {
         return -1;
     }
 
+    // Monday, March 17, 2025 9:11:46 PM
+    // Time Complexity:O(n) | Space Complexity:O(1)
     public int modifiedRunningSum(int[] nums) {
         int n = nums.length;
         if(nums==null||n==0){
