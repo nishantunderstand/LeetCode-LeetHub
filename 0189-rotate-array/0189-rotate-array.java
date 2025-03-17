@@ -15,9 +15,7 @@ class Solution {
         reverse(nums,0,nums.length-1);
     }
 
-    private void reverse(int[] arr, int x,int y){
-        int i=x;
-        int j=y;
+    private void reverse(int[] arr, int i,int j){
         while(i<=j){
             int temp = arr[i];
             arr[i]=arr[j];
