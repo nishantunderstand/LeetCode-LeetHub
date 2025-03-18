@@ -24,6 +24,7 @@ class Solution {
         return sb.toString();
     }
 
+    // Time Complexity:O(n) | Space Complexity:O(n)
     public String forwardApproach(String s) {
         Stack<Character> st = new Stack<>();
         int len = s.length();
@@ -40,7 +41,8 @@ class Solution {
         return sb.reverse().toString();
     }
 
-
+    // Tuesday, March 18, 2025 6:42:39 PM
+    // Time Complexity:O(n) | Space Complexity:O(n)
     public String removeStarsNew(String s) {
         Stack<Character> st = new Stack<>();
         for(int i=0;i<s.length();i++){
