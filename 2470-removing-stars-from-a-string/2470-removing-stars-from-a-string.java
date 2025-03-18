@@ -1,13 +1,13 @@
 //LeetCode 2390
-
 class Solution {
     public String removeStars(String s) {
-        return forwardApproach(s);
-        // return backwardApproach(s);
+        //return forwardApproach(s);
+        //return backwardApproachWRONG(s);
+        return removeStarsNew(s);
     }
 
     // WILL LEAD TO INCORRECT RESULT 
-    public String backwardApproach(String s) {
+    public String backwardApproachWRONG(String s) {
         Stack<Character> st = new Stack<>();
         int len = s.length();
         if(s==null || len==0) return "";
@@ -39,4 +39,29 @@ class Solution {
         }
         return sb.reverse().toString();
     }
+
+
+    public String removeStarsNew(String s) {
+        Stack<Character> st = new Stack<>();
+        for(int i=0;i<s.length();i++){
+            char curr = s.charAt(i);
+            if(curr =='*' && !st.isEmpty()){                
+                st.pop();
+            }else{
+                st.push(curr);
+            }
+        }
+        StringBuilder res = new StringBuilder();
+        while(!st.isEmpty()){
+            res.append(st.pop());
+        }
+        return res.reverse().toString();
+    }
+    /**
+    leet**c******
+    st => lec
+    What if we have more number of ***
+    erase*****
+    How this is Handled ??
+    */
 }
