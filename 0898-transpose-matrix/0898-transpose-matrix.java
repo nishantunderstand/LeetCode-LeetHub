@@ -1,12 +1,12 @@
-/**
-Friday, November 15, 2024 8:56:58 PM
-T.C - O(row*col)
-S.C - O(row*col)
-*/
-
-
+// Leetcode : 867
 class Solution {
-    public int[][] transpose(int[][] matrix) {
+    public int[][] transpose(int[][] matrix) {        
+        return newArray(matrix);
+    }
+
+    // Friday, November 15, 2024 8:56:58 PM
+    // T.C - O(row*col) | S.C - O(row*col)
+    public int[][] newArray(int[][] matrix) {
         int row = matrix.length;
         int col = matrix[0].length;
         if(matrix==null || row==0||col==0) return new int[0][0];
