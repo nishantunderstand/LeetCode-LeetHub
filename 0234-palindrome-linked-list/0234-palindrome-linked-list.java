@@ -31,6 +31,7 @@ class Solution {
         return isPalin;
     }
 
+    // Time Complexity:O(n) | Space Complexity:O(1)
     public boolean isEqual(ListNode head1,ListNode head2){
         // Should I Check for Length Mismatch ?
         while(head1!=null && head2!=null){ //<--
@@ -41,6 +42,7 @@ class Solution {
         return true;
     }
 
+    // Time Complexity:O(n) | Space Complexity:O(1)
     public ListNode reverse(ListNode head){
         ListNode prev = null;
         ListNode curr = head;
@@ -53,6 +55,7 @@ class Solution {
         return prev;
     }
 
+    // Time Complexity:O(n) | Space Complexity:O(1)
     public ListNode findMiddle(ListNode head){
         ListNode fast = head;
         ListNode slow = head;
