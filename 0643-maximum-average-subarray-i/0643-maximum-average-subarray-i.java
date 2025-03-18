@@ -2,6 +2,7 @@
 class Solution {
     public double findMaxAverage(int[] nums, int k) {
         //return bruteForce(nums,k);
+        //return slidingWindowCaterpillarWRONG(nums,k);
         return slidingWindow(nums,k);
     }
 
@@ -25,7 +26,7 @@ class Solution {
 
 
     // nums = [-1] k=1 FAILED
-    public double slidingWindowWRONG(int[] nums, int k) {
+    public double slidingWindowCaterpillarWRONG(int[] nums, int k) {
         int len = nums.length;
         //if(len==1)
         //double max = Double.MIN_VALUE; //WRONG ;
