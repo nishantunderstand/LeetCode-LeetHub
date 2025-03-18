@@ -10,6 +10,9 @@
  */
 
 // LeetCode 234
+
+// Tuesday, March 18, 2025 7:54:37 PM
+// Time Complexity:O(n) | Space Complexity:O(1)
 class Solution {
     public boolean isPalindrome(ListNode head) {
         if(head==null) return false; // No LL
@@ -17,18 +20,19 @@ class Solution {
         
         // Find Middle
         ListNode mid = findMiddle(head);
-        ListNode reverseNode = reverse(mid);
 
+        ListNode reverseNode = reverse(mid);
 
         boolean isPalin = isEqual(head,reverseNode);
 
-        // Restore the Node (Is Optinal)
+        // Restore the Node (Best Pratices)
         reverse(reverseNode); //<--
         
         return isPalin;
     }
 
     public boolean isEqual(ListNode head1,ListNode head2){
+        // Should I Check for Length Mismatch ?
         while(head1!=null && head2!=null){ //<--
             if(head1.val!=head2.val) return false;
             head1=head1.next;
@@ -41,10 +45,10 @@ class Solution {
         ListNode prev = null;
         ListNode curr = head;
         while(curr!=null){ //<--
-            ListNode newNode = curr.next;
+            ListNode temp = curr.next; //<--
             curr.next = prev;
             prev = curr;
-            curr = newNode;
+            curr = temp;
         }
         return prev;
     }
