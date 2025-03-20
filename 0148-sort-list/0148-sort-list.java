@@ -14,6 +14,8 @@ class Solution {
         return mergeLL(head);
     }
 
+    // Thursday, March 20, 2025 5:55:02 PM
+    // Time Complexity:O(nlogn) | Space Complexity:O(logn)
     public ListNode mergeLL(ListNode head) {
         if (head == null || head.next == null) return head;
         ListNode mid = findMiddle(head);
@@ -23,20 +25,24 @@ class Solution {
 
         ListNode left = mergeLL(head);
         ListNode right = mergeLL(head2);
-        return merge(left, right);
+        return merge2LL(left, right);
     }
 
+    // 1 → 2 → 3 → 4
+    // 1 → 2 → 3 → 4 → 5
+    // Time Complexity:O(n) | Space Complexity:O(1)
     public ListNode findMiddle(ListNode head) {
         ListNode fast = head;
         ListNode slow = head;
-        while (fast != null && fast.next != null && fast.next.next != null) {
+        while (fast != null && fast.next != null && fast.next.next != null) { //<--
             fast = fast.next.next;
             slow = slow.next;
         }
         return slow;
     }
 
-    public ListNode merge(ListNode left, ListNode right) {
+    // Time Complexity:O(n) | Space Complexity:O(1)
+    public ListNode merge2LL(ListNode left, ListNode right) {
         ListNode dummy = new ListNode(-1);
         ListNode curr = dummy;
         while (left != null && right != null) {
