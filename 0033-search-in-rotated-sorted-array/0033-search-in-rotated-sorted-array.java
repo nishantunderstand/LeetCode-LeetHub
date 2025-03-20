@@ -1,5 +1,12 @@
 class Solution {
     public int search(int[] nums, int target) {
+        return binarySearchApproach(nums,target);
+        //return linearSearchApproach(nums,target);
+    }
+
+    // Thursday, March 20, 2025 6:01:27 PM
+    // Time Complexity:O(nlogn) | Space Complexity:O(1)
+    public int binarySearchApproach(int[] nums, int target) {
         int low = 0;
         int high = nums.length-1;
         while(low<=high){
@@ -26,5 +33,17 @@ class Solution {
             }
         }
         return-1;
+    }
+
+
+    // Thursday, March 20, 2025 6:01:11 PM
+    // Time Complexity:O(n) | Space Complexity:O(1)
+    public int linearSearchApproach(int[] nums, int target) {
+        for(int i=0;i<nums.length;i++){
+            if(nums[i]==target){
+                return i;
+            }
+        }
+        return -1;
     }
 }
