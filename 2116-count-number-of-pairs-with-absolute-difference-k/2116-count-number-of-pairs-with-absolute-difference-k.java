@@ -6,26 +6,25 @@
     nums[i]-k, nums[i]+k
     Do i need to use Math.abs ? No need.
 4. Hashset , Not clear  , It will not store Duplicate , Not a Correct Approach
+
 */
 
+// Leetcode : 2006
 class Solution {
     public int countKDifference(int[] nums, int k) {
         //return bruteForce(nums,k);
         return hashMapApproach(nums,k);
-        //return hashSetApproach(nums,k);    
+        //return hashSetApproachDuplicateIssue(nums,k); // Will it handle Duplicates     
         
 
     }
 
-    public int hashSetApproach(int[] nums, int k) {
+    public int hashSetApproachDuplicateIssue(int[] nums, int k) {
         int n = nums.length;
         if(n==0){
             return 0;
         }
         HashSet<Integer> hs = new HashSet<>();
-        for(int i=0;i<n;i++){
-           
-        }
         return 0;
     }
 
