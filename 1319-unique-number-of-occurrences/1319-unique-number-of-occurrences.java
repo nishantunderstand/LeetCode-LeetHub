@@ -8,7 +8,6 @@ If the Value of hashmap are unique, then return true else return false
 3 - 1
 Everything is Distinct | Return True
 
-
 [1,2]
 1 - 1
 2 - 1
@@ -19,8 +18,8 @@ Same | Return False
 // Leetcode : 1207
 class Solution {
     public boolean uniqueOccurrences(int[] arr) {
-        return hashMapAndHashSet(arr);
-        //return hashMapAndHashSetMOD(arr);
+        //return hashMapAndHashSet(arr);
+        return hashMapAndHashSetMOD(arr);
 
     }
     // Friday, February 7, 2025 5:54:15 PM
