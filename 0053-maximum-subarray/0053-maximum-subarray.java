@@ -2,17 +2,19 @@
 class Solution {
     public int maxSubArray(int[] nums) {
         //return bruteForce(nums); 
-        //return kadaneAlgorithm(nums);
+        return kadaneAlgorithm(nums);
         //return prefixSum(nums); 
-        return carryForward(nums);
+        //return carryForward(nums);
         //return slidingWindow(nums);
     }
 
+    // Friday, March 21, 2025 6:33:50 PM
+    // Time Complexity:O(n^2) | Space Complexity:O(n)
     private int prefixSum(int[] nums) {
         int n = nums.length;
-        int[] prefix = new int[n+1];
+        int[] prefix = new int[n+1];        
         // Out of Place - Prefix Sum
-        for(int i=0;i<n;i++){
+        for(int i=0;i<n;i++){ //<---
             prefix[i+1]=prefix[i] + nums[i];
         }
         int maxSum = Integer.MIN_VALUE;
@@ -24,7 +26,8 @@ class Solution {
         return maxSum;
     }
 
-
+    // Friday, March 21, 2025 6:34:11 PM
+    // Time Complexity:O(n) | Space Complexity:O(1)
     private int carryForward(int[] nums) {
         int n = nums.length;    
         int maxSum = Integer.MIN_VALUE;
@@ -36,7 +39,6 @@ class Solution {
         }
         return maxSum;
     }
-
 
     private int slidingWindowFailedNegative(int[] nums) {
         int maxSum = Integer.MIN_VALUE;
