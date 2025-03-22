@@ -5,6 +5,8 @@ class Solution {
         //return hashSetApproach(nums1,nums2);
     }
 
+    // Saturday, March 22, 2025 10:10:29 AM
+    // Time Complexity:O(n) | Space Complexity:O(n)
     private int[] hashSetApproach(int[] nums1, int[] nums2) {
         HashSet<Integer> set = new HashSet<>();
         HashSet<Integer> resultSet = new HashSet<>();
@@ -25,7 +27,8 @@ class Solution {
         return result;
     }
 
-    
+    // Saturday, March 22, 2025 10:10:29 AM
+    // Time Complexity:O(n) | Space Complexity:O(n)    
     private int[] hashMapApproach(int[] nums1, int[] nums2) {
         HashMap<Integer,Integer> hm = new HashMap<>();
         ArrayList<Integer> res = new ArrayList<>();
@@ -50,16 +53,16 @@ class Solution {
            hm.put(nums1[i],hm.getOrDefault(nums1[i],0)+1);
         }
 
-
         for(int i=0;i<nums2.length;i++){
             int val = nums2[i];
             if(hm.containsKey(val)){
                 res.add(val);
-                hm.remove(val);
+                hm.remove(val); //<--
             }
         }
         
         // ArrayList to Array 
+        
         // Step 1
         // return res.stream().mapToInt(Integer::intValue).toArray();
 
