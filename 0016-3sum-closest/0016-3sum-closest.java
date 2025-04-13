@@ -9,7 +9,9 @@ class Solution {
     public int twoPointerApproach(int[] nums, int target) {
         int len = nums.length;
         if (nums == null || len < 3) return 0;
-        int closestSum = Integer.MAX_VALUE;
+        int closestSum1 = Integer.MAX_VALUE;
+        int closestSum2 = Integer.MIN_VALUE;
+        int closestSum = nums[0] + nums[1] + nums[2];
         Arrays.sort(nums);
 
         for (int i = 0; i < len; i++) {
