@@ -1,19 +1,26 @@
-/**
- * Can we Convert to 111 then count no of set bits ? Will this approach make
- * sense ?
- * Brute Force Approach O(n)
- */
-
+// Leetcode : 191
 class Solution {
     public int hammingWeight(int n) {
         //return stringApproach(n);
         //return keriningApproach(n);
-        return iterateFromEnd(n);
+        return countBitsByIteratingEachBit(n);
+        //return countBitsBrianKernighan(n);
+    }
+
+    // Tuesday, April 15, 2025 7:25:19 PM
+    // Time Complexity:O(logn) | Space Complexity:O(1)
+    private int countBitsBrianKernighan(int n) {
+        int cnt = 0;
+        while(n!=0){
+            cnt++;
+            n = n & (n-1);
+        }
+        return cnt;
     }
 
     // Sunday, December 29, 2024 12:37:58 PM
     // Time Complexity:O(32) | Space Complexity:O(1)
-    public int iterateFromEnd(int n) {
+    public int countBitsByIteratingEachBit(int n) {
         int count = 0;
         for (int i = 0; i < 32; i++) {
             if ((n & (1 << i)) != 0)
