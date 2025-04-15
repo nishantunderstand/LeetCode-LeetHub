@@ -3,9 +3,49 @@ class Solution {
         // return defaultMethod(nums);
         // return heapSort(nums);
         //return heapSortJitender(nums);
-        return quickSortHoare(nums,0,nums.length-1);
+        //return quickSortHoare(nums,0,nums.length-1);
         //return quickSortLomuto(nums,0,nums.length-1); //TLE
+        return mergeSort(nums);
     }
+
+    private int[] mergeSort(int[] nums){
+        mergeSortHelper(nums,0,nums.length-1);
+        return nums;
+    }
+
+    private void mergeSortHelper(int[] nums,int beg,int end){
+        if(beg<end){ //<--
+            int mid = beg +  (end - beg)/2;
+            mergeSortHelper(nums,beg,mid);
+            mergeSortHelper(nums,mid+1,end); //<--
+            mergeTwoArray(nums,beg,mid,end);
+        }
+    }
+
+    private void mergeTwoArray(int[] nums,int start, int mid, int end) {
+        int[] left = Arrays.copyOfRange(nums,start,mid+1);
+        int[] right = Arrays.copyOfRange(nums,mid+1,end+1);
+
+        int i=0,j=0;
+        int k = start; //<--
+
+        while(i<left.length && j < right.length){
+            if(left[i]<right[j]){ //<--
+                nums[k++]=left[i++]; //<--
+            }else{ 
+                nums[k++]=right[j++]; //<--
+            }
+        }
+        while(i<left.length){
+            nums[k++] = left[i++]; //<--
+        }
+
+        while(j<right.length){
+            nums[k++] = right[j++]; //<--
+        }
+    }
+
+
 
     // TLE in All Cases
     public int[] quickSortLomuto(int[] nums,int start,int end) {
