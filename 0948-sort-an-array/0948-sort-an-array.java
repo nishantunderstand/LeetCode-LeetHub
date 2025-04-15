@@ -8,11 +8,14 @@ class Solution {
         return mergeSort(nums);
     }
 
+    // Tuesday, April 15, 2025 9:42:16 PM
+    // Time Complexity:O(nlogn) | Space Complexity:O(n)
     private int[] mergeSort(int[] nums){
         mergeSortHelper(nums,0,nums.length-1);
         return nums;
     }
 
+    // Time Complexity:O(logn) | Space Complexity:O(logn)
     private void mergeSortHelper(int[] nums,int beg,int end){
         if(beg<end){ //<--
             int mid = beg +  (end - beg)/2;
@@ -22,6 +25,7 @@ class Solution {
         }
     }
 
+    // Time Complexity:O(n) | Space Complexity:O(n)
     private void mergeTwoArray(int[] nums,int start, int mid, int end) {
         int[] left = Arrays.copyOfRange(nums,start,mid+1);
         int[] right = Arrays.copyOfRange(nums,mid+1,end+1);
