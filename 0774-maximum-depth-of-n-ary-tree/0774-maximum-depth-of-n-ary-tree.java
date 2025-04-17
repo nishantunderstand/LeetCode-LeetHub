@@ -20,10 +20,21 @@ class Node {
 // Leetcode : 559
 class Solution {
     public int maxDepth(Node root) {
-        //return dfsApproach(root);
-        return bfsApproach(root);
+        return dfsApproach(root);
+        //return bfsApproach(root);
     }
 
+    private int dfsApproach(Node root){
+        if(root==null) return 0;
+        int maxDepth = 0;
+        for(Node child : root.children){
+            maxDepth =  Math.max(maxDepth, dfsApproach(child));
+        }
+        return maxDepth+1;
+    }
+
+    // Tuesday, February 18, 2025 9:33:20 PM
+    // Time Complexity:O(n) | Space Complexity:O(HeightOfTree)
     public int bfsApproach(Node root){
         if(root==null) return 0;
         Queue<Node> que = new LinkedList<>();
