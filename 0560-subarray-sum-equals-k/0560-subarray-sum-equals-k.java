@@ -4,18 +4,17 @@ class Solution {
         //return bruteForceApproach(nums,k);
         //return slidingWindowCaterpillarMethodPOSTIVEARRAYONLY(nums, k); // FAILS For K==0
         return prefixhashMapApproach(nums,k);
+        // return hashSetApproach(nums,k);// Will it Work for Duplicate ??
        
     }
-
 
     // T.C - O(n)| S.C - O(n)
     public int prefixhashMapApproach(int[] nums, int k) {
         int n = nums.length;
         if (n <= 0)
             return 0;
-
         HashMap<Integer, Integer> hm = new HashMap<>();
-        hm.put(0, 1);
+        hm.put(0, 1); //<--
         int csum = 0;
         int cnt = 0;
         for (int i = 0; i < n; i++) {
