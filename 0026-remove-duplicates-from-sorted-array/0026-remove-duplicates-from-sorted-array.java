@@ -1,12 +1,13 @@
-/**
- * Array Size
- * <0,0,
-    How these code is different from Remove Duplicate in Array.
-    Here we are using modified version of RemoveDuplicate in Array
- */
-
+// Leetcode : 26
 class Solution {
     public int removeDuplicates(int[] nums) {
+        return inplaceApproach(nums);
+        
+    }
+
+    // Wednesday, April 23, 2025 6:32:02 PM
+    // Time Complexity:O(n) | Space Complexity:O(1)
+    public int inplaceApproach(int[] nums) {
         if (nums.length <= 0) {
             return 0;
         }
