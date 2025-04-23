@@ -1,9 +1,11 @@
+// Leetcode : 34
 class Solution {
     public int[] searchRange(int[] nums, int target) {
-        // Am i applying correct Edge cases or not ?
-        if(nums==null||target<0){
+        
+        if(nums==null||nums.length==0){
             return new int[]{-1,-1};
         }
+        
         // Finding 1st
         int first = -1;
         int lo = 0;
@@ -19,6 +21,8 @@ class Solution {
                 lo = mid+1;
             }
         }
+
+        // findingLast
         int last = -1;
         lo = 0;
         hi = nums.length-1;
