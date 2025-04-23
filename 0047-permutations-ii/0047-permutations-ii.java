@@ -23,7 +23,8 @@ class Solution {
 
         for(int i=0;i<nums.length;i++){
             if(vis[i]) continue;
-            if(i!=0 && nums[i]==nums[i-1] && !vis[i-1]) continue; // <-- This is Additional Line
+            //if(i!=0 && nums[i]==nums[i-1] && !vis[i-1]) continue; // <-- This is Additional Line
+            if(i>0 && nums[i]==nums[i-1] && !vis[i-1]) continue; // <-- This is Additional Line
 
             curr.add(nums[i]);
             vis[i]=true;
