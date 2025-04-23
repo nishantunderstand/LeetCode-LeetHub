@@ -31,9 +31,7 @@ class Solution {
             len = Math.min(len,currLen);
             return;
         }
-        // if(currLen>=len) return; //<-- Prunning Later
-        
-
+        // if(currLen>=len) return; //<-- Prunning Later        
         // if(grid[i][j]==1) return;  //<-- Prunning Later
         // if(vis[i][j]) return;  //<-- Prunning Later
 
@@ -53,9 +51,6 @@ class Solution {
 
 
 
-
-
-
     private class Pair{
         int i;
         int j;
@@ -67,6 +62,8 @@ class Solution {
             this.len=len;
         }
     }
+
+    
 
     // Monday, February 24, 2025 6:43:34 PM
     // Time Complexity:O(m*n) | Space Complexity:O(m*n)
