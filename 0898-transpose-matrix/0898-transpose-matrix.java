@@ -1,20 +1,20 @@
 // Leetcode : 867
 class Solution {
     public int[][] transpose(int[][] matrix) {        
-        //return newArray(matrix);
-        return bySwap(matrix);
+        return outOfPlaceApproach(matrix);
+        //return inPlaceApproach(matrix);
     }
 
     // Thursday, March 20, 2025 8:32:27 PM
     // T.C - O(row*col) | S.C - O(1)
     // For Square Matrix Only
-    public int[][] bySwap(int[][] matrix) {
+    public int[][] inPlaceApproach(int[][] matrix) {
         int row = matrix.length;
         int col = matrix[0].length;
         if(matrix==null || row==0||col==0) return new int[0][0];
         
         // Handle Rectangle Matrix
-        if(row!=col) return newArray(matrix);
+        if(row!=col) return outOfPlaceApproach(matrix);
 
         // Upper Half
         // InPlace Transpose For Square Matrix
@@ -32,7 +32,7 @@ class Solution {
     // Friday, November 15, 2024 8:56:58 PM
     // T.C - O(row*col) | S.C - O(row*col)
     // For Square & Rectangle Matrix
-    public int[][] newArray(int[][] matrix) {
+    public int[][] outOfPlaceApproach(int[][] matrix) {
         int row = matrix.length;
         int col = matrix[0].length;
         if(matrix==null || row==0||col==0) return new int[0][0];
