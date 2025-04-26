@@ -50,11 +50,6 @@ class Solution {
     }
 
 
-
-
-
-
-
     // TLE in All Cases
     public int[] quickSortLomuto(int[] nums,int start,int end) {
         if(start<end){            
@@ -105,7 +100,6 @@ class Solution {
     // Why right Not left ? We may incorrectly place it outside the array
 
 
-
     private int medianOfThree(int[] arr, int a, int b, int c) {
     if ((arr[a] > arr[b]) ^ (arr[a] > arr[c])) return a;
     else if ((arr[b] < arr[a]) ^ (arr[b] < arr[c])) return b;
@@ -127,9 +121,7 @@ class Solution {
     }
 
 
-
-
-
+    // Modified Version of Standard Approach 
     public int[] heapSortJitender(int[] nums) {
         int n = nums.length;
         // 1. Build Max Heap
@@ -172,12 +164,12 @@ class Solution {
 
 
 
-
+    // More Standard Approach 
     // Time Complexity:O(nlogn) | Space Complexity:O(1)
     public int[] heapSort(int[] nums) {
         int n = nums.length;
-        // 1 Build MaxHeap
-        
+
+        // 1 Build MaxHeap        
         // Time Complexity:O(logn) | Space Complexity:O(1)
         for (int i = n / 2 - 1; i >= 0; i--) {
             heapifyDownIterative(nums, i, n);
