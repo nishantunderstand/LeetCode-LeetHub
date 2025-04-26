@@ -82,6 +82,7 @@
 | [0907-koko-eating-bananas](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0907-koko-eating-bananas) |
 | [0917-boats-to-save-people](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0917-boats-to-save-people) |
 | [0948-sort-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0948-sort-an-array) |
+| [1014-k-closest-points-to-origin](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1014-k-closest-points-to-origin) |
 | [1034-subarrays-with-k-different-integers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1073-number-of-enclaves) |
@@ -139,6 +140,7 @@
 | [0780-max-chunks-to-make-sorted](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0780-max-chunks-to-make-sorted) |
 | [0917-boats-to-save-people](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0917-boats-to-save-people) |
 | [0948-sort-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0948-sort-an-array) |
+| [1014-k-closest-points-to-origin](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1014-k-closest-points-to-origin) |
 ## Stack
 |  |
 | ------- |
@@ -210,6 +212,7 @@
 | [0795-k-th-symbol-in-grammar](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0795-k-th-symbol-in-grammar) |
 | [0856-consecutive-numbers-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0856-consecutive-numbers-sum) |
 | [1013-fibonacci-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1013-fibonacci-number) |
+| [1014-k-closest-points-to-origin](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1014-k-closest-points-to-origin) |
 | [2507-number-of-common-factors](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2507-number-of-common-factors) |
 | [2873-prime-pairs-with-target-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2873-prime-pairs-with-target-sum) |
 | [3568-find-the-key-of-the-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3568-find-the-key-of-the-numbers) |
@@ -507,6 +510,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0240-search-a-2d-matrix-ii) |
 | [0948-sort-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0948-sort-an-array) |
+| [1014-k-closest-points-to-origin](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1014-k-closest-points-to-origin) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -515,6 +519,7 @@
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0948-sort-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0948-sort-an-array) |
+| [1014-k-closest-points-to-origin](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1014-k-closest-points-to-origin) |
 ## Merge Sort
 |  |
 | ------- |
@@ -578,6 +583,7 @@
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0215-kth-largest-element-in-an-array) |
+| [1014-k-closest-points-to-origin](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1014-k-closest-points-to-origin) |
 ## Design
 |  |
 | ------- |
@@ -647,4 +653,8 @@
 | [0175-combine-two-tables](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0175-combine-two-tables) |
 | [0176-second-highest-salary](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0176-second-highest-salary) |
 | [1908-recyclable-and-low-fat-products](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1908-recyclable-and-low-fat-products) |
+## Geometry
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1014-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
