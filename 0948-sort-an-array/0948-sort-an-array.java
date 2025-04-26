@@ -51,6 +51,10 @@ class Solution {
 
 
 
+
+
+
+
     // TLE in All Cases
     public int[] quickSortLomuto(int[] nums,int start,int end) {
         if(start<end){            
@@ -74,25 +78,8 @@ class Solution {
         return LomutoPartitionScheme(arr,start,end);
     }
 
-    private int medianOfThree(int[] arr, int a, int b, int c) {
-    if ((arr[a] > arr[b]) ^ (arr[a] > arr[c])) return a;
-    else if ((arr[b] < arr[a]) ^ (arr[b] < arr[c])) return b;
-    else return c;
-    }
-    public int LomutoPartitionScheme(int[] arr,int start,int end){
-        int pivot = arr[end];
-        int left = start-1;
-        int right = start;
-        while(right<end){
-            if(arr[right]<=pivot){
-                left++;
-                swap(arr,left,right);
-            }
-            right++;
-        }
-        swap(arr,left+1,end);
-        return left+1;
-    }
+
+
 
     // Friday, February 7, 2025 1:26:38 PM
     // Time Complexity:O(nlogn) | Space Complexity:O(1)
@@ -116,6 +103,31 @@ class Solution {
         }
     }
     // Why right Not left ? We may incorrectly place it outside the array
+
+
+
+    private int medianOfThree(int[] arr, int a, int b, int c) {
+    if ((arr[a] > arr[b]) ^ (arr[a] > arr[c])) return a;
+    else if ((arr[b] < arr[a]) ^ (arr[b] < arr[c])) return b;
+    else return c;
+    }
+    public int LomutoPartitionScheme(int[] arr,int start,int end){
+        int pivot = arr[end];
+        int left = start-1;
+        int right = start;
+        while(right<end){
+            if(arr[right]<=pivot){
+                left++;
+                swap(arr,left,right);
+            }
+            right++;
+        }
+        swap(arr,left+1,end);
+        return left+1;
+    }
+
+
+
 
 
     public int[] heapSortJitender(int[] nums) {
@@ -152,6 +164,13 @@ class Solution {
             }
         }
     }
+
+
+
+
+
+
+
 
 
     // Time Complexity:O(nlogn) | Space Complexity:O(1)
@@ -200,6 +219,13 @@ class Solution {
         arr[i] = arr[j];
         arr[j] = temp;
     }
+
+
+
+
+
+
+
 
     // Sunday, November 17, 2024 7:55:19 PM
     // Dual Pivot Quick Sort (Java Internally Use)
