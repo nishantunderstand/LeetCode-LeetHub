@@ -2,14 +2,14 @@
 class Solution {
     public int subarraySum(int[] nums, int k) {
         //return bruteForceApproach(nums,k);
-        //return slidingWindowCaterpillarMethodPOSTIVEARRAYONLY(nums, k); // FAILS For K==0
-        return prefixhashMapApproach(nums,k);
-        // return hashSetApproach(nums,k);// Will it Work for Duplicate ??
-       
+        //return slidingWindowCaterpillarMethod(nums, k); // FAILS For K==0
+        //return prefixhashMapApproach(nums, k);
+        return prefixhashMapApproachMOD(nums,k);
+        //return hashSetApproach(nums,k); // Will it Work for Duplicate ??
     }
 
     // T.C - O(n)| S.C - O(n)
-    public int prefixhashMapApproach(int[] nums, int k) {
+    public int prefixhashMapApproachMOD(int[] nums, int k) {
         int n = nums.length;
         if (n <= 0)
             return 0;
@@ -27,11 +27,31 @@ class Solution {
         return cnt;
     }
 
+    // T.C - O(n)| S.C - O(n)
+    public int prefixhashMapApproach(int[] nums, int k) {
+        int n = nums.length;
+        if (n <= 0)
+            return 0;
+        HashMap<Integer, Integer> hm = new HashMap<>();
+        int csum = 0;
+        int cnt = 0;
+        for (int i = 0; i < n; i++) {
+            csum += nums[i];
+            if (csum == k)
+                cnt++;
+            if (hm.containsKey(csum - k)) {
+                cnt += hm.get(csum - k);
+            }
+            hm.put(csum, hm.getOrDefault(csum, 0) + 1);
+        }
+        return cnt;
+    }
 
     // Sunday, June 9, 2024 2:17:34 PM
-    // Time Complexity: O(n) | Space Complexity: O(1)
+    // Time Complexity: O(n) | Space Complexity: O(1)    
     // Cannot handle [1] k=0 , CODE FAILS
-    public int slidingWindowCaterpillarMethodPOSTIVEARRAYONLY(int[] nums, int k) {
+    // Works For Positive Array ONLY
+    public int slidingWindowCaterpillarMethod(int[] nums, int k) {
         int count = 0;
         int windowSum = 0;
         int start = 0;
@@ -51,10 +71,6 @@ class Solution {
         }
         return count;
     }
-
-    
-
-    
 
     // Wednesday, December 11, 2024 9:46:20 PM
     // T.C - O(n^2) | S.C - O(1)
