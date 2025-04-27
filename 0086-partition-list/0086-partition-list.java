@@ -25,14 +25,14 @@ class Solution {
         ListNode curr = head; // Temp Node For Iterating
         while(curr!=null){
             if(curr.val<val){
-                lessThan.next = curr;
-                lessThan = lessThan.next;
+                lessThan.next = curr;  //<--
+                lessThan = lessThan.next;  //<--
             }
             else{
                 moreThan.next = curr;
                 moreThan = moreThan.next;
             }
-            curr = curr.next;
+            curr = curr.next; //<--
         }
         
         // End moreThan
