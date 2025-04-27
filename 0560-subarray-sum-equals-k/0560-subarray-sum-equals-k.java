@@ -5,7 +5,22 @@ class Solution {
         //return slidingWindowCaterpillarMethod(nums, k); // FAILS For K==0
         //return prefixhashMapApproach(nums, k);
         return prefixhashMapApproachMOD(nums,k);
-        //return hashSetApproach(nums,k); // Will it Work for Duplicate ??
+        //return prefixHashSetApproach(nums,k); // FAILED Question Need cnt 
+    }
+
+    // WORK:No, Check Existence
+    // Count is Required
+    // Will Not Work 
+    private int prefixHashSetApproach(int[] nums, int k){
+        HashSet<Integer> hs = new HashSet<>();
+        hs.add(0);
+        int cnt=0,windowSum=0;
+        for(int windowEnd=0;windowEnd<nums.length;windowEnd++){
+            windowSum += nums[windowEnd];
+            if(hs.contains(windowSum-k)) cnt++;
+            hs.add(windowSum);
+        }
+        return cnt;
     }
 
     // T.C - O(n)| S.C - O(n)
