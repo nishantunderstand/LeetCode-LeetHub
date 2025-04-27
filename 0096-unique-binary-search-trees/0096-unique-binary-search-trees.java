@@ -8,7 +8,7 @@ class Solution {
         //return dpBottomUp(); //Pending
         //return dpSpace(); //Pending
         //return prefixApproach(); //Pending
-        return catalanNumber(n); //Pending
+        return catalanNumber(n);
     }
 
     // Thursday, February 6, 2025 1:23:48 PM
