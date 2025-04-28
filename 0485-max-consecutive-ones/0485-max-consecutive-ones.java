@@ -1,9 +1,8 @@
+// Leetcode : 485
 class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
         return bruteForce(nums);
     }
-
-
 
     // Friday, December 27, 2024 3:06:47 PM
     // Time Complexity:O(n) | Space Complexity:O(1)
@@ -22,4 +21,7 @@ class Solution {
         maxOne=Math.max(currOne,maxOne);
         return maxOne;
     }
+
+    // <img src="Flatten2D1.png">
+    // <img src="Flatten2D2.png">
 }
