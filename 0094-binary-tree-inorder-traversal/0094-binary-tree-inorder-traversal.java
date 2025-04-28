@@ -13,17 +13,22 @@
  *     }
  * }
  */
+
+// Leetcode : 94
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
-        if(root==null) return res;        
-        
-        ArrayDeque<TreeNode> st = new ArrayDeque<>();        
-        
+        if(root==null) return res;                
+        ArrayDeque<TreeNode> st = new ArrayDeque<>();                
         TreeNode curr = root;
         //LDR
-        while(!st.isEmpty()|| curr!=null){
-        //while(curr!=null || !st.isEmpty()){
+        /**
+            But Sometime it give me error.
+            So the Question is What is the correct Order
+            As we know AND OR have Short Circut Property
+        */
+        while(!st.isEmpty()|| curr!=null){ // Working Fine
+        //while(curr!=null || !st.isEmpty()){ // Working Fine
             while(curr!=null){
                 st.push(curr);
                 curr=curr.left;
