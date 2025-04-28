@@ -5,6 +5,7 @@ class Solution {
         //return binarySearchApproach(numbers,target);
         return hashMapApproach(numbers,target);
     }
+    
     private int[] hashMapApproach(int[] nums, int k) {
         // Sum , Index
         HashMap<Integer,Integer> hm = new HashMap<>();
