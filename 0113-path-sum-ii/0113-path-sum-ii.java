@@ -13,6 +13,8 @@
  *     }
  * }
  */
+
+// Leetcode : 113
 class Solution {
     public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
         List<List<Integer>> res = new ArrayList<>();
@@ -21,7 +23,8 @@ class Solution {
         return res;
     }
 
-    // TC O(n) | SC O(HeightOfTree)
+    // Friday, February 21, 2025 7:12:55 PM
+    // Time Complexity:O(n) | Space Complexity:O(HeightOfTree)
     public void dfs(TreeNode root,int target,List<Integer> curr,List<List<Integer>> res){
         if(root==null) return;
         
