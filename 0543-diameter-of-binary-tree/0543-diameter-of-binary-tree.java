@@ -13,6 +13,7 @@
  *     }
  * }
  */
+// Leetcode : 543
 class Solution {
     int maxi=0;    
     public int diameterOfBinaryTree(TreeNode root) {
@@ -31,7 +32,6 @@ class Solution {
         maxi = Math.max(maxi,left+right+2);
         return 1 + Math.max(left,right);
     }
-
 
     // Monday, December 30, 2024 10:11:23 PM
     // Time Complexity:O(n) | Space Complexity:O(HeightOfTree)
