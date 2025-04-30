@@ -1,13 +1,20 @@
+// Leetcode : 739
 class Solution {
-    public int[] dailyTemperatures(int[] temperatures) {
+    public int[] dailyTemperatures(int[] temperatures) {        
+        return stackNgeRightAproach(temperatures);
+    }
+
+
+    public int[] stackNgeRightAproach(int[] temperatures) {
         int n = temperatures.length;
         int[] res = new int[n];
         if(temperatures==null|| n==0){
             return res;
         }
+        
         // Next Greate on Right on Index , WARMER
         Stack<Integer> st = new Stack<>();
-        for(int i=n-1;i>=0;i--){
+        for(int i=n-1;i>=0;i--){  //<--
             while(!st.isEmpty() && temperatures[st.peek()]<=temperatures[i]){
                 st.pop();
             }
