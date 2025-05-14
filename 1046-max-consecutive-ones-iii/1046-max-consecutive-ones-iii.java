@@ -6,9 +6,7 @@ class Solution {
             if(nums[windowEnd]==0) zeroCnt++;
 
             while(zeroCnt>k){
-                if(nums[windowStart]==0){
-                    zeroCnt--;                
-                }
+                if(nums[windowStart]==0)zeroCnt--;                
                 windowStart++;  //<--
                 // Always move windowStart forward
             }
