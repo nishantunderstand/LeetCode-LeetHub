@@ -1,18 +1,37 @@
 // Leetcode : 283
 class Solution {
+    int[] nums;
+
     public void moveZeroes(int[] nums) {
         //basedOnDutchNationalFlag(nums);
         //bySwapNotRelativeOrder(nums);
-        nonZerotoStart(nums);
+        //nonZerotoStart(nums);  //<--
+        
+        this.nums = nums;
+        byDutchNationFlag();
+    }
+
+    // 
+    public void byDutchNationFlag() {
+        int i = 0, j = 0, len = nums.length;
+        while (i < len && j < len) {
+            if (nums[i] == 0)
+                i++;
+            else {
+                swap(nums, i, j);
+                i++;
+                j++;
+            }
+        }
     }
 
     // Wednesday, May 14, 2025 4:07:51 PM
     // Time Complexity:O(n) | Space Complexity:O(1)
-    private void nonZerotoStart(int[] nums){
+    private void nonZerotoStart(int[] nums) {
         int nonZeroLoc = 0;
-        for(int i=0;i<nums.length;i++){
-            if(nums[i]!=0){
-                swap(nums,i,nonZeroLoc++);
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != 0) {
+                swap(nums, i, nonZeroLoc++);
             }
         }
     }
@@ -42,19 +61,18 @@ class Solution {
         arr[b] = temp;
     }
 
-
     // Correct But Not Required , Question Required is Different 
     // Out Of Place Approach, Relative Order is Not Maintained
-    private void bySwapNotRelativeOrder(int[] nums){
+    private void bySwapNotRelativeOrder(int[] nums) {
         int i = 0;
-        int j = nums.length-1;
-        while(i<=j){
-            if(nums[i]==0){
-                swap(nums,i,j);
+        int j = nums.length - 1;
+        while (i <= j) {
+            if (nums[i] == 0) {
+                swap(nums, i, j);
                 j--;
-            }else{
+            } else {
                 i++;
-            }            
+            }
         }
     }
 }
