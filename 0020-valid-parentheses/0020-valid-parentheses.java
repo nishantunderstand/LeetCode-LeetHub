@@ -1,3 +1,4 @@
+// Leetcode : 20
 class Solution {
     public boolean isValid(String s) {
         //return stackApproach(s);
@@ -17,7 +18,8 @@ class Solution {
         hm.put(']','[');
 
         ArrayDeque<Character> st = new ArrayDeque<>();
-        
+        // ()
+        // {)
         for(int i=0;i<len;i++){
             char curr = s.charAt(i);
             if(hm.containsKey(curr)){
@@ -36,25 +38,23 @@ class Solution {
     // Time Complexity:O(n) | Space Complexity:O(n)
     public boolean stackApproach(String s) {
         int n = s.length();
-        if (s == null || n <= 0) {
-            return true; // Empty String is Valid
-        }
+        if (s == null || n <= 0) return true; // Empty String is Valid 
         Deque<Character> st = new ArrayDeque<>();
         for (int i = 0; i < n; i++) {
             char curr = s.charAt(i);
             if (curr == '(' || curr == '{' || curr == '[') {
                 st.push(curr);
-            } else if (curr == ')' && !st.isEmpty() && st.peek() == '(') {
-                return true;
-            } else if (curr == '}' && !st.isEmpty() && st.peek() == '{') {
-                return true;
-            } else if (curr == ']' && !st.isEmpty() && st.peek() == '[') {
-                return true;
-            }else{
+            } else{
+                if(st.isEmpty()) return false;  //<--
+                char top = st.pop();
+                if( (curr==')' && top!='(') ||
+                    (curr=='}' && top!='{') ||
+                    (curr==']' && top!='['))
                 return false;
             }
         }
-        return st.isEmpty() ? true : false;
+        // return st.isEmpty() ? true : false;
+        return st.isEmpty(); // Better Version
     }
 
 
