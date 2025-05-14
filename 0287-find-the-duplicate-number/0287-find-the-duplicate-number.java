@@ -1,3 +1,4 @@
+// Leetcode : 287
 /**
 Here I need to return the Element , Not the Index
 1. Sorting , then compare
@@ -10,6 +11,8 @@ Floyd's Tortoise and Hare algorithm
 */
 
 class Solution {
+    // Wednesday, May 14, 2025 9:15:41 PM
+    // Time Complexity:O(n) | Space Complexity:O(n)
     public int findDuplicate(int[] nums) {
         int n = nums.length;
         HashMap<Integer,Integer> hm = new HashMap<>();
