@@ -15,10 +15,10 @@ class Solution {
                 currOne++;
             }else{
                 maxOne=Math.max(currOne,maxOne);
-                currOne=0;
+                currOne=0; //<--
             }                     
         }
-        maxOne=Math.max(currOne,maxOne);
+        maxOne=Math.max(currOne,maxOne);  //<--
         return maxOne;
     }
 
