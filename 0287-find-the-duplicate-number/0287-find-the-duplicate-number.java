@@ -11,17 +11,22 @@ Floyd's Tortoise and Hare algorithm
 */
 
 class Solution {
+    public int findDuplicate(int[] nums) {        
+        return hashSetApproach(nums);
+    }
+
     // Wednesday, May 14, 2025 9:15:41 PM
     // Time Complexity:O(n) | Space Complexity:O(n)
-    public int findDuplicate(int[] nums) {
+    public int hashSetApproach(int[] nums) {
         int n = nums.length;
-        HashMap<Integer,Integer> hm = new HashMap<>();
-        for(Integer num : nums){
-            if(hm.containsKey(num)){
+        HashMap<Integer, Integer> hm = new HashMap<>();
+        for (Integer num : nums) {
+            if (hm.containsKey(num)) {
                 return num;
             }
-            hm.put(num,1); // Why are we not checking getOrDefault ?
+            hm.put(num, 1); // Why are we not checking getOrDefault ?
         }
-        return -1;         
+        return -1;
     }
+
 }
