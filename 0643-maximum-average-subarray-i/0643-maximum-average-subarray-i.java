@@ -3,12 +3,12 @@ class Solution {
     public double findMaxAverage(int[] nums, int k) {
         //return bruteForce(nums,k);
         //return slidingWindowCaterpillarWRONG(nums,k);
-        return slidingWindow(nums,k);
+        return runningSum(nums,k);
     }
 
     // Friday, February 14, 2025 12:16:10 AM
     // Time Complexity:O(n) | Space Complexity:O(1)
-    public double slidingWindow(int[] nums, int k) {
+    public double runningSum(int[] nums, int k) {
         int len = nums.length;
         double windowSum = 0;
         for(int i=0;i<k;i++){
