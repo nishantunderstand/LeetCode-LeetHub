@@ -8,15 +8,17 @@ class Solution {
 
     // Wednesday, December 18, 2024 1:58:27 PM
     // Time Complexity:O(log(m*n)) | Space Complexity:O(1)
+
     // Do i need to flatten a Matrix then Search ? NO
     public boolean flattenbinarySearchApproach(int[][] matrix, int target) {
         int row = matrix.length;
         int col = matrix[0].length;
+        
         int low = 0;
-        int high = row*col-1;
+        int high = row*col-1;  //<--
         
         while(low<=high){
-            int mid = low + (high-low)/2;
+            int mid = low + (high-low)/2; //<--
             int midElement = matrix[mid/col][mid%col];
 
             if(midElement==target){
@@ -34,6 +36,7 @@ class Solution {
 
     // Wednesday, December 18, 2024 1:31:25 PM
     // Time Complexity:O(m+n) | Space Complexity:O(1)
+    
     // Top Right Corner (0,col-1)
     // When you change Corner, You need to modify the codebase as well.
     public boolean SearchByCornerSearch(int[][] matrix, int target) {
