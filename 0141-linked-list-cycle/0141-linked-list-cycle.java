@@ -10,7 +10,7 @@
  * }
  */
 
-
+// Leetcode : 141
 public class Solution {
     public boolean hasCycle(ListNode head) {
         //return hashMapApproach(head);        
@@ -18,7 +18,8 @@ public class Solution {
         return fastAndSlow(head);    
     }
 
-
+    // Thursday, May 15, 2025 4:38:55 PM
+    // Time Complexity:O(n) | Space Complexity:O(1)
     public boolean fastAndSlow(ListNode head){
         ListNode fast = head;
         ListNode slow = head;
