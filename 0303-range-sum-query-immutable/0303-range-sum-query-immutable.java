@@ -1,12 +1,8 @@
 // Leetcode : 303
-/**
-26 July 23
-Prefix Sum
-I need to understand, How function is going to work.
-*/
 class NumArray {
     int pf[];
-
+    // Friday, May 16, 2025 11:21:42 AM
+    // Time Complexity:O(n) | Space Complexity:O(n)
     public NumArray(int[] nums) {
         pf = new int[nums.length];
         int n = nums.length;
@@ -16,6 +12,8 @@ class NumArray {
         }
     }
     
+    // Friday, May 16, 2025 11:21:42 AM
+    // Time Complexity:O(1) | Space Complexity:O(1)
     public int sumRange(int left, int right) {  
         int sum=0;
         if(left==0){
