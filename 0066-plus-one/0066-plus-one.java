@@ -1,13 +1,14 @@
 // LeetCode 66
 class Solution {
     public int[] plusOne(int[] digits) {
-        //return arrWithArrayListCarryReverse(digits);
         //return arrWithArray(digits);
-        return arrWithArrayListCarryReverseMOD(digits);
+        return arrWithArrayListCarryReverse(digits);
+        //return arrWithArrayListCarryReverseMOD(digits);
     }
 
 
-
+    // Tuesday, April 22, 2025 10:36:48 PM
+    // Time Complexity:O(n) | Space Complexity:O(n)
     public int[] arrWithArrayListCarryReverseMOD(int[] digits) {
         int carry = 1;
         int n = digits.length;        
@@ -23,8 +24,9 @@ class Solution {
         }
     
         if (carry != 0) {
-            res.add(0, carry);
-        }        
+            res.add(0, carry);  //<--
+        }
+                
         int[] resArr = new int[res.size()];
         for (int i = 0; i < resArr.length; i++) {
             resArr[i] = res.get(i);
@@ -50,10 +52,20 @@ class Solution {
         if (carry != 0) {
             res.add(carry);
         }
-
         int[] resArr = new int[res.size()];
+        
+        // Approach 1
+        /**       
         for (int i = 0; i < resArr.length; i++) {
             resArr[i] = res.get(res.size() - 1 - i); // Write in Reverse Manner
+        }
+        */
+
+
+        // Approach 2 
+        Collections.reverse(res); //<--
+        for(int i=0;i<resArr.length;i++){
+            resArr[i]=res.get(i);
         }
         return resArr;
     }
@@ -74,7 +86,5 @@ class Solution {
         int[] ans = new int[digits.length + 1];
         ans[0] = 1;
         return ans;
-    }
-
-    
+    }    
 }
