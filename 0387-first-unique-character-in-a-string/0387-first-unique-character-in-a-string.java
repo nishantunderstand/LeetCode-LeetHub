@@ -1,3 +1,4 @@
+// Leetcode : 387
 class Solution {
     public int firstUniqChar(String s) {
         return linkedhashMapApproach(s);
@@ -5,7 +6,7 @@ class Solution {
     // Saturday, February 8, 2025 6:01:15 PM
     // Time Complexity:O(n) | Space Complexity:O(n)
     public int linkedhashMapApproach(String s){
-        LinkedHashMap<Character,Integer> hm = new LinkedHashMap<>();
+        LinkedHashMap<Character,Integer> hm = new LinkedHashMap<>();  //<--
         int len = s.length();
         for(int i=0;i<len;i++){
             char curr = s.charAt(i);
