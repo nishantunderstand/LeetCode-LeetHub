@@ -5,22 +5,23 @@ class Solution {
         return dequeApproach(nums,k);
     }
 
+
     // TLE
     // Monday, November 18, 2024 3:56:23 PM
     // T.C - O(n^2) | S.C - O(n)
     public int[] bruteForceApproach(int[] nums, int k) {
-        ArrayList<Integer> res = new ArrayList<>(); // SC O(n)
+        ArrayList<Integer> res = new ArrayList<>();
         int len = nums.length;
-        if (nums == null || len <= 0 || k > len)
-            return new int[0];
-        for (int i = 0; i <= len - k; i++) { // TC O(n) , Window Size
+        if (nums == null || len <= 0 || k > len) return new int[0];
+
+        for (int i = 0; i <= len - k; i++) { 
             int max = nums[i];
-            for (int j = 1; j < k; j++) { // TC O(n) 
+            for (int j = 1; j < k; j++) { 
                 max = Math.max(nums[i + j], max);
             }
             res.add(max);
         }
-        int[] resArray = new int[res.size()]; // SC O(n)
+        int[] resArray = new int[res.size()]; 
         for (int i = 0; i < res.size(); i++) {
             resArray[i] = res.get(i);
         }
@@ -30,7 +31,8 @@ class Solution {
     /**
     nums , n - 0||null 
     k>n 
-    DS : 
+    
+    DS 
     Move the Window, Find Max
     When we move the window, we need to make sure the all element are in that window we need to discard the other 
     Queue or Stack : Working on Index or Value ? Big Question I Forget
@@ -39,9 +41,7 @@ class Solution {
     public int[] dequeApproach(int[] nums, int k) {
         int n = nums.length;
         int[] res = new int[n - k + 1]; // You can use arrayList -> Convert to Array.
-        if (nums == null || n == 0 || k > n) {
-            return new int[0];
-        }
+        if (nums == null || n == 0 || k > n) return new int[0];
         int idx = 0;
         Deque<Integer> q = new ArrayDeque<>();
         for (int i = 0; i < n; i++) {
@@ -62,5 +62,4 @@ class Solution {
         }
         return res;
     }
-
 }
