@@ -29,19 +29,6 @@ class Solution {
         return merge2LL(left, right);
     }
 
-    // 1 → 2 → 3 → 4
-    // 1 → 2 → 3 → 4 → 5
-    // Time Complexity:O(n) | Space Complexity:O(1)
-    public ListNode findMiddle(ListNode head) {
-        ListNode fast = head;
-        ListNode slow = head;
-        while (fast != null && fast.next != null && fast.next.next != null) { //<--
-            fast = fast.next.next;
-            slow = slow.next;
-        }
-        return slow;
-    }
-
     // Time Complexity:O(n) | Space Complexity:O(1)
     public ListNode merge2LL(ListNode left, ListNode right) {
         ListNode dummy = new ListNode(-1);
@@ -61,4 +48,32 @@ class Solution {
 
         return dummy.next;
     }
+
+    // 1 → 2 → 3 → 4
+    // 1 → 2 → 3 → 4 → 5
+    // Time Complexity:O(n) | Space Complexity:O(1)
+    public ListNode findMiddle2(ListNode head) {
+        ListNode fast = head;
+        ListNode slow = head;
+        while (fast != null && fast.next != null && fast.next.next != null) { //<--            
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
+    }
+
+    public ListNode findMiddle(ListNode head) {
+        ListNode prev = null;  //<--
+        ListNode fast = head;
+        ListNode slow = head;
+        while (fast != null && fast.next != null ) { 
+            prev = slow;  //<--
+            slow = slow.next;
+            fast = fast.next.next;
+            
+        }
+        return prev;
+    }
+
+    
 }
