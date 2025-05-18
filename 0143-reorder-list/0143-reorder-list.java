@@ -43,6 +43,19 @@ class Solution {
         return slow;
     }
 
+    // Why it is giving wrong result ?
+    private ListNode findMiddle1(ListNode head){
+        ListNode prev = null;
+        ListNode fast = head;
+        ListNode slow = head;
+        while(fast!=null && fast.next!=null){
+            prev = slow;
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return prev;
+    }
+
     private ListNode reverse(ListNode head){
         ListNode prev = null;
         ListNode curr = head;
