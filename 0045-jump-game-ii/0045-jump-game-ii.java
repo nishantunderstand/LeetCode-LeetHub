@@ -19,8 +19,7 @@ class Solution {
 
             if (i == currentEnd) {
                 jumps++;
-
-                if(farthest == currentEnd) return -1;
+                //if(farthest == currentEnd) return -1;
                 currentEnd = farthest;
             }
         }
