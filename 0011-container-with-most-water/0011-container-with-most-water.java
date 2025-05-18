@@ -10,14 +10,17 @@ class Solution {
     public int twoPointer(int[] height) {        
         int mArea=0;
         if(height==null || height.length<2) return mArea;
+
         int left=0;
         int right=height.length-1;
+
         while(left<right){
             int wid = right-left;
             int heig = Math.min(height[left],height[right]);
             int cArea = wid*heig;
             mArea = Math.max(cArea,mArea);
-            if(height[left]<height[right]) left++;
+
+            if(height[left]<height[right]) left++;  //<--
             else right--;
         }
         return mArea;
@@ -33,6 +36,7 @@ class Solution {
             for(int j=i+1;j<height.length;j++){
                 int w = j-i;
                 int h = Math.min(height[i],height[j]);
+                
                 int cArea = h*w;
                 maxArea=Math.max(cArea,maxArea);
             }
