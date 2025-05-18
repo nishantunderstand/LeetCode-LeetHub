@@ -13,10 +13,9 @@ class Solution {
 
             while(zeroCnt>k){
                 if(nums[windowStart]==0)zeroCnt--;                
-                windowStart++;  //<--
-                // Always move windowStart forward
+                windowStart++;  //<-- // Always move windowStart forward
             }
-            maxLen = Math.max(windowEnd-windowStart+1,maxLen);
+            maxLen = Math.max(windowEnd-windowStart+1,maxLen);  //<--
         }
         return maxLen;       
     }
