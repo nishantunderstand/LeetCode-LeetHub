@@ -9,29 +9,22 @@ class Solution {
     public int binarySearchApproach(int[] nums, int target) {
         int low = 0;
         int high = nums.length-1;
+        
         while(low<=high){
-            int mid = (low+high)/2;
-            if(nums[mid]==target){
-                return mid;
-            }
-            //left Sorted
-            if(nums[low]<=nums[mid]){
-                if(nums[low]<=target && target <= nums[mid]){
-                    high =mid-1;
-                }
-                else{
-                    low = mid+1;
-                }
-            }
-            // right Sorted
-            else{
-                if(nums[mid]<=target && target <=nums[high]){
-                    low = mid+1;
-                }else{
-                    high = mid-1;
-                }
+            
+            int mid = low + (high-low)/2;
+            if(nums[mid]==target) return mid;
+            
+            if(nums[low]<=nums[mid]){ //left Sorted
+                if(nums[low]<=target && target <= nums[mid])high =mid-1;
+                else low = mid+1;
+            }            
+            else{ // right Sorted
+                if(nums[mid]<=target && target <=nums[high]) low = mid+1;
+                else high = mid-1;
             }
         }
+        
         return-1;
     }
 
