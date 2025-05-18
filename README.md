@@ -169,6 +169,7 @@
 | [0780-max-chunks-to-make-sorted](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0780-max-chunks-to-make-sorted) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [2470-removing-stars-from-a-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2470-removing-stars-from-a-string) |
+| [2871-double-a-number-represented-as-a-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 ## Greedy
 |  |
 | ------- |
@@ -226,6 +227,7 @@
 | [2106-find-greatest-common-divisor-of-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2106-find-greatest-common-divisor-of-array) |
 | [2383-add-two-integers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2383-add-two-integers) |
 | [2507-number-of-common-factors](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2507-number-of-common-factors) |
+| [2871-double-a-number-represented-as-a-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 | [2873-prime-pairs-with-target-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2873-prime-pairs-with-target-sum) |
 | [3568-find-the-key-of-the-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3568-find-the-key-of-the-numbers) |
 ## Enumeration
@@ -456,6 +458,7 @@
 | [0234-palindrome-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0234-palindrome-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0328-odd-even-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0908-middle-of-the-linked-list) |
+| [2871-double-a-number-represented-as-a-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 ## Two Pointers
 |  |
 | ------- |
