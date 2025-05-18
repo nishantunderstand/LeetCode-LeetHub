@@ -35,7 +35,7 @@ class Solution {
         for (int i = 0; i < n; i++) {
             csum += nums[i];
             if (hm.containsKey(csum - k)) {
-                cnt += hm.get(csum - k);
+                cnt += hm.get(csum - k);  //<--
             }
             hm.put(csum, hm.getOrDefault(csum, 0) + 1);
         }
