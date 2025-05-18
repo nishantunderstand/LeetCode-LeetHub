@@ -19,10 +19,9 @@ class Solution {
 
             if (i == currentEnd) {
                 jumps++;
-                currentEnd = farthest;
 
-                if (currentEnd >= n - 1) break;
-                if (currentEnd == i) return -1; // stuck
+                if(farthest == currentEnd) return -1;
+                currentEnd = farthest;
             }
         }
 
