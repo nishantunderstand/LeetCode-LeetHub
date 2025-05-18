@@ -1,8 +1,14 @@
+// Leetcode : 153
 class Solution {
-    public int findMin(int[] nums) {
+    public int findMin(int[] nums) {       
+        return findMinBS(nums);
+    }
+
+
+    public int findMinBS(int[] nums) {
         int low=0;
         int high = nums.length-1;
-        int ans = Integer.MAX_VALUE;
+        int ans = Integer.MAX_VALUE;    
         while(low<=high){
             int mid = (low+high)/2;
             if(nums[low]<=nums[mid]){
