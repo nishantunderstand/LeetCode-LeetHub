@@ -11,6 +11,11 @@
  */
 class Solution {
     public ListNode doubleIt(ListNode head) {
+        return revDoublerev(head);
+    }
+    // Sunday, May 18, 2025 11:04:42 AM
+    // Time Complexity:O(n) | Space Complexity:O(1)
+    public ListNode revDoublerev(ListNode head) {
         head = reverse(head);  //<--
         
         ListNode dummy = new ListNode(0);
@@ -37,6 +42,9 @@ class Solution {
 
         return reverse(dummy.next);
     }
+
+
+    // Time Complexity:O(n) | Space Complexity:O(1)
     private ListNode reverse(ListNode head){
         ListNode prev=null;
         ListNode curr=head;
