@@ -1,3 +1,4 @@
+// Leetcode : 2
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -19,6 +20,7 @@ class Solution {
         ListNode curr = dummy;
         int dig =0;
         int carry=0; //<--
+
         while(l1!=null || l2!=null||carry>0){
             dig = carry;
             if(l1!=null){
@@ -30,9 +32,9 @@ class Solution {
                 l2=l2.next;
             }
             carry = dig/10;
-            curr.next = new ListNode(dig%10);
+            curr.next = new ListNode(dig%10);  //<--
             curr = curr.next;
         }
-        return dummy.next;
+        return dummy.next;  //<--
     }
 }
