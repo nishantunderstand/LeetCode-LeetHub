@@ -17,6 +17,7 @@
 | [0040-combination-sum-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0047-permutations-ii) |
 | [0053-maximum-subarray](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0053-maximum-subarray) |
@@ -108,6 +109,7 @@
 | ------- |
 | [0022-generate-parentheses](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0062-unique-paths) |
@@ -176,6 +178,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0011-container-with-most-water) |
+| [0045-jump-game-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0780-max-chunks-to-make-sorted](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0780-max-chunks-to-make-sorted) |
