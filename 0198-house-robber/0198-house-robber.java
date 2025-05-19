@@ -70,9 +70,12 @@ class Solution {
         int[] dp = new int[len]; // Working Fine
         Arrays.fill(dp,-1);
         dp[0]=nums[0];
+
         //dp[0]=Math.max(0,nums[0]); // Only Postive Value Given
         dp[1]=Math.max(nums[0],nums[1]);
+        
         //dp[1]=Math.max(dp[0],nums[1]); // Test Them
+        
         for(int i=2;i<len;i++){
             int take = nums[i]+dp[i-2];
             int dont = 0 + dp[i-1];
@@ -84,9 +87,11 @@ class Solution {
     public int dpTopDown(int[] nums,int[] dp,int idx) {
         if(idx<0) return 0;
         if(dp[idx]!=-1) return dp[idx];
+
         int take = nums[idx] +  dpTopDown(nums,dp,idx-2);
         int dont = 0 + dpTopDown(nums,dp,idx-1);
-        dp[idx] = Math.max(take,dont);
+        
+        dp[idx] = Math.max(take,dont);  //<--
         return dp[idx];
     }
 
