@@ -23,7 +23,7 @@ class Solution {
         return true;
     }
 
-    // Wednesday, May 21, 2025 9:48:29 PM
+    // Wednesday, August 17 2024
     // Time Complexity:O(n + nlogn) | Space Complexity:O(n)
     public boolean bruteForceApproach(String s, String t) {
         if(s.length()!=t.length()){
