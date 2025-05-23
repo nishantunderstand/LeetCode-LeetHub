@@ -20,18 +20,11 @@ class Solution {
     // Monday, February 24, 2025 7:11:40 PM
     // Time Complexity:O(2^n) | Space Complexity:O(n)
     public int recursiveSol(int n) {
-        if(n==0){
-            return 0;
-        }
+        if(n==0) return 0;
         return fibRecurr(n);        
     }
     public int fibRecurr(int n){
-        if(n==0||n==1){
-            return n;
-        }
+        if(n==0||n==1) return n;
         return fibRecurr(n-1)+fibRecurr(n-2);
     }
-}
-
-
-    
+}    
