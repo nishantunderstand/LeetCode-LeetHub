@@ -1,1 +1,118 @@
-Use ChatGPT To Create A Class Flow Diagram
+graph TD
+
+  subgraph Arrays
+    two_sum["two-sum"]
+    two_sum_ii["two-sum-ii-input-array-is-sorted"]
+    three_sum["3sum"]
+    three_sum_closest["3sum-closest"]
+    maximum_subarray["maximum-subarray"]
+    maximum_product_subarray["maximum-product-subarray"]
+    move_zeroes["move-zeroes"]
+    product_of_array_except_self["product-of-array-except-self"]
+    search_rotated_array["search-in-rotated-sorted-array"]
+    find_min_in_rotated_array["find-minimum-in-rotated-sorted-array"]
+    find_min_in_rotated_array_ii["find-minimum-in-rotated-sorted-array-ii"]
+    maximum_average_subarray["maximum-average-subarray-i"]
+    max_consecutive_ones["max-consecutive-ones"]
+    max_consecutive_ones_iii["max-consecutive-ones-iii"]
+    subarray_sum_equals_k["subarray-sum-equals-k"]
+    subarray_product_less_than_k["subarray-product-less-than-k"]
+    find_pivot_index["find-pivot-index"]
+    range_sum_query_immutable["range-sum-query-immutable"]
+    find_median_from_data_stream["find-median-from-data-stream"]
+
+    two_sum --> two_sum_ii
+    two_sum --> three_sum
+    three_sum --> three_sum_closest
+    maximum_subarray --> maximum_product_subarray
+    search_rotated_array --> find_min_in_rotated_array
+    find_min_in_rotated_array --> find_min_in_rotated_array_ii
+  end
+
+  subgraph Linked_Lists
+    reverse_linked_list["reverse-linked-list"]
+    linked_list_cycle["linked-list-cycle"]
+    palindrome_linked_list["palindrome-linked-list"]
+    merge_two_sorted_lists["merge-two-sorted-lists"]
+    remove_nth_node_from_end["remove-nth-node-from-end-of-list"]
+    odd_even_linked_list["odd-even-linked-list"]
+    intersection_two_linked_lists["intersection-of-two-linked-lists"]
+    serialize_and_deserialize_bt["serialize-and-deserialize-binary-tree"]
+
+    reverse_linked_list --> linked_list_cycle
+    linked_list_cycle --> palindrome_linked_list
+    merge_two_sorted_lists --> remove_nth_node_from_end
+  end
+
+  subgraph Trees
+    binary_tree_inorder["binary-tree-inorder-traversal"]
+    binary_tree_preorder["binary-tree-preorder-traversal"]
+    binary_tree_postorder["binary-tree-postorder-traversal"]
+    binary_tree_level_order["binary-tree-level-order-traversal"]
+    binary_tree_zigzag["binary-tree-zigzag-level-order-traversal"]
+    validate_bst["validate-binary-search-tree"]
+    symmetric_tree["symmetric-tree"]
+    max_depth_bt["maximum-depth-of-binary-tree"]
+    balanced_binary_tree["balanced-binary-tree"]
+    construct_bt_pre_in["construct-binary-tree-from-preorder-and-inorder-traversal"]
+    construct_bt_in_post["construct-binary-tree-from-inorder-and-postorder-traversal"]
+    lowest_common_ancestor_bst["lowest-common-ancestor-of-a-binary-search-tree"]
+    lowest_common_ancestor_bt["lowest-common-ancestor-of-a-binary-tree"]
+
+    binary_tree_inorder --> binary_tree_preorder
+    binary_tree_inorder --> binary_tree_postorder
+    binary_tree_preorder --> binary_tree_level_order
+    binary_tree_level_order --> binary_tree_zigzag
+    validate_bst --> symmetric_tree
+    max_depth_bt --> balanced_binary_tree
+    construct_bt_pre_in --> construct_bt_in_post
+    lowest_common_ancestor_bst --> lowest_common_ancestor_bt
+  end
+
+  subgraph Dynamic_Programming
+    climb_stairs["climbing-stairs"]
+    jump_game["jump-game"]
+    jump_game_ii["jump-game-ii"]
+    pascals_triangle["pascals-triangle"]
+    house_robber["house-robber"]
+    max_consecutive_ones_iii["max-consecutive-ones-iii"]
+    longest_common_subsequence["longest-common-subsequence"]
+
+    climb_stairs --> jump_game
+    jump_game --> jump_game_ii
+  end
+
+  subgraph Strings
+    longest_substring_without_repeating["longest-substring-without-repeating-characters"]
+    valid_palindrome["valid-palindrome"]
+    reverse_words_in_string["reverse-words-in-a-string"]
+    first_unique_character["first-unique-character-in-a-string"]
+    valid_parentheses["valid-parentheses"]
+    generate_parentheses["generate-parentheses"]
+    remove_duplicates_in_string["remove-all-adjacent-duplicates-in-string"]
+    removing_stars_from_string["removing-stars-from-a-string"]
+
+    valid_parentheses --> generate_parentheses
+    remove_duplicates_in_string --> removing_stars_from_string
+  end
+
+  subgraph Math
+    add_digits["add-digits"]
+    kth_symbol_in_grammar["k-th-symbol-in-grammar"]
+    fibonacci_number["fibonacci-number"]
+    perfect_squares["perfect-squares"]
+    count_primes["count-primes"]
+    majority_element["majority-element"]
+    majority_element_ii["majority-element-ii"]
+
+    majority_element --> majority_element_ii
+  end
+
+  subgraph Graphs
+    number_of_islands["number-of-islands"]
+    course_schedule["course-schedule"]
+    course_schedule_ii["course-schedule-ii"]
+    graph_path_exists["find-if-path-exists-in-graph"]
+
+    course_schedule --> course_schedule_ii
+  end
