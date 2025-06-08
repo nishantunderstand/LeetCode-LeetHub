@@ -36,7 +36,7 @@ class Solution {
     }
 
     public int dpMemo(int n,int[] dp) {
-        if(n<0) return 0;
+        if(n<0) return 0;  //<-- Better Sential Value
         if(n==1||n==0) return 1;
         if(dp[n]!=-1) return dp[n];
         dp[n] = dpMemo(n-1,dp) + dpMemo(n-2,dp);
