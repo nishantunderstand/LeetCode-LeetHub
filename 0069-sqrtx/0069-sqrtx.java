@@ -24,24 +24,20 @@ class Solution {
 
     // T.C - O(logn) | S.C - O(1)
     public int binarySearchApproach(int x){
-        if(x<=0){
-            return 0;
-        }
-        if(x==1){
-            return 1;
-        }
+        if(x<=0) return 0;
+        if(x==1) return 1;
         int lo=1;
         int hi=x;
-        int ans=1;
+        int potAns=1;
         while(lo<=hi){
             int mid = lo + (hi-lo)/2;
             if(mid<=x/mid){
-                ans=mid;
+                potAns=mid;
                 lo=mid+1;
             }else{
                 hi=mid-1;
             }
         }
-        return ans;
+        return potAns;
     }
 }
