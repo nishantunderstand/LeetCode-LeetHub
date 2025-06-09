@@ -47,6 +47,7 @@ class Solution {
         }
         return root;
     }
+
     public int findMaxInLeftRecursive(TreeNode node){
         // if(node==null){return 0;}  // Do i need to check or not ? NO NEED
         while(node.right!=null){ // why node!=null is not correct ?? , Infinit Loop
@@ -55,6 +56,7 @@ class Solution {
 
         return node.val;
     }
+    
     public int findMaxInLeftIterative(TreeNode node){ // Iterative is better than Recursive Approach.
         while(node.right!=null){
             node = node.right;
