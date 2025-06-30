@@ -1,3 +1,5 @@
+@echo off
+
 echo LeetCode-LeetHub-Begin
 	set "repoLocation=C:\Users\User\eclipse-workspace\LeetCode-LeetHub"
 	set "gitPath=C:\Program Files\Git\cmd\git.exe"
@@ -11,3 +13,6 @@ echo LeetCode-LeetHub-Begin
 	"%gitPath%" commit -m "%commitMessage%"
 	"%gitPath%" push
 echo LeetCode-LeetHub-End
+
+
+exit
