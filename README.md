@@ -717,6 +717,7 @@
 | [0584-find-customer-referee](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0584-find-customer-referee) |
 | [0595-big-countries](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0595-big-countries) |
 | [1258-article-views-i](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1258-article-views-i) |
+| [1827-invalid-tweets](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1827-invalid-tweets) |
 | [1908-recyclable-and-low-fat-products](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1908-recyclable-and-low-fat-products) |
 ## Geometry
 |  |
