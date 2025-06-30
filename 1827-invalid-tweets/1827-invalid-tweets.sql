@@ -3,5 +3,14 @@
 
 SELECT tw.tweet_id
 FROM Tweets tw
+WHERE CHAR_LENGTH(tw.content) >15
+ORDER BY tw.tweet_id;
+
+
+
+/** Correct
+SELECT tw.tweet_id
+FROM Tweets tw
 WHERE LENGTH(tw.content) >15
 ORDER BY tw.tweet_id;
+*/
