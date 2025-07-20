@@ -7,6 +7,7 @@ class Solution {
     // Monday, April 28, 2025 8:49:08 PM
     // Time Complexity:O(n) | Space Complexity:O(1)
     // Two Way Partition
+    
     // Unstable Sort  //<--
     // Relative Order is not maintained  //<--
     public void dutchNationalFlag(int[] nums) {
@@ -21,7 +22,7 @@ class Solution {
             } else if (nums[i] == 1) {
                 i++;
             } else {
-                swap(nums, i, k);
+                swap(nums, i, k); // <-- i is NOT Increment Here
                 k--;  //<--
             }
         }
