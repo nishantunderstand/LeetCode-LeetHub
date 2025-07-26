@@ -1,7 +1,5 @@
-# Write your MySQL query statement below
--- LeetCode : 175
--- MYSQL
 -- Monday, February 17, 2025 12:59:41 PM
+-- LeetCode : 175
 
 SELECT 
     p.firstName,
