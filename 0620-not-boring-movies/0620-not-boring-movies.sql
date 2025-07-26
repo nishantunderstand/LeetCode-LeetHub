@@ -3,6 +3,8 @@
 
 SELECT *
 FROM Cinema
-WHERE description != 'boring'
-AND id%2 = 1
+-- WHERE description != 'boring'
+WHERE description <> 'boring'
+-- AND id%2 = 1
+AND MOD(id,2) = 1
 ORDER BY rating DESC;
