@@ -13,8 +13,8 @@ SELECT DISTINCT salary AS SecondHighestSalary
 FROM Employee e 
 ORDER BY salary DESC
 LIMIT 1 OFFSET 1;
-*/
 
+✅ Accepted Approach
 SELECT (
     SELECT DISTINCT e.salary
     FROM Employee e
@@ -23,19 +23,20 @@ SELECT (
 ) AS SecondHighestSalary;
 
 
+
 -- Case : Only One Unique Salary
 -- Case : All Salaries Are the Same
 -- Case : Handle All Edge Case 
-/**
-SELECT 
-    MAX(e.salary) AS SecondHighestSalary
-FROM 
-    Employee e
-WHERE 
-    e.salary < (
-        SELECT 
-            MAX(salary) 
-        FROM 
-            Employee
-    );
+-- SubQuery Approach
+
+✅ Accepted Approach
+SELECT MAX(e.salary) AS SecondHighestSalary
+FROM Employee e
+WHERE e.salary < (SELECT MAX(salary) FROM Employee);
 */
+
+
+-- Inner Join Approach
+SELECT MAX(e1.salary) AS SecondHighestSalary
+FROM Employee e1 INNER JOIN Employee e2
+ON e1.salary < e2.salary;
