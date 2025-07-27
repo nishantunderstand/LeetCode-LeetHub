@@ -2,19 +2,19 @@
 -- Saturday, April 19, 2025 10:02:43 PM
 
 /**
-❌ Rejected Approach 
+-- REJECTED APPROACH
 SELECT salary AS SecondHighestSalary
 FROM Employee e 
 ORDER BY salary DESC
 LIMIT 1 OFFSET 1;
 
-❌ Rejected Approach 
+-- REJECTED APPROACH 
 SELECT DISTINCT salary AS SecondHighestSalary
 FROM Employee e 
 ORDER BY salary DESC
 LIMIT 1 OFFSET 1;
 
-✅ Accepted Approach
+-- ACCEPTED APPROACH
 SELECT (
     SELECT DISTINCT e.salary
     FROM Employee e
@@ -22,14 +22,12 @@ SELECT (
     LIMIT 1 OFFSET 1
 ) AS SecondHighestSalary;
 
-
-
 -- Case : Only One Unique Salary
 -- Case : All Salaries Are the Same
 -- Case : Handle All Edge Case 
 -- SubQuery Approach
 
-✅ Accepted Approach
+-- ACCEPTED APPROACH
 SELECT MAX(e.salary) AS SecondHighestSalary
 FROM Employee e
 WHERE e.salary < (SELECT MAX(salary) FROM Employee);
