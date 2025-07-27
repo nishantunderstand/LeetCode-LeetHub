@@ -2,7 +2,7 @@
 -- LeetCode : 183
 
 /**
-✅ Accepted Approach
+-- ACCEPTED APPROACH
 SELECT name AS Customers
 FROM Customers 
 WHERE id NOT IN (
