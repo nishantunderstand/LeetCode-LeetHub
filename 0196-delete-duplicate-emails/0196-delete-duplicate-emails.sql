@@ -2,7 +2,7 @@
 -- LeetCode : 196
 
 /**
-❌ Rejected Approach
+-- REJECTED APPROACH
 DELETE FROM Person
 WHERE id NOT IN (
     SELECT MIN(id) AS id
@@ -15,7 +15,7 @@ WHERE id NOT IN (
 -- That's Why Alias is Required
 */
 
--- ✅ Accepted Approach
+-- ACCEPTED APPROACH
 
 DELETE FROM PERSON
 WHERE id NOT IN (
