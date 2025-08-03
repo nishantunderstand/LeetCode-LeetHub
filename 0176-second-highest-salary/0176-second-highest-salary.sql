@@ -31,10 +31,25 @@ SELECT (
 SELECT MAX(e.salary) AS SecondHighestSalary
 FROM Employee e
 WHERE e.salary < (SELECT MAX(salary) FROM Employee);
-*/
 
 
 -- Inner Join Approach
 SELECT MAX(e1.salary) AS SecondHighestSalary
 FROM Employee e1 INNER JOIN Employee e2
 ON e1.salary < e2.salary;
+
+*/
+
+-- Window Function rank
+SELECT 
+    MAX(salary) AS SecondHighestSalary 
+FROM 
+    (
+    SELECT 
+        salary,
+        DENSE_RANK() OVER (ORDER BY salary DESC) AS rnk
+    FROM Employee
+    ) ranked
+Where rnk=2;
+-- If there is no rank = 2, the subquery returns no rows.
+
