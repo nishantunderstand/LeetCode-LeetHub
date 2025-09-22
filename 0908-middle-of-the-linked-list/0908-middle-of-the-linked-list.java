@@ -9,7 +9,12 @@
  * }
  */
 // LeetCode : 876
-// Even Or Odd Length : How to find 1st Or 2nd Middle ?
+/** 
+Even Or Odd Length
+How to find 1st Or 2nd Middle
+2nd Middle : Default fast=head, slow=head;
+1st Middle : fast = head.next, slow = head;
+*/
 class Solution {
     public ListNode middleNode(ListNode head) {
         return fastAndSlow(head);
