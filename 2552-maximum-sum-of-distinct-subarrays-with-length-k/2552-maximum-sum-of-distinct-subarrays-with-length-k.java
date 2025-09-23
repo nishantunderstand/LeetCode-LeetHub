@@ -8,7 +8,8 @@ class Solution {
         long windowSum = 0;
         long maxSum = 0;
         int windowStart = 0;
-        HashSet<Integer> hs = new HashSet<>(); //<--
+        Set<Integer> hs = new HashSet<>(); //<--
+        // HashSet<Integer> hs = new HashSet<>(); //<-- Less Flexible
         for(int windowEnd=0;windowEnd<len;windowEnd++){
             // If duplicate is found, shrink the window
             while(hs.contains(nums[windowEnd])){
@@ -26,7 +27,8 @@ class Solution {
                 maxSum = Math.max(maxSum,windowSum);
 
                 // Move the window forward
-                hs.remove(nums[windowStart]);                
+                hs.remove(nums[windowStart]);
+                // Remove Old & Increment                
                 windowSum -= nums[windowStart];                
                 windowStart++;
             }
