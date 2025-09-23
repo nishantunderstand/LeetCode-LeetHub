@@ -14,29 +14,93 @@
  * }
  */
 
-// Leetcode : 94
+/**
+Sunday, November 17, 2024 7:18:34 PM
+*/
+
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
+        if(root==null) return new ArrayList<Integer>();
+        //recursiveSolution(root);
+        //return iterativeSolution(root);
+        // return iterativeSolutionWithBreak(root);
+        return iterativeSolutionBetter(root);
+    }
+    
+    // T.C - O(n) | S.C - O(n+HeightOfTree)
+    public List<Integer> iterativeSolutionBetter(TreeNode root){
+        ArrayDeque<TreeNode> st = new ArrayDeque<>();
         List<Integer> res = new ArrayList<>();
-        if(root==null) return res;                
-        ArrayDeque<TreeNode> st = new ArrayDeque<>();                
-        TreeNode curr = root;
-        //LDR
-        /**
-            But Sometime it give me error.
-            So the Question is What is the correct Order
-            As we know AND OR have Short Circut Property
-        */
-        while(!st.isEmpty()|| curr!=null){ // Working Fine
-        //while(curr!=null || !st.isEmpty()){ // Working Fine
-            while(curr!=null){
-                st.push(curr);
-                curr=curr.left;
-            }
-            curr = st.pop();
-            res.add(curr.val);
-            curr=curr.right;
+        TreeNode node = root;       
+        while(!st.isEmpty()||node!=null){
+           while(node!=null){
+            st.push(node);
+            node = node.left;
+           }
+           node = st.pop();
+           res.add(node.val);
+           node=node.right;
         }
         return res;
+    }
+
+
+    // T.C - O(n) | S.C - O(n+HeightOfTree)
+    public List<Integer> iterativeSolutionWithBreak(TreeNode root){
+        ArrayDeque<TreeNode> st = new ArrayDeque<>();
+        List<Integer> res = new ArrayList<>();
+        TreeNode node = root;       
+        while(true){
+            if(node!=null){
+                st.push(node);
+                node = node.left;
+            }else{
+                if(st.isEmpty()){
+                    break;                   
+                }
+                node = st.pop();
+                res.add(node.val);
+                node = node.right;                               
+            }
+        }
+        return res;
+    }
+
+    // T.C - O(n) | S.C - O(n+HeightOfTree)
+    public List<Integer> iterativeSolution(TreeNode root){
+        ArrayDeque<TreeNode> st = new ArrayDeque<>();
+        List<Integer> res = new ArrayList<>();
+        TreeNode node = root;
+        boolean isDone = false; // It is alternative to avoid break Statment.
+        while(!isDone){
+            if(node!=null){
+                st.push(node);
+                node = node.left;
+            }else{
+                if(st.isEmpty()){
+                    //break;
+                    isDone=true; // All nodes processed; exit loop.
+                }else{
+                    node = st.pop();
+                    res.add(node.val);
+                    node = node.right;
+                }                
+            }
+        }
+        return res;
+    }
+
+    // T.C - O(n) | S.C - O(/HeightOfTree)
+    public List<Integer> recursiveSolution(TreeNode root){
+        List<Integer> res = new ArrayList<>();
+        inOrderHelper(root,res);
+        return res;
+    }
+    // LDR
+    public void inOrderHelper(TreeNode root,List<Integer> res){
+        if(root==null) return;
+        inOrderHelper(root.left,res);
+        res.add(root.val);
+        inOrderHelper(root.right,res);
     }
 }
