@@ -25,8 +25,10 @@ class Solution {
     // Time Complexity:O(n) | Space Complexity:O(HeightOfTree)
     public TreeNode createBST(int[] nums,int left,int right){
         if(left>right){ return null; }
-        int mid = left + (right-left)/2; 
-
+        
+        int mid1 = left + (right-left)/2; // Left Middle
+        int mid = left + (right-left+1)/2; // Right Middle
+        
         TreeNode root = new TreeNode(nums[mid]);  //<--
         root.left = createBST(nums,left,mid-1);
         root.right = createBST(nums,mid+1,right);
