@@ -1,43 +1,30 @@
 // LeetCode 875
 class Solution {
     public int minEatingSpeed(int[] piles, int h) {
-        int low = 1;
-        int max = Integer.MIN_VALUE;
-        int len = piles.length;
+        int minSpeed = 1;
+        int maxSpeed = 0;
 
-        for(int i=0;i<len;i++){
-            max = Math.max(max,piles[i]);
-        }
-        int high = max;
-        int potAns = max;
+        for(int pile : piles)
+            maxSpeed = Math.max(maxSpeed,pile);        
 
-        while(low< high){
-            int mid = low + (high-low)/2;
-
-            if(canEat(mid,piles)<=h){
-                potAns = mid;
-                high = mid; //<--
+        while(minSpeed<maxSpeed){
+            int midSpeed = minSpeed + (maxSpeed-minSpeed)/2;            
+            if(canEat(midSpeed,piles,h)){
+                // She can Eat, Try Slower
+                maxSpeed = midSpeed;            
             }else{
-                low = mid+1;
+                // Need to Eat Faster
+                minSpeed = midSpeed+1;
             }
         }
-        return potAns;
+        return minSpeed;
     }
-    public int canEat2(int mid,int [] piles){
-        int hours = 0; // <- Hours Cannot be Double
-        int len = piles.length;
-        for(int i=0;i<len;i++){
-            hours += (int) Math.ceil((double) piles[i]/mid);
-        }
-        return hours;
-    }
-
-    public int canEat(int mid,int [] piles){
-        int hours = 0; // <- Hours Cannot be Double
-        int len = piles.length;
+    
+    public boolean canEat(int speed,int [] piles,int h){
+        int hours = 0;         
         for(int pile : piles ){
-            hours += (int) Math.ceil((double) pile/mid);
+            hours += (int) Math.ceil((double) pile/speed);
         }
-        return hours;
+        return hours<=h;
     }
 }
