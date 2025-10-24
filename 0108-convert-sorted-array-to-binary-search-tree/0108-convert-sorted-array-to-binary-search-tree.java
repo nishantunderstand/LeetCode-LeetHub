@@ -14,6 +14,7 @@
  * }
  */
 // Leetcode : 108
+// How do you handle Odd and even Length Array ?
 class Solution {
     public TreeNode sortedArrayToBST(int[] nums) {
         int n = nums.length;
@@ -22,7 +23,7 @@ class Solution {
         return createBST(nums,0,n-1);
     }
     // Thursday, February 13, 2025 7:50:23 PM
-    // Time Complexity:O(n) | Space Complexity:O(HeightOfTree)
+    // Time Complexity:O(n) | Space Complexity:O(HeightOfTree)    
     public TreeNode createBST(int[] nums,int left,int right){
         if(left>right){ return null; }
         
@@ -35,3 +36,4 @@ class Solution {
         return root;
     }
 }
+
