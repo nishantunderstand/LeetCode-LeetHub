@@ -19,12 +19,22 @@ class Solution {
         }
         return minSpeed;
     }
-    
     public boolean canEat(int speed,int [] piles,int h){
+        int hours = 0;         
+        for(int pile : piles ){
+            hours += (pile+speed-1)/speed;
+        }
+        return hours<=h;
+    }
+
+
+    public boolean canEatDoubleVersion(int speed,int [] piles,int h){
         int hours = 0;         
         for(int pile : piles ){
             hours += (int) Math.ceil((double) pile/speed);
         }
         return hours<=h;
     }
+
+    // Integer ceiling trick (pile + speed - 1) / speed avoids Math.ceil and floating-point arithmetic.
 }
