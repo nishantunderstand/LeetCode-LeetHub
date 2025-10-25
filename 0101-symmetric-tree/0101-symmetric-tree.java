@@ -13,14 +13,15 @@
  *     }
  * }
  */
-// Leetcode : 101, 100
+// Leetcode : 101
 // Identical and Symmertical are two Different Thing. Be Clear With this
-
 class Solution {
     public boolean isSymmetric(TreeNode root) {
         if(root==null) return true;
         return checkEqual(root.left,root.right); //<--
     }
+    // Sunday, October 26, 2025 1:40:11 AM
+    // Time Complexity:O(n) | Space Complexity:O(HeightOfTree)
     public boolean checkEqual(TreeNode root1,TreeNode root2){
         if(root1==null && root2==null) return true; //<--
         if(root1==null || root2==null) return false;
@@ -29,3 +30,4 @@ class Solution {
         return checkEqual(root1.left,root2.right) && checkEqual(root1.right,root2.left);
     }
 }
+// Try LeetCode: 100
