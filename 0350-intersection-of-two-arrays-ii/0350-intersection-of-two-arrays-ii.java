@@ -52,3 +52,8 @@ class Solution {
         return result;
     }
 }
+
+/**
+    What if Number are Greater than 10 ?
+    How will you handle it ?
+*/
