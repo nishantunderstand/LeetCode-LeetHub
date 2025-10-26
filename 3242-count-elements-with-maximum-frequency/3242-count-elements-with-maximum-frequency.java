@@ -1,5 +1,12 @@
+// LeetCode : 3005
 class Solution {
-    public int maxFrequencyElements(int[] nums) {
+    public int maxFrequencyElements(int[] nums) {        
+        return hashMapApproach(nums);
+    }
+
+    // Sunday, October 26, 2025 12:13:08 PM
+    // Time Complexity:O(n) | Space Complexity:O(n)
+    public int hashMapApproach(int[] nums) {
         int n = nums.length;
         if(n==0){
             return 0;
