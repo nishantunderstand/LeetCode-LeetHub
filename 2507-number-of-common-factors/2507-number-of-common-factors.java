@@ -12,7 +12,7 @@ class Solution {
         int gcd = findGCD(a,b);
         int cnt=0;
         
-        for(int i=1;i<=gcd/i;i++){
+        for(int i=1;i<=gcd/i;i++){  //<--
             if(gcd%i!=0) continue;
             if(i==gcd/i) cnt=cnt+1;
             else cnt=cnt+2;
