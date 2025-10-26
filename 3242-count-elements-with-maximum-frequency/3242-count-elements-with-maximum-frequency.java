@@ -17,6 +17,7 @@ class Solution {
         }
         int count = 0;
         int max = Integer.MIN_VALUE;
+        
         for(Integer ival : hm.values()){
             max = Math.max(max,ival);                        
         }
@@ -26,6 +27,20 @@ class Solution {
                 count +=ival;
             }            
         }
+        /**
+        // First pass: find max frequency
+        for(Map.Entry<Integer,Integer> entry : hm.entrySet()){
+            max = Math.max(max, entry.getValue());                        
+        }
+
+        // Second pass: sum frequencies equal to max
+        for(Map.Entry<Integer,Integer> entry : hm.entrySet()){        
+            if(entry.getValue() == max){ // ival>=max // WRONG
+                count += entry.getValue();
+            }            
+        }
+        */
+        
         return count;
     }
 }
