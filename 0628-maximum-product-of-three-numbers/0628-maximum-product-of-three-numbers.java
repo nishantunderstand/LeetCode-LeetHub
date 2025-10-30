@@ -43,3 +43,13 @@ class Solution {
         return maxProd;
     }
 }
+
+/**
+All Postive Number
+All Negative Number
+Mixed
+	Postive dominance
+	Negative dominance
+	Mix with Zero
+Think Which Combination will gives the large products
+*/
