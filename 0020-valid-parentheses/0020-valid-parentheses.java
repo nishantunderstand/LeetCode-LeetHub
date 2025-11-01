@@ -1,4 +1,5 @@
 // Leetcode : 20
+// )( - Invalid 
 class Solution {
     public boolean isValid(String s) {
         //return stackApproach(s);
