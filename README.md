@@ -106,6 +106,7 @@
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2873-prime-pairs-with-target-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2873-prime-pairs-with-target-sum) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3242-count-elements-with-maximum-frequency) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -284,6 +285,7 @@
 | [2427-first-letter-to-appear-twice](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2427-first-letter-to-appear-twice) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3242-count-elements-with-maximum-frequency) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -471,6 +473,7 @@
 | [0328-odd-even-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0328-odd-even-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0908-middle-of-the-linked-list) |
 | [2871-double-a-number-represented-as-a-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2871-double-a-number-represented-as-a-linked-list) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Two Pointers
 |  |
 | ------- |
