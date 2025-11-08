@@ -12,11 +12,11 @@ class Solution {
         for(int num:nums){
             tSum += num;
         }
-        int lSum = 0,rSum=tSum;
+        int lSum = 0;
         // Iterate with Index
         for(int i=0;i<nums.length;i++){
-            rSum -= nums[i];
-            if(lSum==rSum) return i;
+            tSum -= nums[i];
+            if(lSum==tSum) return i;  //<--
             lSum += nums[i];
         }
         return -1;
