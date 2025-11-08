@@ -1,10 +1,13 @@
 // Leetcode : 268
 class Solution {
     public int missingNumber(int[] nums) {        
-        return mathApproach(nums);
+        //return mathApproach(nums);
         //return hashSetApproach(nums);
+        return mathApproachMOD(nums);
     }  
 
+    // Wednesday, April 23, 2025 8:16:16 PM
+    // Time Complexity:O(n) | Space Complexity:O(n)
     private int hashSetApproach(int[] nums) {
         int n = nums.length;
         HashSet<Integer> hs = new HashSet<>();
@@ -13,12 +16,26 @@ class Solution {
             hs.add(nums[i]);
         }
 
-        for(int i=0;i<=n;i++){
+        for(int i=0;i<=n;i++){  //<--
             if(!hs.contains(i)) return i;
         }
         return -1;     
     }
 
+     // Time Complexity:O(n) | Space Complexity:O(1)
+    public int mathApproachMOD(int[] nums) {
+        int n = nums.length;
+        if(n==0){
+            return 0;
+        }
+        int expectedSum = n*(n+1)/2;
+        int actualSum = 0;
+        for(int i=0;i<n;i++){
+            expectedSum -= nums[i];  //<--
+        }
+        return expectedSum;
+        
+    }
 
 
     // Wednesday, April 23, 2025 8:06:30 PM
