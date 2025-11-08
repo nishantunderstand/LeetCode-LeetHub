@@ -17,7 +17,7 @@ class Solution {
         for(int windowEnd=0;windowEnd<len;windowEnd++){
             windowProd *=nums[windowEnd];
             // Shrink the Window if product exceed k 
-            while(windowProd>=k && startIdx<=windowEnd){  //<-- Out of Bound
+            while(windowProd>=k && startIdx<=windowEnd){  //<-- Out of Bound, Overshoot 
                 windowProd /= nums[startIdx];
                 startIdx++;
             }
