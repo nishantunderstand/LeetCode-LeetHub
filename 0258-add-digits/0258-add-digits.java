@@ -1,8 +1,21 @@
 // Leetcode : 258
 class Solution {
     public int addDigits(int num) {
-        return recursiveApproach(num);
+        //return recursiveApproach(num);
         //return directFormula(num);
+        return directApproach(num);
+    }
+
+    private int directApproach(int num) {
+        while(num>=10){
+            int csum = 0;
+            while(num!=0){
+                csum += num%10;
+                num = num/10;
+            }
+            num = csum; //<--
+        }
+        return num;
     }
 
     // Sunday, January 5, 2025 8:51:12 PM
