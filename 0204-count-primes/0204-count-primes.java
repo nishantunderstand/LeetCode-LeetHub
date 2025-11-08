@@ -8,14 +8,11 @@ class Solution {
     }
 
     public int sieveApproachInteger(int n) {
-        if (n <= 2) {
-            return 0;
-        }
+        if (n <= 2) return 0;
         int count = 0;
         int[] isPrime = new int[n];
         Arrays.fill(isPrime, 1);
-        isPrime[0] = 0;
-        isPrime[1] = 0;
+        isPrime[0] = 0; isPrime[1] = 0;
         for (int i = 2; i * i < n; i++) {
             if (isPrime[i] == 1) {
                 for (int j = i * i; j < n; j = j + i) { 
@@ -34,7 +31,7 @@ class Solution {
     // Friday, January 3, 2025 2:19:51 PM
     // Time Complexity:O(nloglogn) | Space Complexity:O(n)
     public int sieveApproach(int n) {
-        boolean[] isPrime = new boolean[n + 1];
+        boolean[] isPrime = new boolean[n+1];  //<--
         for (int i = 2; i < n; i++) {
             isPrime[i] = true;
         }
@@ -46,7 +43,7 @@ class Solution {
             }
         }
         int cnt = 0;
-        for (int i = 2; i < n; i++) {
+        for (int i = 2; i < n; i++) {  //<--
             if (isPrime[i] == true) {
                 cnt++;
             }
