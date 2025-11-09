@@ -27,7 +27,7 @@ class Solution {
         if(root1==null || root2==null) return false;
 
         if(root1.val!=root2.val) return false;        
-        return checkEqual(root1.left,root2.right) && checkEqual(root1.right,root2.left);
+        return checkEqual(root1.left,root2.right) && checkEqual(root1.right,root2.left);  //<--
     }
 }
 // Try LeetCode: 100
