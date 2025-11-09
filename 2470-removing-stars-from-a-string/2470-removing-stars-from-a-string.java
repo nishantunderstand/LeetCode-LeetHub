@@ -53,17 +53,13 @@ class Solution {
                 st.push(curr);
             }
         }
+        
+        if(st.isEmpty()) return "";   //<-- Optional Readability , While Loop take care of it.
+
         StringBuilder res = new StringBuilder();
         while(!st.isEmpty()){
             res.append(st.pop());
         }
         return res.reverse().toString();
     }
-    /**
-    leet**c******
-    st => lec
-    What if we have more number of ***
-    erase*****
-    How this is Handled ??
-    */
 }
