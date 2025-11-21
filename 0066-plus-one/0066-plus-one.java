@@ -2,8 +2,24 @@
 class Solution {
     public int[] plusOne(int[] digits) {
         //return arrWithArray(digits);
-        return arrWithArrayListCarryReverse(digits);
+        //return arrWithArrayListCarryReverse(digits);
         //return arrWithArrayListCarryReverseMOD(digits);
+        return arrayWithSystem(digits);
+    }
+
+    private int[] arrayWithSystem(int[] nums){    
+        int carry = 1;
+        for(int i= nums.length-1;i>=0;i--){
+            int dig = carry + nums[i];
+            nums[i] = dig % 10;
+            carry = dig / 10;
+            
+        }
+        if(carry==0) return nums;
+        int[] result = new int[nums.length+1];
+        result[0]=1;
+        System.arraycopy(nums,0,result,1,nums.length);
+        return result;
     }
 
 
@@ -70,9 +86,6 @@ class Solution {
         return resArr;
     }
     
-
-
-
     // Walkccc
     public int[] arrWithArray(int[] digits) {
         for (int i = digits.length - 1; i >= 0; i--) {
