@@ -11,14 +11,16 @@ class Solution {
         int carry = 1;
         for(int i= nums.length-1;i>=0;i--){
             int dig = carry + nums[i];
-            nums[i] = dig % 10;
-            carry = dig / 10;
+            nums[i] = dig % 10;  //<--
+            carry = dig / 10;  //<--
             
         }
         if(carry==0) return nums;
+
         int[] result = new int[nums.length+1];
         result[0]=1;
-        System.arraycopy(nums,0,result,1,nums.length);
+        System.arraycopy(nums,0,result,1,nums.length);  //<--
+        
         return result;
     }
 
