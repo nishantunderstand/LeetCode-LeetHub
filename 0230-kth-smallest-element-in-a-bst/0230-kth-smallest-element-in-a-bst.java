@@ -13,12 +13,32 @@
  *     }
  * }
  */
+
+// LeetCode : 230
 class Solution {
-    int ans=-1;
+    int ans=0;
     int cnt=0;
+    // Thursday, January 2, 2025 2:24:34 PM
+    // Time Complexity:O(n) | Space Complexity:O(HeightOfTree)
     public int kthSmallest(TreeNode root, int k) {
        bstIterativeApproach(root,k); 
-       return ans;
+       //return ans;
+       
+       PriorityQueue<Integer> pq = new PriorityQueue<>((a,b)->b-a);
+       bstHeapApproach(root,k,pq);
+       return pq.peek();
+    }
+
+    // Does it Matter? Min or Max ?
+    // Pre/Post/In-Order
+    private void bstHeapApproach(TreeNode node, int k,PriorityQueue<Integer> pq){
+        if(node==null) return;        
+        
+        pq.offer(node.val);
+        if(pq.size()>k) pq.poll();
+        
+        bstHeapApproach(node.left,k,pq);
+        bstHeapApproach(node.right,k,pq);    
     }
 
     // InOrder as it is Sorted
@@ -29,7 +49,6 @@ class Solution {
         if(cnt==k){
             ans=root.val;
         }        
-        bstIterativeApproach(root.right,k);
-        
+        bstIterativeApproach(root.right,k);        
     }
 }
