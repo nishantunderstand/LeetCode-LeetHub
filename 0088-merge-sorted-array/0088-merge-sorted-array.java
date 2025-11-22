@@ -2,8 +2,21 @@
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         // bruteForce(nums1,m,nums2,n); //<--
-        priorityQueue(nums1,m,nums2,n);
+        // priorityQueue(nums1,m,nums2,n);
+        twoPointerApproach(nums1,m,nums2,n);
     }  
+    // nums1=> [0] , m=0 , nums2=> [1] , n=1
+     private void twoPointerApproach(int[] nums1, int m ,int[] nums2, int n){
+        int p1 = m-1, p2 = n-1, i = m+n-1;
+        while(p1>=0 && p2>=0){
+            if(nums1[p1]<nums2[p2]) nums1[i--]=nums2[p2--];
+            else nums1[i--]=nums1[p1--];
+        }
+        // Left Over 
+        while(p2>=0){
+            nums1[i--]=nums2[p2--];
+        }
+    }
 
     private void priorityQueue(int[] nums1,int m, int[] nums2,int n){
         PriorityQueue<Integer> minPQ = new PriorityQueue<>();
