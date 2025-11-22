@@ -13,7 +13,7 @@ class Solution {
         for(int i=0;i<str.length();i++){
             char curr = str.charAt(i);
             if(curr>='A' && curr<='Z'){
-                curr = (char)(curr+32);  //<--                
+                curr = (char)(curr+32);  //<--  LowerCase to UpperCase             
             }
             sb.append(curr);  //<--
         }
