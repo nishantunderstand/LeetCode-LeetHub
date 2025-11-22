@@ -5,8 +5,11 @@ class Solution {
         // priorityQueue(nums1,m,nums2,n);
         twoPointerApproach(nums1,m,nums2,n);
     }  
+    
     // nums1=> [0] , m=0 , nums2=> [1] , n=1
-     private void twoPointerApproach(int[] nums1, int m ,int[] nums2, int n){
+    // Saturday, November 22, 2025 9:47:49 PM
+    // Time Complexity:O(m+n) | Space Complexity:O(1)
+    private void twoPointerApproach(int[] nums1, int m ,int[] nums2, int n){
         int p1 = m-1, p2 = n-1, i = m+n-1;
         while(p1>=0 && p2>=0){
             if(nums1[p1]<nums2[p2]) nums1[i--]=nums2[p2--];
@@ -17,7 +20,8 @@ class Solution {
             nums1[i--]=nums2[p2--];
         }
     }
-
+    // Saturday, November 22, 2025 9:46:59 PM
+    // Time Complexity:O(m+n log(m+n)) | Space Complexity:O(m+n)
     private void priorityQueue(int[] nums1,int m, int[] nums2,int n){
         PriorityQueue<Integer> minPQ = new PriorityQueue<>();
         for(int i=0;i<m;i++){
