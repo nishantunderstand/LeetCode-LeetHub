@@ -11,19 +11,23 @@ class Solution {
     public int dynamicSlidingWindow(int[] nums, int k) {
         // Dynamic Window
         int windowProd=1;
-        int startIdx=0;
-        int cnt = 0;
-        int len = nums.length;
-        for(int windowEnd=0;windowEnd<len;windowEnd++){
-            windowProd *=nums[windowEnd];
-            // Shrink the Window if product exceed k 
-            while(windowProd>=k && startIdx<=windowEnd){  //<-- Out of Bound, Overshoot 
-                windowProd /= nums[startIdx];
-                startIdx++;
+        int windowStartIdx=0;
+        int windowCnt = 0;
+
+        for(int windowEnd=0;windowEnd<nums.length;windowEnd++){
+
+            windowProd *= nums[windowEnd];  //<--
+            //windowProd = windowProd * nums[windowEnd];
+
+            // Shrink the Window if product exceed k             
+            while(windowProd>=k && windowStartIdx<=windowEnd){  //<-- Out of Bound, Overshoot 
+                windowProd /= nums[windowStartIdx];  //<--
+                windowStartIdx++;
             }
-            cnt+=(windowEnd-startIdx+1);   //<--
+            
+            windowCnt+=(windowEnd-windowStartIdx+1);   //<--
         }
-        return cnt;
+        return windowCnt;
     }
 
 
