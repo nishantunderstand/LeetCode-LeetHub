@@ -1,12 +1,4 @@
-/**
-Look at the input, 
-There are already in token you don't need to further split it.
-
-Array Made of String.
-While Pushing, We need to take care of Integer Data Type parseIn
-Get aware of switch as well.
-*/
-
+// LeetCode : 150
 class Solution {
     public int evalRPN(String[] tokens) {
         int n = tokens.length;
@@ -16,15 +8,15 @@ class Solution {
         Deque<Integer> st = new ArrayDeque<>();
         for(String token : tokens){
             if(token.equals("+")||token.equals("-")||token.equals("*")||token.equals("/")){
-                int x = st.pop();
-                int y = st.pop();
+                int op2 = st.pop();
+                int op1 = st.pop();
                 switch(token){
-                    case "+":st.push(y+x);break;
-                    case "-":st.push(y-x);break;
-                    case "*":st.push(y*x);break;
+                    case "+":st.push(op1+op2);break;
+                    case "-":st.push(op1-op2);break;
+                    case "*":st.push(op1*op2);break;
                     case "/":
-                        if(x!=0){
-                            st.push(y/x);
+                        if(op2!=0){
+                            st.push(op1/op2);
                         }
                         break;                        
                 }
