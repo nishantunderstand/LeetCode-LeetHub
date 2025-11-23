@@ -11,7 +11,7 @@ class Solution {
     // Time Complexity:O(n) | Space Complexity:O(n)
     public boolean hashingAndStack(String s) {
         int len = s.length();
-        if(s==null || len==0 || len%2==1) return false;
+        if(s==null || len==0 || len%2==1) return false;  //<--
         
         HashMap<Character,Character> hm = new HashMap<>();
         hm.put(')','(');
@@ -24,7 +24,7 @@ class Solution {
         for(int i=0;i<len;i++){
             char curr = s.charAt(i);
             if(hm.containsKey(curr)){
-                if(st.isEmpty() || st.peek()!=hm.get(curr)){
+                if(st.isEmpty() || st.peek()!=hm.get(curr)){  //<--
                     return false;
                 }
                 st.pop();
