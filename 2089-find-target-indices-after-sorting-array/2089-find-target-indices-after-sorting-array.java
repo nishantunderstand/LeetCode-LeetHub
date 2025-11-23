@@ -9,6 +9,8 @@ class Solution {
         return res;
     }
 
+    // Sunday, November 23, 2025 1:45:18 PM
+    // Time Complexity:O(n) | Space Complexity:O(n)
     private void recursiveApproach(int[] nums, int target, int index, List<Integer> res){
         if(index == nums.length) return;
         if(nums[index]==target) res.add(index);
