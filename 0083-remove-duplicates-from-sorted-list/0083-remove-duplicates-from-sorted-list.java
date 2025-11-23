@@ -36,7 +36,6 @@ class Solution {
         return head;
     }
 
-    // Reliable and Safe
     // Friday, May 16, 2025 1:25:33 PM
     // Time Complexity:O(n) | Space Complexity:O(n)
     public ListNode unsortedCaseDummy(ListNode head) {
@@ -55,12 +54,10 @@ class Solution {
         return dummy.next;
     }        
 
-
     // Friday, May 16, 2025 1:25:33 PM
     // Time Complexity:O(n) | Space Complexity:O(n)
      private ListNode unsortedCase(ListNode head) {
         if (head == null) return null;
-
         HashSet<Integer> seen = new HashSet<>();
         ListNode curr = head;
         ListNode prev = null;
@@ -96,3 +93,7 @@ class Solution {
         return head;        
     }
 }
+/** 
+    When to use dummyNode Concept ?
+    When Head can be deleted
+*/
