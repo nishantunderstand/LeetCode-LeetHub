@@ -1,18 +1,24 @@
+// LeetCode : 3
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-        // SlidingWindow 
-        HashSet<Character> charSet = new HashSet<>();
-        int maxLength = 0;
-        int startIdx = 0;
-        int len = s.length();
-        for(int i=0;i<len;i++){
-            while(charSet.contains(s.charAt(i))){
-                charSet.remove(s.charAt(startIdx));
-                startIdx++;
+        return slidingWindowPattern(s);
+    }
+
+    // Tuesday, September 16, 2025 9:47:21 PM
+    // Time Complexity:O(n) | Space Complexity:O(n)
+    public int slidingWindowPattern(String s) {
+        Set<Character> seen = new HashSet<>();
+        int windowStart = 0, maxLen = 0;
+        for (int windowEnd = 0; windowEnd < s.length(); windowEnd++) {
+            char currentChar = s.charAt(windowEnd);
+            // If Duplicate Found , Shrink 
+            while (seen.contains(currentChar)) {
+                seen.remove(s.charAt(windowStart));
+                windowStart++;
             }
-            charSet.add(s.charAt(i));
-            maxLength = Math.max(maxLength,i-startIdx+1);
-        } 
-        return maxLength;
+            seen.add(currentChar);
+            maxLen = Math.max(maxLen, windowEnd - windowStart + 1);
+        }
+        return maxLen;
     }
 }
