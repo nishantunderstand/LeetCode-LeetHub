@@ -30,9 +30,6 @@ class Solution {
         return windowCnt;
     }
 
-
-
-    
     // A HashMap is typically useful for prefix sum problems, where we check:
     // Why not HashMap? Products are multiplicative → cannot use prefix sum hashmap directly.
     public int hashMapApproach(int[] nums, int k) {
