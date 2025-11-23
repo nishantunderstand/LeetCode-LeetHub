@@ -29,7 +29,7 @@ class Solution {
         if(root==null) return -1;
         int left = dfsHeightByEdge(root.left);
         int right = dfsHeightByEdge(root.right);
-        maxi = Math.max(maxi,left+right+2);
+        maxi = Math.max(maxi,left+right+2);  //<--
         return 1 + Math.max(left,right);
     }
 
@@ -40,6 +40,6 @@ class Solution {
         int left = dfsHeightByNode(root.left);
         int right = dfsHeightByNode(root.right);
         maxi = Math.max(maxi,left+right);
-        return 1+ Math.max(left,right);
+        return 1+ Math.max(left,right);  //<--
     }
 }
