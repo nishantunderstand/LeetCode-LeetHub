@@ -243,6 +243,7 @@
 | [2507-number-of-common-factors](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2507-number-of-common-factors) |
 | [2871-double-a-number-represented-as-a-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 | [2873-prime-pairs-with-target-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2873-prime-pairs-with-target-sum) |
+| [3270-find-the-key-of-the-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3270-find-the-key-of-the-numbers) |
 | [3568-find-the-key-of-the-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3568-find-the-key-of-the-numbers) |
 ## Enumeration
 |  |
