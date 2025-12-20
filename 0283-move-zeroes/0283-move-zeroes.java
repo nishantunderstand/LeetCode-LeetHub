@@ -1,4 +1,5 @@
 // Leetcode : 283
+// Related Leetcode : 75 
 class Solution {
     int[] nums;
 
@@ -6,12 +7,30 @@ class Solution {
         //basedOnDutchNationalFlag(nums);
         //bySwapNotRelativeOrder(nums);
         //nonZerotoStart(nums);  //<--
-        
         this.nums = nums;
-        byDutchNationFlag();
+        //byDutchNationFlag();
+        overwriteApproach(nums);
+    }
+    
+    private void overwriteApproach(int[] nums){
+        int nonZero=0;
+        for(int i=0;i<nums.length;i++){
+            if(nums[i] != 0){
+                nums[nonZero++]=nums[i];                
+            }
+        }
+        while(nonZero<nums.length){
+            nums[nonZero++]=0;
+        }
     }
 
-    // 
+    // Time Complexity:O(1) | Space Complexity:O(1)
+    public void swap(int[] arr, int a, int b) {
+        int temp = arr[a];
+        arr[a] = arr[b];
+        arr[b] = temp;
+    }
+
     public void byDutchNationFlag() {
         int i = 0, j = 0, len = nums.length;
         while (i < len && j < len) {
@@ -54,12 +73,7 @@ class Solution {
         }
     }
 
-    // Time Complexity:O(1) | Space Complexity:O(1)
-    public void swap(int[] arr, int a, int b) {
-        int temp = arr[a];
-        arr[a] = arr[b];
-        arr[b] = temp;
-    }
+    
 
     // Correct But Not Required , Question Required is Different 
     // Out Of Place Approach, Relative Order is Not Maintained
@@ -76,11 +90,3 @@ class Solution {
         }
     }
 }
-
-// I cannot swap with End Element, As it is Unknown
-// However i can use Dutch National Flag Algorithm, Know and Unknow Region Concept
-/**
-0 1 0 3 12
-*/
-
-// Related Leetcode : 75 
