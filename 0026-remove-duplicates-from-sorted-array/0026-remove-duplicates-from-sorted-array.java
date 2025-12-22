@@ -2,7 +2,7 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
         return inplaceApproach(nums);
-        
+            
     }
 
     // Wednesday, April 23, 2025 6:32:02 PM
@@ -11,13 +11,13 @@ class Solution {
         if (nums.length <= 0) {
             return 0;
         }
-        int i = 0;
-        for (int j = 1; j < nums.length; j++) {
-            if (nums[i] != nums[j]) {
-                i++;
-                nums[i] = nums[j];
+        int idx = 1;  //<--
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] != nums[i-1]) {                
+                nums[idx] = nums[i];
+                idx++  //<--
             }
         }
-        return i+1;
+        return idx;
     }
 }
