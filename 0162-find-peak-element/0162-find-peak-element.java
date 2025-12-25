@@ -4,9 +4,7 @@ class Solution {
         //return binarySearch(nums);
         //return bruteForceSearch(nums);
         return bruteForceSearchPeak(nums);
-    }
-    // [2,1] 
-    // [1,2,3]
+    }        
     // Sunday, February 16, 2025 5:50:04 PM
     // Time Complexity:O(logn) | Space Complexity:O(1) 
     public int bruteForceSearchPeak(int[] nums) {
@@ -59,7 +57,6 @@ class Solution {
         }
         return lo;
     }
-
 
     // Sunday, February 16, 2025 4:39:55 PM
     // Time Complexity:O(n) | Space Complexity:O(1)
