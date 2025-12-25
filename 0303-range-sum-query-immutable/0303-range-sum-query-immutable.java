@@ -1,11 +1,13 @@
 // Leetcode : 303
 class NumArray {
-    int pf[];
+    private int pf[];
+    
     // Friday, May 16, 2025 11:21:42 AM
     // Time Complexity:O(n) | Space Complexity:O(n)
     public NumArray(int[] nums) {
         pf = new int[nums.length];
         int n = nums.length;
+        
         pf[0]=nums[0];
         for(int i=1;i<n;i++){
             pf[i]=pf[i-1]+nums[i];
