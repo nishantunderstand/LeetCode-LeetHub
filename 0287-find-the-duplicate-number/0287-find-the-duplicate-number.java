@@ -7,7 +7,7 @@ class Solution {
 
     private int hashsetApproach(int[] nums){
         Set<Integer> seen = new HashSet<>();
-        for(int i=0;i<=nums.length;i++){
+        for(int i=0;i<nums.length;i++){
             if(seen.contains(nums[i])){
                 return nums[i];
             }
