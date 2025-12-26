@@ -3,9 +3,18 @@ class Solution {
     public int findKthLargest(int[] nums, int k) {
         // return arrayApproach(nums,k);
         // return maxHeapApproach(nums,k);
-        return minHeapApproach(nums,k);       
+        //return minHeapApproach(nums,k); 
+        return bruteForceApproach(nums,k);      
     }
 
+
+    // [3,2,1,5,6,4], k = 2
+    // [1,2,3,4,5,6] 
+
+    private int bruteForceApproach(int[] nums, int k){
+        Arrays.sort(nums);
+        return nums[nums.length-k];
+    }
     
     // Thursday, February 13, 2025 8:18:52 PM
     // Time Complexity:O(n*logk) | Space Complexity:O(k)
