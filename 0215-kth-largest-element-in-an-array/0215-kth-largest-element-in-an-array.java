@@ -10,7 +10,7 @@ class Solution {
 
     // [3,2,1,5,6,4], k = 2
     // [1,2,3,4,5,6] 
-
+    // kth largest → n - k
     private int bruteForceApproach(int[] nums, int k){
         Arrays.sort(nums);
         return nums[nums.length-k];
