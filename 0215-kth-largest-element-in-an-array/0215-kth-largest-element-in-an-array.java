@@ -1,7 +1,4 @@
-/** LeetCode 215
-Can you solve it with Max Heap in SINGLE PASS* ? NO
-*/
-
+// LeetCode : 215
 class Solution {
     public int findKthLargest(int[] nums, int k) {
         // return arrayApproach(nums,k);
