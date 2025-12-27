@@ -3,8 +3,10 @@ class Solution {
     public int[] sortedSquares(int[] nums) {
         //return streamApproach(nums);
         return twoPointerApproach(nums);
-    }
+    }  
 
+    // Saturday, December 27, 2025 5:36:11 PM
+    // Time Complexity:O(n) | Space Complexity:O(n)
     private int[] twoPointerApproach(int[] nums){
         int[] res = new int[nums.length];
         // Sqauring it 
