@@ -5,11 +5,11 @@ class Solution {
         //return runningSum(nums);
         //return runningSum2(nums);
         //return prefixSumApproach(nums);
-        return suffixSumApproach(nums);
+        return presuffixSumApproach(nums);
         
     }
 
-    private int suffixSumApproach(int[] nums){
+    private int presuffixSumApproach(int[] nums){
         int n = nums.length;
         
         int[] prefix = new int[n];
