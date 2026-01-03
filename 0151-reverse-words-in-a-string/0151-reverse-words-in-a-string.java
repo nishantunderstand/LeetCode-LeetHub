@@ -1,9 +1,21 @@
 // LeetCode 151
 class Solution {
     public String reverseWords(String s) {    
-        return stringInBuildMethod(s);
+        //return stringInBuildMethod(s);
+        return reverseWordsStringBuilder(s);
     }
 
+    private String reverseWordsStringBuilder(String str){
+        String[] words = str.trim().split("\\s+");
+        StringBuilder sb = new StringBuilder();
+        for(int i=words.length-1,i>=0;i--){
+            sb.append(words[i]);
+            if(i>0){
+                sb.append(" ");
+            }
+        }
+        return sb.toString();
+    }
 
     // Thursday, March 20, 2025 6:11:18 PM
     // Time Complexity:O(n) | Space Complexity:O(n)
