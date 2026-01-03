@@ -1,7 +1,12 @@
-// June 11,24 | T-O(n)
+// LeetCode : 7
 class Solution {
     public int reverse(int x) {
-
+        return divideAndReverse(x);        
+    }
+    
+    // June 11,24 
+    // TC O(n) | SC O(1)
+    private int divideAndReverse(int x) {
         // Negative Case-1
         boolean flag = false;
         if (x < 0) {
