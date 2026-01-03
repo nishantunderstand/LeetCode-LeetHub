@@ -15,11 +15,14 @@ class Solution {
     }
 
     private void reverse2(char[] arr, int start, int end){
-        char temp = arr[end];
-        arr[end] = arr[start];
-        arr[start] = temp;
-        start++;
-        end--;
+        while(start<end){
+            char temp = arr[end];
+            arr[end] = arr[start];
+            arr[start] = temp;
+            start++;
+            end--;
+        }
+        
     }
 
     private void reverse(char[] arr, int start, int end){
