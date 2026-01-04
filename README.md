@@ -74,6 +74,7 @@
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0485-max-consecutive-ones) |
 | [0518-coin-change-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0518-coin-change-ii) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0560-subarray-sum-equals-k) |
 | [0628-maximum-product-of-three-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0628-maximum-product-of-three-numbers) |
@@ -158,6 +159,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0628-maximum-product-of-three-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0628-maximum-product-of-three-numbers) |
 | [0780-max-chunks-to-make-sorted](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0780-max-chunks-to-make-sorted) |
 | [0917-boats-to-save-people](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0917-boats-to-save-people) |
@@ -287,6 +289,7 @@
 | [0387-first-unique-character-in-a-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0387-first-unique-character-in-a-string) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0560-subarray-sum-equals-k) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0966-binary-subarrays-with-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0966-binary-subarrays-with-sum) |
@@ -527,6 +530,7 @@
 | [0344-reverse-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0344-reverse-string) |
 | [0349-intersection-of-two-arrays](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0541-reverse-string-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0541-reverse-string-ii) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -576,6 +580,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0540-single-element-in-a-sorted-array) |
 | [0713-subarray-product-less-than-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0713-subarray-product-less-than-k) |
 | [0792-binary-search](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0792-binary-search) |
