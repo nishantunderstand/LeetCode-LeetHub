@@ -19,7 +19,7 @@ class Solution {
     } 
 
     public int lowerBound(int[] nums, int target){
-        int left=0,right=nums.length;
+        int left=0,right=nums.length;  //<--
         while(left<right){
             int mid = left + (right-left)/2;
             if(nums[mid]<target){  //<--
