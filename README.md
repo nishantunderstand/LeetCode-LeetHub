@@ -104,6 +104,7 @@
 | [1319-unique-number-of-occurrences](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1319-unique-number-of-occurrences) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1848-sum-of-unique-elements](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1848-sum-of-unique-elements) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2016-maximum-difference-between-increasing-elements](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2016-maximum-difference-between-increasing-elements) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2106-find-greatest-common-divisor-of-array) |
@@ -247,6 +248,7 @@
 | [0856-consecutive-numbers-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0856-consecutive-numbers-sum) |
 | [1013-fibonacci-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1014-k-closest-points-to-origin) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2106-find-greatest-common-divisor-of-array) |
 | [2383-add-two-integers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2383-add-two-integers) |
 | [2507-number-of-common-factors](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2507-number-of-common-factors) |
@@ -266,6 +268,7 @@
 | ------- |
 | [0204-count-primes](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0204-count-primes) |
 | [0258-add-digits](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0258-add-digits) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2106-find-greatest-common-divisor-of-array) |
 | [2507-number-of-common-factors](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2507-number-of-common-factors) |
 | [2873-prime-pairs-with-target-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2873-prime-pairs-with-target-sum) |
