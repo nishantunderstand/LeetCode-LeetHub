@@ -5,7 +5,27 @@ class Solution {
         // return recursive(x, n); // TLE
         // return recursiveMod(x, n); // RunTime Error
         // return recursiveModAdv(x, n); // RunTime Error
-        return recursiveFinal(x, n);
+        // return recursiveFinal(x, n);
+        return betterLongApproach(x,n);        
+    }
+
+    public double betterLongApproach(double x, int n) {
+       long N = n;
+       if(N<0){
+        x = 1/x;
+        N = -N;
+       }
+       return fastPow(x,N);        
+    }
+
+    private double fastPow(double x, long n){
+        if(n==0) return 1.0;
+        double half = fastPow(x,n/2);
+        if(n%2==0){
+            return half*half;
+        }else{
+            return x * half * half;
+        }
     }
 
     public double recursiveFinal(double x, int n) {
