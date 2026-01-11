@@ -15,7 +15,8 @@ public class Solution {
         //return hashSetApproach(headA,headB);
         return twoPointerApproach(headA,headB);
     }
-
+    // Sunday, January 11, 2026 6:20:00 PM
+    // Time Complexity:O(m+n) | Space Complexity:O(1)
     private ListNode twoPointerApproach(ListNode head1, ListNode head2){
         if(head1==null || head2 == null) return null;
         ListNode p1 = head1;
