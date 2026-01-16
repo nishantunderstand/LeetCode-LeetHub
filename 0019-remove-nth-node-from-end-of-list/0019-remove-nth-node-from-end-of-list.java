@@ -1,45 +1,45 @@
-// Leetcode : 19
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
+// LeetCode : 19
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
-        return twoPassSol(head,n);
-        // return SinglePassTwoPointerSol(head,n);
+        return lengthApproach(head,n);
+        //return gapApproach(head,n);
     }
 
-    // Saturday, May 17, 2025 8:46:51 PM
-    // Time Complexity:O(n) | Space Complexity:O(1)
-    private ListNode twoPassSol(ListNode head, int k){
-        if(k==0) return head;
-        
-        // Find Length
-        ListNode temp = head;
-        int len=0;
-        while(temp!=null){
-            temp=temp.next;
-            len++;
+    private ListNode gapApproach(ListNode head, int n) {
+        if(head==null) return null;        
+        ListNode dummy = new ListNode(-1);
+        dummy.next = head;
+        ListNode fast = dummy;
+        ListNode slow = dummy;        
+        // Create a Gap if n nodes 
+        for(int i=0;i<n;i++){
+            fast = fast.next;        
         }
-
-        if(k>=len) return head.next;
-
-        temp = head;
-        int range = len-k-1;  //<--
-        for(int i=0;i<range;i++){
-            temp = temp.next;
+        while(fast!=null && fast.next!=null){
+            slow = slow.next;
+            fast = fast.next;            
         }
+        slow.next = slow.next.next;
+        return dummy.next;
+    }
 
-        if(temp.next!=null){  //<--
-            temp.next = temp.next.next;
+    private ListNode lengthApproach(ListNode head, int n) {
+        int len = findLL(head);    
+        ListNode dummy = new ListNode(-1);
+        dummy.next = head;
+        ListNode curr = dummy;
+        for(int i=0;i<len-n;i++){
+            curr = curr.next;
         }
-        
-        return head;
+        curr.next = curr.next.next;
+        return dummy.next;
+    }
+    private int findLL(ListNode head){
+        int cnt=0;
+        while(head!=null){
+            cnt++;
+            head = head.next;        
+        }
+        return cnt;
     }
 }
