@@ -1,17 +1,6 @@
 // Leetcode : 148
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode() {}
- * ListNode(int val) { this.val = val; }
- * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 class Solution {
-    public ListNode sortList(ListNode head) {
-        if (head == null || head.next == null) return head;
+    public ListNode sortList(ListNode head) {        
         return mergeLL(head);
     }
 
@@ -19,8 +8,7 @@ class Solution {
     // Time Complexity:O(nlogn) | Space Complexity:O(logn)
     public ListNode mergeLL(ListNode head) {
         if (head == null || head.next == null) return head;
-        ListNode mid = findMiddle(head);
-        
+        ListNode mid = findMiddle(head);        
         ListNode head2 = mid.next;
         mid.next = null;
 
@@ -30,50 +18,34 @@ class Solution {
     }
 
     // Time Complexity:O(n) | Space Complexity:O(1)
-    public ListNode merge2LL(ListNode left, ListNode right) {
+    public ListNode merge2LL(ListNode head1, ListNode head2) {
         ListNode dummy = new ListNode(-1);
         ListNode curr = dummy;
-        while (left != null && right != null) {
-            if (left.val < right.val) {
-                curr.next = left;
-                left = left.next;
+        while (head1 != null && head2 != null) {
+            if (head1.val < head2.val) {
+                curr.next = head1;
+                head1 = head1.next;
             } else {
-                curr.next = right;
-                right = right.next;
+                curr.next = head2;
+                head2 = head2.next;
             }
             curr = curr.next;
         }
-        if(left!=null) curr.next=left;
-        if(right!=null) curr.next=right;
 
+        curr.next = (head1!=null)?head1:head2;
         return dummy.next;
     }
 
     // 1 → 2 → 3 → 4
     // 1 → 2 → 3 → 4 → 5
     // Time Complexity:O(n) | Space Complexity:O(1)
-    public ListNode findMiddle2(ListNode head) {
-        ListNode fast = head;
+    public ListNode findMiddle(ListNode head) {
+        ListNode fast = head.next;  //<--
         ListNode slow = head;
-        while (fast != null && fast.next != null && fast.next.next != null) { //<--            
+        while (fast != null && fast.next != null ) {            
             slow = slow.next;
             fast = fast.next.next;
         }
         return slow;
-    }
-
-    public ListNode findMiddle(ListNode head) {
-        ListNode prev = null;  //<--
-        ListNode fast = head;
-        ListNode slow = head;
-        while (fast != null && fast.next != null ) { 
-            prev = slow;  //<--
-            slow = slow.next;
-            fast = fast.next.next;
-            
-        }
-        return prev;        
-    }
-
-    
+    }    
 }
