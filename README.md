@@ -103,6 +103,7 @@
 | [1171-shortest-path-in-binary-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1319-unique-number-of-occurrences](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1319-unique-number-of-occurrences) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1752-check-if-array-is-sorted-and-rotated](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1848-sum-of-unique-elements](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1848-sum-of-unique-elements) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2016-maximum-difference-between-increasing-elements](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2016-maximum-difference-between-increasing-elements) |
