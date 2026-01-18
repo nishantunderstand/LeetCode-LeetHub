@@ -506,6 +506,7 @@
 | [0328-odd-even-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0328-odd-even-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0876-middle-of-the-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0908-middle-of-the-linked-list) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2871-double-a-number-represented-as-a-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Two Pointers
@@ -543,6 +544,7 @@
 | [0908-middle-of-the-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0908-middle-of-the-linked-list) |
 | [0917-boats-to-save-people](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0917-boats-to-save-people) |
 | [0977-squares-of-a-sorted-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0977-squares-of-a-sorted-array) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2265-partition-array-according-to-given-pivot) |
 ## Matrix
 |  |
