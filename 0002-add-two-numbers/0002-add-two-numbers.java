@@ -1,15 +1,4 @@
 // Leetcode : 2
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
-
 // Wednesday, January 1, 2025 11:50:08 PM
 // Time Complexity:O(max(size(l1),size(l2))) | Space Complexity:O(max(size(l1),size(l2)))
 // Refer it : https://www.geeksforgeeks.org/problems/add-two-numbers-represented-by-two-arrays2408/0
