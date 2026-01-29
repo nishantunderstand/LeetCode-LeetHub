@@ -25,7 +25,12 @@ class Solution {
         }
         return new String(arr);
     }
-    private boolean isVowel(char ch){
+
+    private boolean isVowel(char c) {
+    return "aeiouAEIOU".indexOf(c) != -1;
+    }
+
+    private boolean isVowelOLD(char ch){
         return ch=='a' || ch=='A'  
         || ch=='e' || ch=='E' 
         || ch== 'i' || ch== 'I'
