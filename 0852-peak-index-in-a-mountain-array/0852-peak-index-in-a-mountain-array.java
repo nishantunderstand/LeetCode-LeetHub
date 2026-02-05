@@ -7,7 +7,7 @@ class Solution {
     // Time Complexity:O(logn) | Space Complexity:O(1)
     public int binarySearchApproach(int[] arr) {
         int start = 0;
-        int end = arr.length-2;  //<--
+        int end = arr.length-1;  //<--
         while(start<end){
             int mid = start + (end-start)/2;
             // Increasing Slope
