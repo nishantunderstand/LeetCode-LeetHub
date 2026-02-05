@@ -2,7 +2,26 @@
 class Solution {
     public boolean isAnagram(String s, String t) {
        //return bruteForceApproach(s,t);
-       return freqArrayApproach(s,t);
+       //return freqArrayApproach(s,t);
+       return hashMapApproach(s,t);
+    }
+    // Thursday, February 5, 2026 11:46:24 PM
+    // Time Complexity:O(n) | Space Complexity:O(n)
+    private boolean hashMapApproach(String str, String tar){        
+        HashMap<Character, Integer> fmap = new HashMap<>();
+        for(char ch : str.toCharArray()){
+            fmap.put(ch, fmap.getOrDefault(ch,0)+1);
+        }        
+        for(char ch : tar.toCharArray()){
+            if(!fmap.containsKey(ch)){
+                return false;
+            }
+            fmap.put(ch,fmap.get(ch)-1);
+            if(fmap.get(ch)==0){
+                fmap.remove(ch);
+            }
+        }
+        return fmap.isEmpty();           
     }
 
     // Wednesday, May 21, 2025 9:48:29 PM
@@ -32,8 +51,7 @@ class Solution {
         char[] sarr = s.toCharArray();
         char[] tarr = t.toCharArray();
         Arrays.sort(sarr);
-        Arrays.sort(tarr);
-        
+        Arrays.sort(tarr);        
         return Arrays.equals(sarr,tarr);
     }
 }
