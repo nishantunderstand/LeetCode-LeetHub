@@ -19,6 +19,6 @@ class Solution {
                 end = mid;
             }
         }
-        return start;
+        return start;  //<-- Return Index 
     }
 }
