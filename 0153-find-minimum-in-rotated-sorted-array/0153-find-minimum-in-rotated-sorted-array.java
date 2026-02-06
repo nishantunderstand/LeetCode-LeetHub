@@ -2,7 +2,21 @@
 class Solution {
     public int findMin(int[] nums) {    
         //return binarySearchLike33(nums);
-        return binarySearchStandard(nums);
+        //return binarySearchStandard(nums);
+        return binarySearchMIK(nums);
+    }
+
+    private int binarySearchMIK(int[] nums) {
+        int lo = 0, hi = nums.length - 1;
+        while (lo < hi) {
+            int mid = lo + (hi - lo) / 2;
+            if (nums[mid] > nums[hi]) {
+                lo = mid+1;  //<--
+            } else {
+                hi = mid;
+            }
+        }
+        return nums[lo];
     }
 
     private int binarySearchStandard(int[] nums) {
@@ -10,7 +24,7 @@ class Solution {
         while (lo < hi) {
             int mid = lo + (hi - lo) / 2;
             if (nums[mid] < nums[hi]) {
-                hi = mid;
+                hi = mid;  //<--
             } else {
                 lo = mid + 1;
             }
