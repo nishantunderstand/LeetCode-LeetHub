@@ -1,32 +1,31 @@
-// LeetCode 35
-
+// LeetCode : 35
 class Solution {
     public int searchInsert(int[] nums, int target) {
         // return linearSearch(nums,target);
-        return binarySearch(nums, target);
+        return lowerBound(nums, target);
     }
-
     // Tuesday, February 11, 2025 11:50:34 AM
     // Time Complexity:O(logn) | Space Complexity:O(1)
-    public int binarySearch(int[] nums, int target) {
+    public int lowerBound(int[] nums, int target) {
         int n = nums.length;
         // if(nums==null||n<=0){return 0;} Sometimes it may give TLE, Don't use Blindlly
         int lo = 0;
-        int hi = n-1;
-        int ans = 0;
+        int hi = n - 1;
+        // int ans = -1; // FAILED
+        //int ans = 0; // FAILED
+        int ans = n;        
         while (lo <= hi) {
             int mid = lo + (hi - lo) / 2;
-            if (nums[mid] == target) {
-                return mid;
-            } else if (nums[mid] > target) {
-                hi = mid - 1;
-            } else {
+            if (nums[mid] >= target) {
+                ans = mid;
+                hi = mid-1;                                        
+            }
+            else {
                 lo = mid + 1;
             }
         }
-        return lo;
+        return ans;
     }
-
     // Tuesday, February 11, 2025 11:50:30 AM
     // Time Complexity:O(n) | Space Complexity:O(1)
     // Linear Search Approach
@@ -48,5 +47,4 @@ class Solution {
         // If greater than all element
         return n;
     }
-
 }
