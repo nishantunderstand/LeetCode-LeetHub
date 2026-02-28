@@ -25,10 +25,11 @@ class Solution {
                 int csum = nums[i] + nums[lo] + nums[hi];
                 List<Integer> inner = new ArrayList<>();
                 if(csum==0){
-                    inner.add(nums[i]);
-                    inner.add(nums[lo]);
-                    inner.add(nums[hi]);
-                    res.add(inner);
+                    res.add(Arrays.asList(nums[i],nums[lo],nums[hi]));
+                    //inner.add(nums[i]);
+                    //inner.add(nums[lo]);
+                    //inner.add(nums[hi]);
+                    //res.add(inner);
                     
                     // Checking For Equal Version
                     while(lo<hi && nums[lo]==nums[lo+1]) lo++;
