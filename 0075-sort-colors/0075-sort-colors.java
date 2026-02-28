@@ -10,19 +10,20 @@ class Solution {
     
     // Unstable Sort  //<--
     // Relative Order is not maintained  //<--
+    // Look at the Naming Convenation
     public void dutchNationalFlag(int[] nums) {
-        int i = 0;
-        int j = 0;
-        int k = nums.length - 1;
-        while (i <= k) {
-            if (nums[i] == 0) {
+        int i = 0;                 // next position for 0
+        int j = 0;                 // current pointer (scanner)
+        int k = nums.length - 1;   // next position for 2
+        while (j <= k) {  //<--
+            if (nums[j] == 0) {
                 swap(nums, i, j);
                 i++;
                 j++;  //<--
-            } else if (nums[i] == 1) {
-                i++;
+            } else if (nums[j] == 1) {
+                j++;
             } else {
-                swap(nums, i, k); // <-- i is NOT Increment Here
+                swap(nums, j, k); // <-- 
                 k--;  //<--
             }
         }
