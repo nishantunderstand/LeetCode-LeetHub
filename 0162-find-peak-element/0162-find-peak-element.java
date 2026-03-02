@@ -4,8 +4,23 @@ class Solution {
         //return binarySearch(nums);
         //return bruteForceSearch(nums);
         //return bruteForceSearchPeak(nums);
-        return binarySearchLatest(nums);
-    }        
+        //return binarySearchLatest(nums);
+        return binarySearch2026(nums);
+    }     
+
+    public int binarySearch2026(int[] nums) {
+        int low = 0;
+        int high = nums.length-1;
+        while(low<high){
+            int mid = low + (high-low)/2;
+            if(nums[mid]>nums[mid+1]){
+                high = mid;
+            }else{
+                low = mid+1;
+            }
+        }
+        return low;
+    }   
 
     // Sunday, February 16, 2025 4:42:32 PM
     // Time Complexity:O(logn) | Space Complexity:O(1)
