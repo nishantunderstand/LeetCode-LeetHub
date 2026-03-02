@@ -245,6 +245,7 @@
 | [0258-add-digits](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0268-missing-number) |
 | [0279-perfect-squares](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0279-perfect-squares) |
+| [0441-arranging-coins](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0441-arranging-coins) |
 | [0628-maximum-product-of-three-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0628-maximum-product-of-three-numbers) |
 | [0795-k-th-symbol-in-grammar](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0795-k-th-symbol-in-grammar) |
 | [0856-consecutive-numbers-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0856-consecutive-numbers-sum) |
@@ -597,6 +598,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0441-arranging-coins](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0441-arranging-coins) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0540-single-element-in-a-sorted-array) |
 | [0713-subarray-product-less-than-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0713-subarray-product-less-than-k) |
