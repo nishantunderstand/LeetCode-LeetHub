@@ -1,14 +1,4 @@
 // LeetCode:206
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 class Solution {
     public ListNode reverseList(ListNode head) {
         //return reverseApproach(head);
@@ -18,20 +8,21 @@ class Solution {
     // Tuesday, March 18, 2025 8:03:16 PM
     // Time Complexity:O(n) | Space Complexity:O(n)
     public ListNode stackApproachTUF(ListNode head) {
-        Stack<Integer> st = new Stack<>();
-        ListNode temp = head;
-        while(temp!=null){
-            st.push(temp.val);
-            temp = temp.next;
+        if(head==null) return null;
+        Stack<ListNode> st = new Stack<>();
+        ListNode curr = head;        
+        while(curr!=null){
+            st.push(curr);
+            curr = curr.next;
+        }        
+        ListNode newHead = st.pop();  //<--
+        curr = newHead;
+        while(!st.isEmpty()){
+            curr.next = st.pop();
+            curr = curr.next;
         }
-
-        // Reset Head
-        temp = head;
-        while(temp!=null){
-            temp.val = st.pop();
-            temp = temp.next;
-        }
-        return head;
+        curr.next=null;  //<--
+        return newHead;
     }
 
     // Tuesday, March 18, 2025 8:03:45 PM
