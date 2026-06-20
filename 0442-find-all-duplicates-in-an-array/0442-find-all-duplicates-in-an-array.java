@@ -1,15 +1,16 @@
 class Solution {
     public List<Integer> findDuplicates(int[] nums) {
-        Declare an HashSet
-        Declare Result List
-        Iterate over array
-            New => Add to Set
-            Already Exists => Add to List 
-        
-        In the end, You can sort the list and return the list
 
+        Set<Integer> seen = new HashSet<>();
+        List<Integer> res = new ArrayList<>();
+        if(nums==null) return res;   
+
+        for(int i=0;i<nums.length;i++){
+            if(seen.contains(nums[i])){
+                res.add(nums[i]);
+            }
+            seen.add(nums[i]);
+        }
+        return res;
     }
 }
-// Friday, June 5, 2026 10:37:24 PM
-// TC : O(n nlogn) | SC : O(1 n)
-// LeetCode : 442
