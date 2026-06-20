@@ -79,6 +79,7 @@
 | [0442-find-all-duplicates-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0485-max-consecutive-ones) |
+| [0496-next-greater-element-i](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0496-next-greater-element-i) |
 | [0518-coin-change-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0518-coin-change-ii) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0540-single-element-in-a-sorted-array) |
@@ -199,6 +200,7 @@
 | [0173-binary-search-tree-iterator](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0173-binary-search-tree-iterator) |
 | [0232-implement-queue-using-stacks](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0234-palindrome-linked-list) |
+| [0496-next-greater-element-i](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0496-next-greater-element-i) |
 | [0735-asteroid-collision](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0739-daily-temperatures) |
 | [0780-max-chunks-to-make-sorted](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0780-max-chunks-to-make-sorted) |
@@ -221,6 +223,7 @@
 | [0042-trapping-rain-water](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0085-maximal-rectangle) |
+| [0496-next-greater-element-i](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0739-daily-temperatures) |
 | [0780-max-chunks-to-make-sorted](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0780-max-chunks-to-make-sorted) |
 ## Bit Manipulation
@@ -315,6 +318,7 @@
 | [0442-find-all-duplicates-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0451-sort-characters-by-frequency](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0451-sort-characters-by-frequency) |
+| [0496-next-greater-element-i](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0496-next-greater-element-i) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0560-subarray-sum-equals-k) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0653-two-sum-iv-input-is-a-bst) |
