@@ -99,6 +99,7 @@
 | [0852-peak-index-in-a-mountain-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0898-transpose-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0898-transpose-matrix) |
 | [0904-fruit-into-baskets](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0904-fruit-into-baskets) |
+| [0905-sort-array-by-parity](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0905-sort-array-by-parity) |
 | [0907-koko-eating-bananas](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0907-koko-eating-bananas) |
 | [0917-boats-to-save-people](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0917-boats-to-save-people) |
 | [0922-sort-array-by-parity-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0922-sort-array-by-parity-ii) |
@@ -185,6 +186,7 @@
 | [0532-k-diff-pairs-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0628-maximum-product-of-three-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0628-maximum-product-of-three-numbers) |
 | [0780-max-chunks-to-make-sorted](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0780-max-chunks-to-make-sorted) |
+| [0905-sort-array-by-parity](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0905-sort-array-by-parity) |
 | [0917-boats-to-save-people](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0917-boats-to-save-people) |
 | [0922-sort-array-by-parity-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0922-sort-array-by-parity-ii) |
 | [0948-sort-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0948-sort-an-array) |
@@ -603,6 +605,7 @@
 | [0557-reverse-words-in-a-string-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0876-middle-of-the-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0876-middle-of-the-linked-list) |
+| [0905-sort-array-by-parity](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0905-sort-array-by-parity) |
 | [0908-middle-of-the-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0908-middle-of-the-linked-list) |
 | [0917-boats-to-save-people](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0917-boats-to-save-people) |
 | [0922-sort-array-by-parity-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0922-sort-array-by-parity-ii) |
