@@ -1,25 +1,25 @@
-// Leetcode : 240
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
-        return stairCaseSearch(matrix,target);        
-    }
+        int rows = matrix.length;
+        int cols = matrix[0].length;
 
-    // Thursday, April 17, 2025 10:57:13 PM
-    // Time Complexity:O(m+n) | Space Complexity:O(1)
-    private boolean stairCaseSearch(int[][] mat,int k){
-        int row = 0, col = mat[0].length-1;
-        while(row<mat.length && col>=0){
-            if(mat[row][col]==k){
-                return true;
-            }
-            else if(mat[row][col]>k){
-                col--;
-            }
-            else if(mat[row][col]<k){
+        int row = 0;
+        int col = cols-1;
+
+        while(row<rows && col>=0){
+            int index = matrix[row][col];
+
+            if(index==target) return true;
+
+            if(index>target){
+                col--; //
+            }else{
                 row++;
-            }            
+            }
         }
         return false;
     }
 }
-
+// Saturday, June 6, 2026 5:54:05 PM
+// TC : O(n nlogn) | SC : O(1 n)
+// LeetCode : 240
