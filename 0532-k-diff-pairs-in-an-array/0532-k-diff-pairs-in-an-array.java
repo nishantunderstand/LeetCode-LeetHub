@@ -34,7 +34,7 @@ class Solution {
 
     public int hashMapApproach(int[] nums, int k) {
         int cnt = 0;
-        HashMap<Integer, Integer> hm = new HashMap<>();      
+        Map<Integer, Integer> hm = new HashMap<>();      
         for(int i=0;i<nums.length;i++){
             cnt = cnt + hm.getOrDefault(nums[i]-k,0) + hm.getOrDefault(nums[i]+k,0);
             hm.put(nums[i],hm.getOrDefault(nums[i],0)+1);
