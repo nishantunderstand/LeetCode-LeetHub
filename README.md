@@ -122,6 +122,7 @@
 | [2106-find-greatest-common-divisor-of-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2106-find-greatest-common-divisor-of-array) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2144-maximum-difference-between-increasing-elements) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -598,6 +599,7 @@
 | [0922-sort-array-by-parity-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0922-sort-array-by-parity-ii) |
 | [0977-squares-of-a-sorted-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0977-squares-of-a-sorted-array) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2265-partition-array-according-to-given-pivot) |
 ## Matrix
 |  |
@@ -623,6 +625,7 @@
 | [0258-add-digits](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0258-add-digits) |
 | [0735-asteroid-collision](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0735-asteroid-collision) |
 | [0898-transpose-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0898-transpose-matrix) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2470-removing-stars-from-a-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2470-removing-stars-from-a-string) |
 ## Binary Search
