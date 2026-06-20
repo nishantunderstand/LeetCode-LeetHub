@@ -245,6 +245,7 @@
 | [0795-k-th-symbol-in-grammar](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0795-k-th-symbol-in-grammar) |
 | [2351-first-letter-to-appear-twice](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2351-first-letter-to-appear-twice) |
 | [2427-first-letter-to-appear-twice](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2427-first-letter-to-appear-twice) |
+| [3950-exactly-one-consecutive-set-bits-pair](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3950-exactly-one-consecutive-set-bits-pair) |
 ## Math
 |  |
 | ------- |
