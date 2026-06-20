@@ -42,6 +42,7 @@
 | [0118-pascals-triangle](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0128-longest-consecutive-sequence](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0130-surrounded-regions) |
 | [0136-single-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0137-single-number-ii) |
@@ -294,6 +295,7 @@
 | [0041-first-missing-positive](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0041-first-missing-positive) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0128-longest-consecutive-sequence](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0128-longest-consecutive-sequence) |
 | [0141-linked-list-cycle](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0160-intersection-of-two-linked-lists) |
@@ -820,4 +822,8 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0239-sliding-window-maximum) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
