@@ -8,41 +8,29 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-// Leetcode : 86
+// LeetCode : 86
 class Solution {
     public ListNode partition(ListNode head, int x) {
-        return inPlaceApproach(head,x);
-    }
-
-    // Sunday, April 27, 2025 1:29:12 PM
-    // Time Complexity:O(n) | Space Complexity:O(1)
-    private ListNode inPlaceApproach(ListNode head, int val){        
-        ListNode lessThanDummy = new ListNode(0);  //<--
-        ListNode moreThanDummy = new ListNode(0);
-        ListNode lessThan = lessThanDummy;
-        ListNode moreThan = moreThanDummy;
+        ListNode lessdummy = new ListNode(-1);
+        ListNode moredummy = new ListNode(-1);
         
-        ListNode curr = head; // Temp Node For Iterating
-        while(curr!=null){
-            if(curr.val<val){
-                lessThan.next = curr;  //<--
-                lessThan = lessThan.next;  //<--
+        ListNode lesstail = lessdummy;
+        ListNode moretail = moredummy;
+
+        ListNode curr = head;
+
+        while(curr!=null){ // curr.next!=null ??
+            if(curr.val < x){
+                lesstail.next = curr;
+                lesstail = lesstail.next;
+            }else{
+                moretail.next = curr;
+                moretail = moretail.next;
             }
-            else{
-                moreThan.next = curr;
-                moreThan = moreThan.next;
-            }
-            curr = curr.next; //<--
+            curr = curr.next;
         }
-        
-        // End moreThan
-        moreThan.next = null;  //<--
-
-        // Connect lessThan with moreThan
-        lessThan.next = moreThanDummy.next;  //<--
-        
-        //lessThan.next = moreThan.next; moreThan.next IS SET NULL
-
-        return lessThanDummy.next;  //<--        
+        moretail.next = null; //???
+        lesstail.next = moredummy.next;
+        return lessdummy.next;
     }
 }
