@@ -1,30 +1,23 @@
-// LeetCode : 56
 class Solution {
     public int[][] merge(int[][] intervals) {
-        int n = intervals.length;
-        if(intervals==null ||n ==0){
-            return new int[0][0];
-        }
-        Arrays.sort(intervals,(a,b)-> Integer.compare(a[0],b[0]));
-        
-        List<int[]> merged = new ArrayList<>();
-        int s1 = intervals[0][0];
-        int e1 = intervals[0][1];        
-        for(int i=1;i<n;i++){
-            int s2 = intervals[i][0];
-            int e2 = intervals[i][1];
-            if(s2<=e1){
-                e1 = Math.max(e1,e2);  //<--
+        Arrays.sort(intervals, (a,b)->Integer.compare(a[0],b[0]));
+
+        List<int[]> res = new ArrayList<>();
+        int[] current = intervals[0];
+        for(int i=1;i<intervals.length;i++){
+            if(intervals[i][0]<=current[1]){
+                current[1] = Math.max(current[1],intervals[i][1]);                
             }else{
-                merged.add(new int[]{s1,e1});
-                s1 = s2;
-                e1 = e2;
-            }
+                res.add(current);
+                current = intervals[i];
+            }            
         }
-        // How to add Array in A LinkedList 
-        merged.add(new int[]{s1,e1});
-        
-        // Convert LinkedList to Array and return , You need to learn [[Anki]]
-        return merged.toArray(new int[merged.size()][]);        
+        res.add(current);
+        return res.toArray(new int[res.size()][]);        
     }
 }
+
+
+// Sunday, June 14, 2026 3:13:24 PM
+// TC : O(2^nnlognk) | SC : O(2^n1logkh)
+// LeetCode : 56
