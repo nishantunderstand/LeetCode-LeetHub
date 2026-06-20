@@ -527,6 +527,7 @@
 | [0557-reverse-words-in-a-string-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0709-to-lower-case](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0709-to-lower-case) |
 | [0742-to-lower-case](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0742-to-lower-case) |
+| [0796-rotate-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0796-rotate-string) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1250-longest-common-subsequence](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1250-longest-common-subsequence) |
@@ -868,4 +869,8 @@
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0128-longest-consecutive-sequence) |
+## String Matching
+|  |
+| ------- |
+| [0796-rotate-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0796-rotate-string) |
 <!---LeetCode Topics End-->
