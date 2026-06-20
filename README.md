@@ -111,6 +111,7 @@
 | [1073-number-of-enclaves](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1073-number-of-enclaves) |
 | [1109-corporate-flight-bookings](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1109-corporate-flight-bookings) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
 | [1319-unique-number-of-occurrences](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1319-unique-number-of-occurrences) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1752-check-if-array-is-sorted-and-rotated) |
