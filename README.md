@@ -323,6 +323,7 @@
 | [0974-subarray-sums-divisible-by-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1034-subarrays-with-k-different-integers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1034-subarrays-with-k-different-integers) |
 | [1319-unique-number-of-occurrences](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1319-unique-number-of-occurrences) |
+| [1781-sum-of-beauty-of-all-substrings](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1796-second-largest-digit-in-a-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1796-second-largest-digit-in-a-string) |
 | [1848-sum-of-unique-elements](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1848-sum-of-unique-elements) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
@@ -510,6 +511,7 @@
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1250-longest-common-subsequence](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1250-longest-common-subsequence) |
+| [1781-sum-of-beauty-of-all-substrings](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1796-second-largest-digit-in-a-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1796-second-largest-digit-in-a-string) |
 | [2124-check-if-all-as-appears-before-all-bs](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2124-check-if-all-as-appears-before-all-bs) |
 | [2351-first-letter-to-appear-twice](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2351-first-letter-to-appear-twice) |
@@ -687,6 +689,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0451-sort-characters-by-frequency) |
 | [0948-sort-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0948-sort-an-array) |
 | [1034-subarrays-with-k-different-integers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1034-subarrays-with-k-different-integers) |
+| [1781-sum-of-beauty-of-all-substrings](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1848-sum-of-unique-elements](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1848-sum-of-unique-elements) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
 | [2351-first-letter-to-appear-twice](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2351-first-letter-to-appear-twice) |
