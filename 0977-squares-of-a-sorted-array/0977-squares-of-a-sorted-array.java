@@ -8,18 +8,25 @@ class Solution {
     // Saturday, December 27, 2025 5:36:11 PM
     // Time Complexity:O(n) | Space Complexity:O(n)
     private int[] twoPointerApproach(int[] nums){
-        int[] res = new int[nums.length];
-        // Sqauring it 
-        for(int i=0;i<nums.length;i++){
-            nums[i] = nums[i]*nums[i];
-        }
+        int n = nums.length;
+        int[] res = new int[n];
 
-        // Filling it 
-        int head = 0;
-        int tail = nums.length-1;        
-        for(int i=nums.length-1;i>=0;i--){
-            if(nums[tail] > nums[head]) res[i]=nums[tail--];
-            else res[i] = nums[head++];
+        int left = 0;
+        int right = n-1;
+        int index = n-1;
+
+        while(left<=right){
+            int leftSq = nums[left]*nums[left];
+            int rightSq = nums[right]*nums[right];
+            if(leftSq<rightSq){ //<--
+                res[index]=rightSq;
+                index--;
+                right--;
+            }else{
+                res[index] = leftSq;
+                index--;
+                left++;
+            }
         }
         return res;
     }
