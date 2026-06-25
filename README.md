@@ -35,6 +35,7 @@
 | [0074-search-a-2d-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0085-maximal-rectangle) |
@@ -409,6 +410,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0100-same-tree) |
@@ -516,6 +518,7 @@
 | [0017-letter-combinations-of-a-phone-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0022-generate-parentheses) |
+| [0079-word-search](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0151-reverse-words-in-a-string) |
 | [0168-excel-sheet-column-title](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0168-excel-sheet-column-title) |
@@ -622,6 +625,7 @@
 | [0063-unique-paths-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0200-number-of-islands) |
@@ -764,6 +768,7 @@
 | [0046-permutations](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0090-subsets-ii) |
 | [0113-path-sum-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0113-path-sum-ii) |
 | [0216-combination-sum-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0216-combination-sum-iii) |
