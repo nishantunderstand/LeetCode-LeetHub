@@ -82,6 +82,7 @@
 | [0442-find-all-duplicates-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0485-max-consecutive-ones) |
+| [0493-reverse-pairs](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0493-reverse-pairs) |
 | [0496-next-greater-element-i](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0518-coin-change-ii) |
@@ -667,6 +668,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0441-arranging-coins](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0441-arranging-coins) |
+| [0493-reverse-pairs](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0493-reverse-pairs) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0540-single-element-in-a-sorted-array) |
 | [0713-subarray-product-less-than-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0713-subarray-product-less-than-k) |
@@ -688,6 +690,7 @@
 | [0191-number-of-1-bits](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0240-search-a-2d-matrix-ii) |
+| [0493-reverse-pairs](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0493-reverse-pairs) |
 | [0948-sort-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1014-k-closest-points-to-origin) |
 ## Heap (Priority Queue)
@@ -706,6 +709,7 @@
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0148-sort-list) |
+| [0493-reverse-pairs](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0493-reverse-pairs) |
 | [0948-sort-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0948-sort-an-array) |
 ## Bucket Sort
 |  |
@@ -885,4 +889,16 @@
 |  |
 | ------- |
 | [0796-rotate-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0796-rotate-string) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0493-reverse-pairs) |
+## Segment Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0493-reverse-pairs) |
+## Ordered Set
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0493-reverse-pairs) |
 <!---LeetCode Topics End-->
