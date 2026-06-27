@@ -109,6 +109,7 @@
 | [0966-binary-subarrays-with-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0966-binary-subarrays-with-sum) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0977-squares-of-a-sorted-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0977-squares-of-a-sorted-array) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1014-k-closest-points-to-origin](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1014-k-closest-points-to-origin) |
 | [1034-subarrays-with-k-different-integers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1036-rotting-oranges) |
@@ -677,6 +678,7 @@
 | [0792-binary-search](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0792-binary-search) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0907-koko-eating-bananas) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1046-max-consecutive-ones-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1046-max-consecutive-ones-iii) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
