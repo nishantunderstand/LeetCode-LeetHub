@@ -15,8 +15,18 @@ class Solution {
             int zeroCnt= 0;
             for(int j=i;j<n;j++){ //<--
                 if(nums[j]==0) zeroCnt++;
+                
+                // Approach 1
                 if(zeroCnt>k) break;
                 maxLen = Math.max(maxLen,j-i+1);                
+
+                // Approach 2 | TLE 
+                /**
+                if (zeroCnt <= k) {
+                    int currentLength = j - i + 1;
+                    maxLen = Math.max(maxLen, currentLength);
+                }
+                */
             }
         }
         return maxLen;
