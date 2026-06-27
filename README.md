@@ -118,6 +118,7 @@
 | [1171-shortest-path-in-binary-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
 | [1319-unique-number-of-occurrences](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1319-unique-number-of-occurrences) |
+| [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1848-sum-of-unique-elements](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1848-sum-of-unique-elements) |
@@ -676,6 +677,7 @@
 | [0852-peak-index-in-a-mountain-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1046-max-consecutive-ones-iii) |
+| [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2210-find-target-indices-after-sorting-array) |
 ## Divide and Conquer
