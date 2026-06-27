@@ -116,6 +116,7 @@
 | [1073-number-of-enclaves](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1073-number-of-enclaves) |
 | [1109-corporate-flight-bookings](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1109-corporate-flight-bookings) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
 | [1319-unique-number-of-occurrences](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1319-unique-number-of-occurrences) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
@@ -677,6 +678,7 @@
 | [0852-peak-index-in-a-mountain-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1046-max-consecutive-ones-iii) |
+| [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2210-find-target-indices-after-sorting-array) |
