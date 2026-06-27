@@ -64,7 +64,7 @@ class Solution {
         
         for(int i=0;i<n;i++){
             int min=arr[i];
-            for(int j=i;j<n;j++){
+            for(int j=i;j<n;j++){ //<--
                 min = Math.min(min,arr[j]);                
                 sum = (sum+min)%MOD;
             }
