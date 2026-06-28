@@ -6,22 +6,7 @@ class Solution {
         //return prefixhashMapApproach(nums, k);
         return prefixhashMapApproachMOD(nums,k);
         //return prefixHashSetApproach(nums,k); // FAILED Question Need cnt 
-    }
-
-    // WORK:No, Check Existence
-    // Count is Required
-    // Will Not Work 
-    private int prefixHashSetApproach(int[] nums, int k){
-        HashSet<Integer> hs = new HashSet<>();
-        hs.add(0);
-        int cnt=0,windowSum=0;
-        for(int windowEnd=0;windowEnd<nums.length;windowEnd++){
-            windowSum += nums[windowEnd];
-            if(hs.contains(windowSum-k)) cnt++;
-            hs.add(windowSum);
-        }
-        return cnt;
-    }
+    }    
 
     // T.C - O(n)| S.C - O(n)
     public int prefixhashMapApproachMOD(int[] nums, int k) {
@@ -61,6 +46,22 @@ class Solution {
         }
         return cnt;
     }
+
+    // WORK:No, Check Existence
+    // Count is Required
+    // Will Not Work 
+    private int prefixHashSetApproach_Failed(int[] nums, int k){
+        HashSet<Integer> hs = new HashSet<>();
+        hs.add(0);
+        int cnt=0,windowSum=0;
+        for(int windowEnd=0;windowEnd<nums.length;windowEnd++){
+            windowSum += nums[windowEnd];
+            if(hs.contains(windowSum-k)) cnt++;
+            hs.add(windowSum);
+        }
+        return cnt;
+    }
+
 
     // Sunday, June 9, 2024 2:17:34 PM
     // Time Complexity: O(n) | Space Complexity: O(1)    
