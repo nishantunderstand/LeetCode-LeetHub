@@ -14,7 +14,7 @@ class Solution {
         int n = nums.length;
         if (n <= 0) return 0;
         HashMap<Integer, Integer> hm = new HashMap<>();
-        hm.put(0, 1); //<-- Enrich Code 
+        hm.put(0, 1); //<-- Handle ZeroCase
         int csum = 0;
         int cnt = 0;
         for (int i = 0; i < n; i++) {
