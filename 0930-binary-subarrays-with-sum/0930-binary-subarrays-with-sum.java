@@ -5,7 +5,8 @@ class Solution {
         //return slidingwindow(nums,goal);
         return prefixSumSlidingWindow(nums,goal);        
     }
-
+    // Sunday, June 28, 2026 6:44:03 PM
+	// TC : O(n) | SC : O(n)
     private int prefixSumSlidingWindow(int[] nums, int goal) {
         // K : Sum , V : Index
         Map<Integer, Integer> pfSum = new HashMap<>();
@@ -17,12 +18,10 @@ class Solution {
         int cnt = 0;
         
         for(int right=0;right<nums.length;right++){
-            windowSum += nums[right];
-            
+            windowSum += nums[right];        
             if(pfSum.containsKey(windowSum-goal)){
                 cnt += pfSum.get(windowSum-goal);
             }
-
             pfSum.put(windowSum,pfSum.getOrDefault(windowSum,0)+1);            
         }
         return cnt;
@@ -43,8 +42,7 @@ class Solution {
             while(windowSum>goal){
                 windowSum -= nums[left];
                 left++;
-            }
-            
+            }            
         }
         return cnt;
     }
