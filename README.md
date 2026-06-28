@@ -120,6 +120,7 @@
 | [1073-number-of-enclaves](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1073-number-of-enclaves) |
 | [1109-corporate-flight-bookings](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1109-corporate-flight-bookings) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1248-count-number-of-nice-subarrays](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1248-count-number-of-nice-subarrays) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
 | [1319-unique-number-of-occurrences](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1319-unique-number-of-occurrences) |
@@ -295,6 +296,7 @@
 | [0856-consecutive-numbers-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0856-consecutive-numbers-sum) |
 | [1013-fibonacci-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1014-k-closest-points-to-origin) |
+| [1248-count-number-of-nice-subarrays](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1248-count-number-of-nice-subarrays) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2106-find-greatest-common-divisor-of-array) |
 | [2383-add-two-integers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2383-add-two-integers) |
@@ -355,6 +357,7 @@
 | [0966-binary-subarrays-with-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0966-binary-subarrays-with-sum) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1034-subarrays-with-k-different-integers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1034-subarrays-with-k-different-integers) |
+| [1248-count-number-of-nice-subarrays](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1248-count-number-of-nice-subarrays) |
 | [1319-unique-number-of-occurrences](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1319-unique-number-of-occurrences) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1796-second-largest-digit-in-a-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1796-second-largest-digit-in-a-string) |
@@ -381,6 +384,7 @@
 | [1004-max-consecutive-ones-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1004-max-consecutive-ones-iii) |
 | [1046-max-consecutive-ones-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1046-max-consecutive-ones-iii) |
 | [1109-corporate-flight-bookings](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1109-corporate-flight-bookings) |
+| [1248-count-number-of-nice-subarrays](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1248-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Tree
 |  |
@@ -874,6 +878,7 @@
 | [1004-max-consecutive-ones-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1004-max-consecutive-ones-iii) |
 | [1034-subarrays-with-k-different-integers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1046-max-consecutive-ones-iii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1248-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
