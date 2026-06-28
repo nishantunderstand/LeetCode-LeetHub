@@ -22,7 +22,7 @@ class Solution {
             if (hm.containsKey(csum - k)) {
                 cnt += hm.get(csum - k);  //<--
             }
-            hm.put(csum, hm.getOrDefault(csum, 0) + 1);
+            hm.put(csum, hm.getOrDefault(csum, 0) + 1); //<--
         }
         return cnt;
     }
