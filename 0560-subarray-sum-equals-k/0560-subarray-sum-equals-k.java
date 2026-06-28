@@ -14,7 +14,7 @@ class Solution {
         if (n <= 0)
             return 0;
         HashMap<Integer, Integer> hm = new HashMap<>();
-        hm.put(0, 1); //<--
+        hm.put(0, 1); //<-- How Enrich Code 
         int csum = 0;
         int cnt = 0;
         for (int i = 0; i < n; i++) {
@@ -30,8 +30,7 @@ class Solution {
     // T.C - O(n)| S.C - O(n)
     public int prefixhashMapApproach(int[] nums, int k) {
         int n = nums.length;
-        if (n <= 0)
-            return 0;
+        if (n <= 0) return 0;
         HashMap<Integer, Integer> hm = new HashMap<>();
         int csum = 0;
         int cnt = 0;
