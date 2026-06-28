@@ -9,12 +9,12 @@ class Solution {
     }    
 
     // T.C - O(n)| S.C - O(n)
+    // [2,0,0,3]
     public int prefixhashMapApproachMOD(int[] nums, int k) {
         int n = nums.length;
-        if (n <= 0)
-            return 0;
+        if (n <= 0) return 0;
         HashMap<Integer, Integer> hm = new HashMap<>();
-        hm.put(0, 1); //<-- How Enrich Code 
+        hm.put(0, 1); //<-- Enrich Code 
         int csum = 0;
         int cnt = 0;
         for (int i = 0; i < n; i++) {
