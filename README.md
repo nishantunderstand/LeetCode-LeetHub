@@ -361,6 +361,7 @@
 | [1034-subarrays-with-k-different-integers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1034-subarrays-with-k-different-integers) |
 | [1248-count-number-of-nice-subarrays](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1248-count-number-of-nice-subarrays) |
 | [1319-unique-number-of-occurrences](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1319-unique-number-of-occurrences) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1796-second-largest-digit-in-a-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1796-second-largest-digit-in-a-string) |
 | [1848-sum-of-unique-elements](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1848-sum-of-unique-elements) |
@@ -559,6 +560,7 @@
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1250-longest-common-subsequence](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1250-longest-common-subsequence) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1796-second-largest-digit-in-a-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1796-second-largest-digit-in-a-string) |
@@ -883,6 +885,7 @@
 | [1034-subarrays-with-k-different-integers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1046-max-consecutive-ones-iii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1248-count-number-of-nice-subarrays) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
