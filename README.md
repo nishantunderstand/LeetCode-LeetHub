@@ -371,6 +371,7 @@
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3242-count-elements-with-maximum-frequency) |
+| [3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Prefix Sum
 |  |
@@ -568,6 +569,7 @@
 | [2351-first-letter-to-appear-twice](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2351-first-letter-to-appear-twice) |
 | [2427-first-letter-to-appear-twice](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2427-first-letter-to-appear-twice) |
 | [2470-removing-stars-from-a-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2470-removing-stars-from-a-string) |
+| [3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Linked List
 |  |
 | ------- |
@@ -889,6 +891,7 @@
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Database
 |  |
 | ------- |
