@@ -3,7 +3,8 @@ class Solution {
     public int subarraysWithKDistinct(int[] nums, int k) {
         return atMostK(nums, k) - atMostK(nums, k - 1);
     }
-
+    // Saturday, July 4, 2026 4:53:43 PM
+	// TC : O(n) | SC : O(k)
     private int atMostK(int[] nums, int k) {
         HashMap<Integer, Integer> count = new HashMap<>();
         int startIdx = 0;
