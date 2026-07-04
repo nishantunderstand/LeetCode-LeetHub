@@ -26,8 +26,7 @@ class Solution {
             }
             // Character Contributes towards
             need.put(rightChar, need.getOrDefault(rightChar,0)-1);
-            
-            
+                        
             while(required==0){
                 if(right-left+1 < minLen){
                     minLen = right-left+1;
