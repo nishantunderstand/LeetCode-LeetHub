@@ -333,6 +333,7 @@
 | [0013-roman-to-integer](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0041-first-missing-positive](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0041-first-missing-positive) |
+| [0076-minimum-window-substring](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0128-longest-consecutive-sequence) |
@@ -544,6 +545,7 @@
 | [0017-letter-combinations-of-a-phone-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0022-generate-parentheses) |
+| [0076-minimum-window-substring](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0151-reverse-words-in-a-string) |
@@ -878,6 +880,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0424-longest-repeating-character-replacement) |
