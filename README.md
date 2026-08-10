@@ -169,6 +169,7 @@
 | [0198-house-robber](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0198-house-robber) |
 | [0279-perfect-squares](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0322-coin-change) |
+| [0392-is-subsequence](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0392-is-subsequence) |
 | [0518-coin-change-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0518-coin-change-ii) |
 | [0747-min-cost-climbing-stairs](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0747-min-cost-climbing-stairs) |
 | [0907-sum-of-subarray-minimums](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0907-sum-of-subarray-minimums) |
@@ -568,6 +569,7 @@
 | [0344-reverse-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0345-reverse-vowels-of-a-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0387-first-unique-character-in-a-string) |
+| [0392-is-subsequence](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0392-is-subsequence) |
 | [0424-longest-repeating-character-replacement](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0451-sort-characters-by-frequency) |
 | [0541-reverse-string-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0541-reverse-string-ii) |
@@ -648,6 +650,7 @@
 | [0345-reverse-vowels-of-a-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0345-reverse-vowels-of-a-string) |
 | [0349-intersection-of-two-arrays](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0392-is-subsequence](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0392-is-subsequence) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0541-reverse-string-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0541-reverse-string-ii) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0557-reverse-words-in-a-string-iii) |
