@@ -1,37 +1,32 @@
 // LeetCode : 424
 class Solution {
     public int characterReplacement(String s, int k) {        
-        return twoAndSlidingWindow(s,k);
+        //return twoAndSlidingWindow(s,k);
         //return bruteForce(s,k);
+        return slidingWindowHashMap(s,k);
     }
 
-    // Sunday, June 28, 2026 1:15:44 PM
-	// TC : O(n^2) | SC : O(1)
-    // TLE 
-    private int bruteForce(String s, int k) {
-        int maxLen = 0;
-        
-        for(int start=0;start<s.length();start++){
-            int[] freqArr = new int[26]; // Keep Track of Freq
-            int maxFreq = 0;            
-            
-            for(int end=start;end<s.length();end++){
-                int index = s.charAt(end)-'A'; //<--
-                freqArr[index]++; //<--
-                
-                maxFreq = Math.max(maxFreq,freqArr[index]);
-                int windowLen = end-start+1; //<--
-                int changes = windowLen - maxFreq;
 
-                if(changes<=k){
-                    maxLen = Math.max(maxLen,windowLen);
-                }
-                // Should I use break Statement ??
+    // Saturday, September 26, 2026 11:00:29 PM    
+    // TC : O(n) | SC : O(n)
+    private int slidingWindowHashMap(String s ,int k){
+        Map<Character,Integer> fMap = new HashMap<>();
+        int left = 0;
+        int maxLen = 0;
+        int maxFreq = 0;
+        for(int right=0;right<s.length();right++){
+            char ch = s.charAt(right);
+            fMap.put(ch,fMap.getOrDefault(ch,0)+1);
+            maxFreq = Math.max(maxFreq,fMap.get(ch));
+            while((right-left+1)-maxFreq>k){
+                char leftChar = s.charAt(left);
+                fMap.put(leftChar, fMap.get(leftChar)-1);
+                left++; // Don't we need add remove Code ??                
             }
+            maxLen = Math.max(maxLen,right-left+1);
         }
         return maxLen;
     }
-
 
     // Sunday, June 28, 2026 1:04:39 PM
     // TC : O(n) | SC : O(n)
@@ -56,6 +51,34 @@ class Solution {
                 left++;
             }
             maxLen = Math.max(maxLen, right-left+1);
+        }
+        return maxLen;
+    }
+
+
+    // Sunday, June 28, 2026 1:15:44 PM
+	// TC : O(n^2) | SC : O(1)
+    // TLE 
+    private int bruteForce(String s, int k) {
+        int maxLen = 0;
+        
+        for(int start=0;start<s.length();start++){
+            int[] freqArr = new int[26]; // Keep Track of Freq
+            int maxFreq = 0;            
+            
+            for(int end=start;end<s.length();end++){
+                int index = s.charAt(end)-'A'; //<--
+                freqArr[index]++; //<--
+                
+                maxFreq = Math.max(maxFreq,freqArr[index]);
+                int windowLen = end-start+1; //<--
+                int changes = windowLen - maxFreq;
+
+                if(changes<=k){
+                    maxLen = Math.max(maxLen,windowLen);
+                }
+                // Should I use break Statement ??
+            }
         }
         return maxLen;
     }
