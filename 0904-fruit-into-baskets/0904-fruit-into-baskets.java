@@ -5,24 +5,29 @@ class Solution {
         return slidingWindowHashMap(fruits);
         // return slidingWindowHashSet(fruits); // FAIL
     }
+
     // max Length of subarray with atmost 2 types of Fruits
+    // Friday, October 2, 2026 1:01:16 AM    
+    // TC : O(n) | SC : O(n)
     private int slidingWindowHashMap(int[] fruits) {
         int maxFruits = 0;
+        // K : FruitType : Integer
+        // V : Frequency : Integer
         Map<Integer, Integer> fMap = new HashMap<>();
         int windowStart = 0;
         for (int windowEnd = 0; windowEnd < fruits.length; windowEnd++) {
-            int right = fruits[windowEnd];
+            int right = fruits[windowEnd]; //<--
             fMap.put(right, fMap.getOrDefault(right, 0) + 1);
 
             while (fMap.size() > 2) {
-                int left = fruits[windowStart];
+                int left = fruits[windowStart]; //<--
                 fMap.put(left, fMap.get(left) - 1);
                 if (fMap.get(left) == 0) {
                     fMap.remove(left);
                 }
-                windowStart++;
+                windowStart++; //<--
             }
-            maxFruits = Math.max(maxFruits, windowEnd - windowStart + 1);
+            maxFruits = Math.max(maxFruits, windowEnd - windowStart + 1); //<--
         }
         return maxFruits;
     }
