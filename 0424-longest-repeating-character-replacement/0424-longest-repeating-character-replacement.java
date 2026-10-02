@@ -6,7 +6,6 @@ class Solution {
         return slidingWindowHashMap(s,k);
     }
 
-
     // Saturday, September 26, 2026 11:00:29 PM    
     // TC : O(n) | SC : O(n)
     private int slidingWindowHashMap(String s ,int k){
@@ -16,12 +15,14 @@ class Solution {
         int maxFreq = 0;
         for(int right=0;right<s.length();right++){
             char ch = s.charAt(right);
+            
             fMap.put(ch,fMap.getOrDefault(ch,0)+1);
             maxFreq = Math.max(maxFreq,fMap.get(ch));
-            while((right-left+1)-maxFreq>k){
+            
+            while((right-left+1)-maxFreq>k){ //<-- I need current windowLength
                 char leftChar = s.charAt(left);
                 fMap.put(leftChar, fMap.get(leftChar)-1);
-                left++; // Don't we need add remove Code ??                
+                left++; // Don't we need add remove Code || Reason Element is getting Out Doesn't Matter.
             }
             maxLen = Math.max(maxLen,right-left+1);
         }
