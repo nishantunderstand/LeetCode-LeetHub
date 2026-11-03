@@ -26,6 +26,8 @@ class Solution {
         return result;
     }
 
+    // Wednesday, November 4, 2026 12:27:02 AM    
+    // TC : O(n) | SC : O(n)
     public List<Integer> hashMap(String s, String p) {
         List<Integer> res = new ArrayList<>();
         int m = s.length();
