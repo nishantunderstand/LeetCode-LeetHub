@@ -3,9 +3,41 @@ class Solution {
     public boolean checkInclusion(String s1, String s2) {
         //return bruteForce(s1,s2);
         //return twoHashMapApproach(s1, s2);
-        return freqArray(s1, s2);
-
+        //return freqArray(s1, s2);
+        return slidingWindow(s1, s2);
     }
+
+    public boolean slidingWindow(String s1, String s2) {
+        int n  = s1.length();
+        int m = s2.length();
+        if(n>m) return false;
+
+        Map<Character,Integer> map = new HashMap<>();
+        for(char ch : s1.toCharArray()){
+            map.put(ch,map.getOrDefault(ch,0)+1);
+        }
+        int start =  0;
+        Map<Character,Integer> window = new HashMap<>();
+        for(int end=0;end<m;end++){
+            char ch = s2.charAt(end);
+            window.put(ch,window.getOrDefault(ch,0)+1);
+
+            if(end-start+1>n){
+                char remove = s2.charAt(start);
+                window.put(remove,window.get(remove)-1);
+
+                if(window.get(remove)==0){
+                    window.remove(remove);
+                }
+                start++;
+            }
+            if(end-start+1==n){
+                if(map.equals(window)) return true;
+            }
+        }
+        return false;        
+    }
+    
 
     public boolean freqArray(String s1, String s2) {
         if(s1.length()> s2.length()) return false;
@@ -28,7 +60,7 @@ class Solution {
         }
         return false;
     }
-    
+
 
     public boolean twoHashMapApproach(String s1, String s2) {
         int n = s1.length();
