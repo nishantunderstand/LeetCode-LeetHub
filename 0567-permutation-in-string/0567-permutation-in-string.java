@@ -6,7 +6,8 @@ class Solution {
         //return freqArray(s1, s2);
         return slidingWindow(s1, s2);
     }
-
+    // Wednesday, November 4, 2026 12:01:24 AM    
+    // TC : O(n) | SC : O(n)
     public boolean slidingWindow(String s1, String s2) {
         int n  = s1.length();
         int m = s2.length();
@@ -37,7 +38,7 @@ class Solution {
         }
         return false;        
     }
-    
+
 
     public boolean freqArray(String s1, String s2) {
         if(s1.length()> s2.length()) return false;
