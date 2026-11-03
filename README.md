@@ -93,6 +93,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0560-subarray-sum-equals-k) |
 | [0628-maximum-product-of-three-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0628-maximum-product-of-three-numbers) |
 | [0643-maximum-average-subarray-i](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0643-maximum-average-subarray-i) |
+| [0658-find-k-closest-elements](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0658-find-k-closest-elements) |
 | [0713-subarray-product-less-than-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0735-asteroid-collision) |
@@ -205,6 +206,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0451-sort-characters-by-frequency) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0628-maximum-product-of-three-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0628-maximum-product-of-three-numbers) |
+| [0658-find-k-closest-elements](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0658-find-k-closest-elements) |
 | [0780-max-chunks-to-make-sorted](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0780-max-chunks-to-make-sorted) |
 | [0905-sort-array-by-parity](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0905-sort-array-by-parity) |
 | [0917-boats-to-save-people](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0917-boats-to-save-people) |
@@ -665,6 +667,7 @@
 | [0557-reverse-words-in-a-string-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0567-permutation-in-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0567-permutation-in-string) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0658-find-k-closest-elements](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0658-find-k-closest-elements) |
 | [0844-backspace-string-compare](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0844-backspace-string-compare) |
 | [0876-middle-of-the-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0876-middle-of-the-linked-list) |
 | [0905-sort-array-by-parity](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0905-sort-array-by-parity) |
@@ -730,6 +733,7 @@
 | [0493-reverse-pairs](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0493-reverse-pairs) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0540-single-element-in-a-sorted-array) |
+| [0658-find-k-closest-elements](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0658-find-k-closest-elements) |
 | [0713-subarray-product-less-than-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0713-subarray-product-less-than-k) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0792-binary-search](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0792-binary-search) |
@@ -767,6 +771,7 @@
 | [0347-top-k-frequent-elements](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0451-sort-characters-by-frequency](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0451-sort-characters-by-frequency) |
+| [0658-find-k-closest-elements](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0658-find-k-closest-elements) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0948-sort-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0948-sort-an-array) |
@@ -921,6 +926,7 @@
 | [0438-find-all-anagrams-in-a-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0643-maximum-average-subarray-i) |
+| [0658-find-k-closest-elements](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0658-find-k-closest-elements) |
 | [0713-subarray-product-less-than-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0713-subarray-product-less-than-k) |
 | [0904-fruit-into-baskets](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0930-binary-subarrays-with-sum) |
