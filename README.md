@@ -150,6 +150,7 @@
 | [2873-prime-pairs-with-target-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2873-prime-pairs-with-target-sum) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -323,6 +324,7 @@
 | [2873-prime-pairs-with-target-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2873-prime-pairs-with-target-sum) |
 | [3270-find-the-key-of-the-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3270-find-the-key-of-the-numbers) |
 | [3568-find-the-key-of-the-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3568-find-the-key-of-the-numbers) |
+| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 ## Enumeration
 |  |
 | ------- |
