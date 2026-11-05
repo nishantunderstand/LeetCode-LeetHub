@@ -115,6 +115,7 @@
 | [0966-binary-subarrays-with-sum](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0966-binary-subarrays-with-sum) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0977-squares-of-a-sorted-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0977-squares-of-a-sorted-array) |
+| [0986-interval-list-intersections](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0986-interval-list-intersections) |
 | [0992-subarrays-with-k-different-integers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0992-subarrays-with-k-different-integers) |
 | [1004-max-consecutive-ones-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1004-max-consecutive-ones-iii) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/1011-capacity-to-ship-packages-within-d-days) |
@@ -678,6 +679,7 @@
 | [0917-boats-to-save-people](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0917-boats-to-save-people) |
 | [0922-sort-array-by-parity-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0922-sort-array-by-parity-ii) |
 | [0977-squares-of-a-sorted-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0977-squares-of-a-sorted-array) |
+| [0986-interval-list-intersections](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0986-interval-list-intersections) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/2161-partition-array-according-to-given-pivot) |
@@ -998,4 +1000,8 @@
 |  |
 | ------- |
 | [0202-happy-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0202-happy-number) |
+## Sweep Line
+|  |
+| ------- |
+| [0986-interval-list-intersections](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0986-interval-list-intersections) |
 <!---LeetCode Topics End-->
