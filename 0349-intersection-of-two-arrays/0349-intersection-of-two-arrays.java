@@ -4,8 +4,8 @@
 
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
-        return hashMapApproach(nums1,nums2);
-        //return hashSetApproach(nums1,nums2);
+        //return hashMapApproach(nums1,nums2);
+        return hashSetApproach(nums1,nums2);
     }
     
     // Saturday, March 22, 2025 10:10:29 AM
