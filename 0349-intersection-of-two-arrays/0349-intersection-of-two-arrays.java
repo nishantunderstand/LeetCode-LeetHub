@@ -5,12 +5,31 @@
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
         //return hashMapApproach(nums1,nums2);
-        return hashSetApproach(nums1,nums2);
+        //return twohashSetApproach(nums1,nums2);
+        return onehashSetApproach(nums1,nums2);
     }
+
+    private int[] onehashSetApproach(int[] nums1, int[] nums2) {
+        Set<Integer> seen = new HashSet<>();
+        for(int num : nums1){
+            seen.add(num);
+        }
+        List<Integer> res = new ArrayList<>();
+        for(int num : nums2){
+            if(seen.contains(num)){
+                res.add(num);
+                seen.remove(num);
+            }
+        }
+        return res.stream().mapToInt(Integer::intValue).toArray();
+    }
+
+
+
     
     // Saturday, March 22, 2025 10:10:29 AM
     // Time Complexity:O(n) | Space Complexity:O(n)
-    private int[] hashSetApproach(int[] nums1, int[] nums2) {
+    private int[] twohashSetApproach(int[] nums1, int[] nums2) {
         HashSet<Integer> set = new HashSet<>();
         HashSet<Integer> resultSet = new HashSet<>();
         for(int num : nums1){
