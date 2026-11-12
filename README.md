@@ -173,6 +173,7 @@
 | [0119-pascals-triangle-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0131-palindrome-partitioning](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0131-palindrome-partitioning) |
 | [0152-maximum-product-subarray](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0198-house-robber) |
 | [0279-perfect-squares](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0279-perfect-squares) |
@@ -574,6 +575,7 @@
 | [0076-minimum-window-substring](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0125-valid-palindrome) |
+| [0131-palindrome-partitioning](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0151-reverse-words-in-a-string) |
 | [0168-excel-sheet-column-title](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0171-excel-sheet-column-number) |
@@ -857,6 +859,7 @@
 | [0079-word-search](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0090-subsets-ii) |
 | [0113-path-sum-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0113-path-sum-ii) |
+| [0131-palindrome-partitioning](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0216-combination-sum-iii) |
 ## Quickselect
 |  |
