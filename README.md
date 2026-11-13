@@ -84,6 +84,7 @@
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0455-assign-cookies](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0493-reverse-pairs) |
 | [0496-next-greater-element-i](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0496-next-greater-element-i) |
@@ -210,6 +211,7 @@
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0451-sort-characters-by-frequency](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0451-sort-characters-by-frequency) |
+| [0455-assign-cookies](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0455-assign-cookies) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0628-maximum-product-of-three-numbers](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0628-maximum-product-of-three-numbers) |
 | [0658-find-k-closest-elements](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0658-find-k-closest-elements) |
@@ -256,6 +258,7 @@
 | [0045-jump-game-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0455-assign-cookies](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0455-assign-cookies) |
 | [0780-max-chunks-to-make-sorted](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0780-max-chunks-to-make-sorted) |
 | [0917-boats-to-save-people](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0917-boats-to-save-people) |
 ## Monotonic Stack
@@ -670,6 +673,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0392-is-subsequence](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0392-is-subsequence) |
+| [0455-assign-cookies](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0455-assign-cookies) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0541-reverse-string-ii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0541-reverse-string-ii) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0557-reverse-words-in-a-string-iii) |
@@ -1009,4 +1013,8 @@
 |  |
 | ------- |
 | [0986-interval-list-intersections](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0986-interval-list-intersections) |
+## Quicksort
+|  |
+| ------- |
+| [0455-assign-cookies](https://github.com/nishantunderstand/LeetCode-LeetHub/tree/master/0455-assign-cookies) |
 <!---LeetCode Topics End-->
